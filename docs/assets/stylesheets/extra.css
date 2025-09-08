@@ -1,0 +1,26 @@
+figure {
+  text-align: center;         /* center image + caption */
+  margin: 2em auto;           /* spacing */
+}
+
+figure img {
+  max-width: 100%;            /* responsive */
+  height: auto;
+  border-radius: 4px;         /* optional, smooth corners */
+}
+
+figure figcaption {
+  font-size: 0.85em;          /* smaller text */
+  color: #666;                /* grey text */
+  margin-top: 0.5em;
+  font-style: italic;         /* italic style */
+}
+.md-typeset {
+  line-height: 1.8; /* default is ~1.5 */
+}
+.float-right { float: right; margin: 0 0 1rem 1rem; max-width: 40%; }
+.float-left  { float: left;  margin: 0 1rem 1rem 0;  max-width: 40%; }
+.clearfix::after { content: ""; display: table; clear: both; }
+@media (max-width: 768px) {
+  .float-right, .float-left { float: none; display: block; margin: 0 auto 1rem; max-width: 100%; }
+}

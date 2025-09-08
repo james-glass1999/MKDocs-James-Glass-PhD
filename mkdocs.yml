@@ -1,0 +1,94 @@
+site_name: "James Glass, PhD"
+
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+  logo: assets/james1.png
+  favicon: assets/james1.png
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - navigation.top
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.instant
+    - navigation.indexes 
+    - navigation.expand
+    - navigation.path
+    - search.share
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - toc.integrate
+   
+   
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep-purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep-orange
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - About:
+      - Overview: about/overview.md
+  - Experience: experience.md
+  - Education:
+      - PhD: education/phd.md
+      - Masters: education/masters.md
+      - BSc Mechatronics: education/bsc-mechatronics.md
+      - BSc Screen Practice: education/bsc-screen-practice.md
+  - Examples of Work:
+      - Examples: examples/examples-of-work.md
+      - Blog: examples/blog.md
+  - References: references/quotes.md
+  - Diagrams: diagrams.md
+  - Admonitions: admonitions.md
+
+
+extra:
+  social:
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/james-glass-phd-206b7b3/
+
+extra_css:
+  - assets/stylesheets/extra.css
+  
+copyright: "Copyright © 2025 James Glass"
+
+
+
