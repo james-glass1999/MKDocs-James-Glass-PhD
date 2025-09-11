@@ -2,7 +2,7 @@
 
 ![A talk!](../assets/james2.png){ .float-left width="300" }
 
-I’m **James Glass, Ph.D.**, a Senior Technical Writer and Developer Relations Manager with over a decade of experience helping teams and organizations communicate complex ideas with clarity.  
+I’m **James Glass, PhD**, a Senior Technical Writer and Developer Relations Manager with over a decade of experience helping teams and organizations communicate complex ideas with clarity.  
 
 My work is centered around three pillars:  
 

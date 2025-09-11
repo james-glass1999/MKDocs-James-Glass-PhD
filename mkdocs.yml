@@ -1,4 +1,5 @@
 site_name: "James Glass, PhD"
+site_url: https://thewritingtimes.blog
 
 theme:
   name: material
