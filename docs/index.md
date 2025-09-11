@@ -17,7 +17,7 @@ Senior Technical Writer & Developer Relations Manager with 10+ years of experien
 
 Vist my [LinkedIn.com](https://www.linkedin.com/in/james-glass-phd-206b7b3/).
 
-
+Vist my [WordPress.com](https://thewritingtimesblog.wordpress.com).
 
 ---
 
