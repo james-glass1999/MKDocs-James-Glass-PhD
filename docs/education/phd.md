@@ -3,7 +3,11 @@
 ![PhD Diagram](../assets/phdgdia1.jpeg){ width="800" }  
 *© James Glass 2025*
 
-**Extract**  
+**Qualitative Analysis: Viewing, Consumption and Usability of SVOD.**
+
+**Author:** James Glass  
+**University:** Universitat Pompeu Fabra  
+**Supervisor:** Dr. Manel Jiménez Morales  
 
 ### Abstract
 This research examines Subscription Video On-Demand (SVOD) using Netflix as one of the main examples that has seen a dramatic increase in usage in recent years compared to the traditional way of viewing content through television. 
