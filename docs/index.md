@@ -17,6 +17,7 @@ Senior Technical Writer & Developer Relations Manager with 10+ years of experien
 
 Visit my [LinkedIn](https://www.linkedin.com/in/james-glass-phd-206b7b3/){: target="_blank" rel="noopener" }.
 
+**DEPLOY TEST — should be visible**
 Visit my [WordPress](https://thewritingtimesblog.wordpress.com){: target="_blank" rel="noopener" }.
 
 ---
