@@ -12,7 +12,6 @@ theme:
     - navigation.top
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.instant
     - navigation.indexes 
     - navigation.expand
     - navigation.path
