@@ -15,6 +15,7 @@ Senior Technical Writer & Developer Relations Manager with 10+ years of experien
 - Tools: Git, Jira, Confluence, Trello, Miro  
 - Basic AI prompt writing & support  
 
+
 Visit my [LinkedIn](https://www.linkedin.com/in/james-glass-phd-206b7b3/)
 
 Visit my [WordPress](https://thewritingtimesblog.wordpress.com)

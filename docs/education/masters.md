@@ -2,7 +2,9 @@
 
 **Extract**  
 
-*A thematic analysis of the INPUT database and its relationship to Public Service television: Innovation and Quality.*  
+### Title
+
+**A thematic analysis of the INPUT database and its relationship to Public Service television: Innovation and Quality.** 
 
 **Author:** James Glass  
 **University:** Universitat Pompeu Fabra  

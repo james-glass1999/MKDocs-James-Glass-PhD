@@ -3,6 +3,10 @@
 ![PhD Diagram](../assets/phdgdia1.jpeg){ width="800" }  
 *© James Glass 2025*
 
+**Extract**  
+
+### Title
+
 **Qualitative Analysis: Viewing, Consumption and Usability of SVOD.**
 
 **Author:** James Glass  
