@@ -2,20 +2,49 @@ name: Deploy MkDocs
 
 on:
   push:
-    branches:
-      - main
-      - master
+    branches: [ main ]   # Add "master" here if your repo also uses it
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write   # needed to push to gh-pages
+
+concurrency:
+  group: mkdocs-deploy
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Configure Git
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install MkDocs and plugins
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 4189828
+          python -m pip install --upgrade pip
+          pip install mkdocs
+          pip install mkdocs-material
+          # Add extra plugins here if you use them, e.g.:
+          # pip install mkdocs-minify-plugin mkdocs-awesome-pages-plugin
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict
+        # --strict fails if there are bad links, missing files, etc.
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+
