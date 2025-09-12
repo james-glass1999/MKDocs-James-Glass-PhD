@@ -118,7 +118,7 @@ schedules.
 
 ---
 
-## Research Questions
+### Research Questions
 
 This research will be centred around the following questions:
 
