@@ -1,4 +1,4 @@
-# Welcome to James Glass, PhD
+# Welcome to James Glass PhD
 
 ## Profile
 Senior Technical Writer & Developer Relations Manager with 10+ years of experience leading developer documentation, content strategy and design plus developer advocacy. 
