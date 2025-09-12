@@ -1,8 +1,6 @@
-**Master’s Social Communications – Universitat Pompeu Fabra**
-
 !!! note ""
 
-    **Extract**
+    **Extract** From *Master’s Social Communications – Universitat Pompeu Fabra**
 
 
 ### Title of Study

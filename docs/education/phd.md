@@ -1,13 +1,10 @@
-**Ph.D. Communications – Universitat Pompeu Fabra** 
+!!! note ""
+
+    **Extract** From **Ph.D. Communications – Universitat Pompeu Fabra** 
+
 
 ![PhD Diagram](../assets/phdgdia1.jpeg){ width="800" }  
 *© James Glass 2025*
-
-
-!!! note ""
-
-    **Extract**
-
 
 ### Title of Study
 
