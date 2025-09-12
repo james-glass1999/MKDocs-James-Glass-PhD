@@ -4,11 +4,14 @@
 
 ---
 
+## Overview
 The engineering sector and in nearly every industry, is saturated with complex, large-scale projects which demand high precision and design software solutions even before the project development starts.
 
 The concept of CAD is quite easy and really helps any designer to visualize what needs to be focused on, however, with the growing intricacy of engineering projects, this means that today’s engineers, designers etc… face the need to design, test and prepare for manufacture while managing huge amounts of data and with limited time. With precise attention to detail, they need to deliver a final product that is dimensionally accurate and layered in an accurate model with all the necessary aspects required.
 
 There is growing end-customer demand for new and advanced products that need to be brought to market more quickly, in a highly competitive global market that already has challenges with strict regulations.  
+
+## Game Changer
 That is why Trace Software International is at the forefront for a multitude of electrical software design solutions for:
 
 - Electrical installations LV/HV calculation  
@@ -23,7 +26,6 @@ When electrical CAD is used for engineering projects, it is often referred to as
 Our **elecworks™** is an electrical CAD system designed for design professionals in engineering. The software is based on a digital model representative database installation or machine. This database allows to work on different views, depending on project needs, while ensuring the integrity of project data. It also allows the simultaneous collaborative work on the same project.
 
 ## Video of elecworks™
-
 Our electrical CAD software **elecworks™** has been developed to support the simulation, validation, and optimization of designs.
 
 Engineering industries, especially mechanized engineering firms, use CAD in many ways. Beginning from making engineering sketches to 2D/3D modeling, CAD can be used in a lot of the production process.
