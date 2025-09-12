@@ -1,4 +1,4 @@
-# When Is The Right Time To Get Started With Electrical Software
+# Get Started With Electrical Software
 
 *By James Glass – The Tech Insider*  
 
@@ -10,7 +10,7 @@ It is not a good idea to go out and buy an electrical CAD software without first
 
 ---
 
-## Reasonable Demands For Electrical CAD
+**Reasonable Demands For Electrical CAD**
 
 We all know exemplary electrical CAD design, electrical calculation and photovoltaic software falls flat without a solid service to back up the software being used.  And that’s why it makes perfect sense to include Trace Software International when deciding on your new software solution.
 
@@ -22,9 +22,9 @@ Choose a CAD software that has a global reputation in your industry and supplier
 
 ## Key Factors
 
-### Intelligent & Efficient Software
+**Intelligent & Efficient Software**
 
-#### Choose The Right Electrical CAD Software
+**Choose The Right Electrical CAD Software**
 When deciding on a CAD software for your business it is necessary to find out how efficient each software package is at creating the types of products your company makes for the end-user.
 
 For example, if your company produces solar panels for the energy sector, pay special attention to the aids for modelling, simulations and precise yield calculation. Or if your firm designs and produces stylish products, it will be necessary to analyse the required tools for manufacturing freeform modelling surfaces and blends between them. Designers of machinery should see how easy it is to assemble large numbers of parts and insert purchased parts such as fasteners from a library. Industrial and product designers should consider tools that can generate high-quality surfaces to realize their stylish designs where smooth, organic appearances are paramount.
@@ -33,7 +33,7 @@ Changes often occur in the design process, so it’s essential to make this as e
 
 ---
 
-### Compatibility With Customers & Suppliers
+**Compatibility With Customers & Suppliers**
 
 In our modern world, few manufacturers do not have the ability to be vertically integrated in the design process to final product. Many depend on a global collection of suppliers for tools, parts, subsystems, production equipment, and design services. A lot of businesses or customers complain about the slow conversion process required for sharing files with others, who cannot open your current system file formats.
 
@@ -45,9 +45,9 @@ Evaluate the tools for repairing damage to imported shapes, how easy they are to
 
 ---
 
-### Errors Verification
+## Error Verification
 
-#### Cost-Free Correction Of Program Errors
+**Cost-Free Correction Of Program Errors**
 Due to the rapid growth of technical innovation and development, no software on the market today is 100 percent error free. It is necessary to know what will happen if you come across an error within the program?
 
 The reaction time of the software provider is essential and how this future support will be useful:
@@ -62,7 +62,7 @@ Designs don’t make money until physical products are delivered. Look for CAD s
 
 ---
 
-### Drafting Tools That Meet Your Standards
+**Drafting Tools That Meet Your Standards**
 
 Even though you’ll be designing products using your electrical CAD software, your suppliers and factory workers will need clear drawings that will show information that isn’t obvious in a 2D/3D model: critical dimensions and tolerances, material and surface-finish specifications, and notes about processing such as curing or heat treatment. Be sure any 3D CAD system you buy can make drawings to your current standards for dimensions, tolerances, lettering, and parts lists. And be sure your drawings can be exported in popular formats such as PDF, DXF, and DWG.
 
@@ -76,7 +76,7 @@ The importance of design analysis continues to grow as companies strive to be mo
 
 ---
 
-### Reliability & Stability
+## Reliability & Stability 
 
 3D design systems are more complex than 2D drawing systems. With all that code, it’s harder to get the bugs out. Unfortunately, there are no standard measures of reliability for CAD as there are for many types of systems and machinery. Browse customer forums for frequent reports about instability or software bugs.
 
@@ -88,7 +88,7 @@ To make sure you have the best tools, choose a CAD platform that gives a broad c
 
 ---
 
-### Pleasant Business Relationships
+**Pleasant Business Relationships**
 
 Believe it or not, some of the greatest sources of friction between buyers of CAD software and their customers are the nontechnical business aspects of the relationship. Just as some airlines annoy customers with extra fees for checked baggage, flight changes, drinks, and blankets, some CAD suppliers levy hidden charges for software and services that most customers need.
 
@@ -100,7 +100,7 @@ Without PDM, designers can unknowingly overwrite each other’s work, redo parts
 
 ---
 
-### Built-In Applications That Help Your Business
+## Help Your Business
 
 Make sure your business systems are compatible with your electrical CAD software, and allow collaboration among them, so systems such as ERP, and PLM, may exchange data with your electrical CAD.
 
@@ -114,9 +114,9 @@ PDM systems can do much more than just store and organize files. They can help d
 
 ---
 
-### Short Learning Curve
+## Short Learning Curve
 
-#### Getting Qualified Employees
+**Getting Qualified Employees**
 Adopting 3D methods requires training and experience. So, choose a system that’s easy to learn as well as capable. Look for a system that has a consistent user interface throughout. Be sure design and drafting procedures flow logically from start to finish. Some systems have hidden dungeons and dragons that stop designers halfway through a task and make them start over.
 
 Developing your own training materials is costly. Choose a system with built-in tutorials, a rich array of computer-based training aids, and a vibrant online community that lets workers ask questions and get answers. You’ll also want a system that’s taught in local schools and universities so you can hire students who are ready to work.
@@ -124,5 +124,5 @@ Developing your own training materials is costly. Choose a system with built-in 
 You want to make sure you can get the support you need. Select a reseller who can meet these demands with ongoing training courses and superior technical support. You also want to keep an eye out for which CAD systems schools and universities are using so you can hire students who are ready to work.
 
 
-## Want to increase your business potential?
+**Want to increase your business potential?**
 [Contact us](https://www.trace-software.com/fr/) 

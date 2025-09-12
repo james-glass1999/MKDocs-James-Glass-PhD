@@ -1,4 +1,4 @@
-# CAD Drafting Trends in Engineering…  
+# CAD Drafting Trends 
 
 *By James Glass – The Tech Insider @tracesoftware*  
 
@@ -22,7 +22,7 @@ When electrical CAD is used for engineering projects, it is often referred to as
 
 Our **elecworks™** is an electrical CAD system designed for design professionals in engineering. The software is based on a digital model representative database installation or machine. This database allows to work on different views, depending on project needs, while ensuring the integrity of project data. It also allows the simultaneous collaborative work on the same project.
 
-**Video of elecworks™**
+## Video of elecworks™
 
 Our electrical CAD software **elecworks™** has been developed to support the simulation, validation, and optimization of designs.
 
@@ -38,5 +38,5 @@ Having the ability to analyze a design and learn about any flaws before starting
 
 ---
 
-**Want to find out more?… Contact us**  
+**Want to increase your business potential?**
 [Contact us](https://www.trace-software.com/fr/) 

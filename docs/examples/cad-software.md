@@ -1,10 +1,10 @@
-# Key Factors Guide for Choosing the Right Electrical CAD Software  
+# Guide for Electrical CAD  
 
 **By James Glass**
 
 ---
 
-# When Is the Right Time to Get Started with Electrical CAD Software?  
+**When Is the Right Time to Get Started with Electrical CAD Software?**
 
 As you’re planning to purchase or update your electrical CAD software, you’ll be deciding what are the essential factors and features for choosing the correct software solution.  
 
@@ -16,9 +16,9 @@ Check out the major new functionality implemented in the past few releases. Does
 
 ---
 
-## Key Factors  
+## Key Factors
 
-# Intelligent & Efficient Software  
+**Intelligent & Efficient Software**
 When deciding on an electrical CAD software for your business, it is necessary to find out how efficient each software package is at creating the types of projects your company makes.  
 
 For example, if your company makes machinery you should see how easy it is to integrate your electrical and mechanical projects with the right software. If your firm works sizing electrical projects, check out the compatibility between your calculation and your design software for faster time-to-market.  
@@ -27,7 +27,7 @@ Changes often occur in the project design process, so it’s essential to make t
 
 ---
 
-## Compatibility with Customers & Suppliers  
+**Compatibility with Customers & Suppliers**
 In today’s design industries, few manufacturers do not have the ability to be vertically integrated in the design process to final product. Many depend on a global collection of suppliers for tools, parts, subsystems, production equipment, and design services.  
 
 A lot of businesses or customers complain about the slow conversion process required for sharing files with others, who cannot open your current system file formats.  
@@ -40,7 +40,7 @@ Look at each system’s ability to import files from other systems. Ideally, you
 
 ---
 
-## Consistent Manufacturer’s Data  
+**Consistent Manufacturer’s Data**
 Certified Product Data is mandatory and essential nowadays due to the advantage of cutting lists for downstream purchasing and manufacturing operations. Reducing time to market for your design, while at the same time speeding up and simplifying your design process – increasing productivity.  
 
 To reduce time-to-market and generate consistent bill of materials (BOM), validate your electrical CAD counts on consistent data from the main manufacturers (symbols, catalogs, 2D and 3D layouts), and keep it consistent throughout your design. Keep your data organized so you can work in teams, work in parallel, and react faster to design changes.  
@@ -51,10 +51,10 @@ Ensuring consistent projects with certified data enables robust and detailed BOM
 
 ---
 
-## Errors Verification  
+## Error Verification  
 The detection of errors during the project life cycle saves costly time and money. Without the correct and necessary error detection, project work with combined efforts becomes a waste of time for everyone involved and puts pressure on any project team.  
 
-## Cost-Free Correction of Program Errors  
+**Cost-Free Correction of Program Errors**  
 Avoiding some of the common errors found in electrical CAD software such as:  
 
 - Duplicated parent symbols  
@@ -74,7 +74,7 @@ For example, checking the design rules (reports) manually allows you to see erro
 
 ---
 
-## Drafting Tools That Meet Your Standards  
+**Drafting Tools That Meet Your Standards**
 A project’s productivity and effectiveness is essential to develop, test, manufacture, deliver, use, and support throughout its life, while working with project-related information.  
 
 Ensure that you create your own project standards to help unify your documentation and create consistent projects. Be sure any 2D electrical CAD software you buy can export your drawings in popular formats such as **PDF, DXF, and DWG.**  
@@ -88,12 +88,12 @@ More typically, your key users within your business can be provided with an eval
 
 ---
 
-## Integration with IT Systems  
+**Integration with IT Systems**
 Make sure your IT business systems are compatible with your electrical CAD software, and allow collaboration among them. Systems such as ERP, MCAD, and PLM should be able to exchange data with your electrical CAD software.  
 
 Mistakes caused by bad collaboration of exchange data can waste hundreds of hours of work each year and cost money, in terms of defective parts if a project is near completion.  
 
-## Why is it important to integrate PDM, ERP, and MCAD with ECAD?  
+**Why is it important to integrate PDM, ERP, and MCAD with ECAD?**  
 For example, integrating MCAD, PDM, and ERP offers business efficiency and value:  
 
 - Ensuring consistency and use of project-related information, by using rules to create your own projects to overcome problems and offer solutions.  
@@ -104,7 +104,7 @@ For example, integrating MCAD, PDM, and ERP offers business efficiency and value
 
 ---
 
-### Pricing  
+## Pricing  
 An electrical CAD software must efficiently and accurately represent every part in your company’s project and the intricate relationship of the design process between each department involved.  
 
 To increase efficiency, designers should be able to design a quality project of their chosen software with as few steps as possible. The cost of reliable software solutions will guarantee a better outcome for your business.  
@@ -125,7 +125,7 @@ Make sure that you can customise technical support to achieve an overall effecti
 - Increase your knowledge of your software.  
 - Learn to navigate the software effectively.  
 
-## Channels of Technical Support  
+**Channels of Technical Support** 
 Support can be in the form of phone call, chat, or email. Various electrical CAD software offer one, two, or all three. It is always best to look for a system that covers customer needs as part of their service.  
 
 - **On-site** – Technicians should also be available for installation, application analysis, and company-specific advice.  
@@ -143,7 +143,7 @@ A good electrical CAD software provides an intuitive user interface that helps y
 
 ---
 
-## Software Development Integration/Compatibility  
+## Integration
 It is important that the development of the software being offered continuously follows general technical development.  
 
 Learning and becoming expert in an electrical CAD software is important when calculating **Return on Investment (ROI).**  
@@ -157,7 +157,7 @@ Increase your ROI by **500%** using a reliable electrical CAD software:
 
 ---
 
-## Innovative R&D to Protect Your Investment  
+**Innovative R&D to Protect Your Investment**
 Computing technology is constantly evolving. If your electrical CAD software provider ignores this, you’ll soon find that your business is running outdated and costly software.  
 
 That´s why **Trace Software International** is one of the most respected providers of electrical CAD software due to its world-class evolving technology innovation along with R&D departments.  
@@ -166,5 +166,5 @@ Buy from a supplier that has a proven record of being industry leaders in supply
 
 ---
 
-## Want to increase your business potential?
+**Want to increase your business potential?**
 [Contact us](https://www.trace-software.com/fr/) 
