@@ -1,8 +1,11 @@
-## Master’s Social Communications – Universitat Pompeu Fabra  
+**Master’s Social Communications – Universitat Pompeu Fabra**
 
-**Extract**  
+!!! note ""
 
-### Title
+    **Extract**
+
+
+### Title of Study
 
 **A thematic analysis of the INPUT database and its relationship to Public Service television: Innovation and Quality.** 
 

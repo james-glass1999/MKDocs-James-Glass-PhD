@@ -1,4 +1,4 @@
-## Ph.D. Communications – Universitat Pompeu Fabra  
+**Ph.D. Communications – Universitat Pompeu Fabra** 
 
 ![PhD Diagram](../assets/phdgdia1.jpeg){ width="800" }  
 *© James Glass 2025*
@@ -8,7 +8,8 @@
 
     **Extract**
 
-### Title
+
+### Title of Study
 
 **Qualitative Analysis: Viewing, Consumption and Usability of SVOD.**
 
@@ -118,7 +119,7 @@ schedules.
 
 ---
 
-### Research Questions
+## Research Questions
 
 This research will be centred around the following questions:
 
