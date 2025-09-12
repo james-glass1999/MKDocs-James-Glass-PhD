@@ -73,10 +73,9 @@ nav:
       - BSc Mechatronics: education/bsc-mechatronics.md
       - BSc Screen Practice: education/bsc-screen-practice.md
   - Examples of Work:
-      - Examples: examples/examples-of-work.md
-      - Examples: examples/cad-trends.md
-      - Examples: examples/cad-software.md
-      - Examples: examples/start-with-electrical-software.md
+      - CAD Trends: examples/cad-trends.md
+      - CAD Software: examples/cad-software.md
+      - Start with Electrical Software: examples/start-with-electrical-software.md
   - References: references/quotes.md
   - Diagrams: diagrams.md
   
