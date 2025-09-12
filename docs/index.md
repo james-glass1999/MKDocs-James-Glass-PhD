@@ -16,9 +16,7 @@ Senior Technical Writer & Developer Relations Manager with 10+ years of experien
 - Basic AI prompt writing & support  
 
 
-???+ note
-Visit my [LinkedIn](https://www.linkedin.com/in/james-glass-phd-206b7b3/)
-Visit my [WordPress](https://thewritingtimesblog.wordpress.com)
+!!! note "Learn more"Visit my [LinkedIn](https://www.linkedin.com/in/james-glass-phd-206b7b3/) Visit my [WordPress](https://thewritingtimesblog.wordpress.com)
 
 
 ---
