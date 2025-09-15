@@ -1,5 +1,3 @@
-### Diagram Examples
-
 !!! note ""
 
     **Examples only** 
