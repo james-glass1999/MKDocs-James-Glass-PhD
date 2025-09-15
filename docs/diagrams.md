@@ -1,5 +1,9 @@
 ### Diagram Examples
 
+!!! note ""
+
+    **Examples only** 
+
 ## Flowcharts
 
 ```mermaid
