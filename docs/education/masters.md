@@ -1,6 +1,6 @@
 !!! note ""
 
-    **Extract** From *Master’s Social Communications – Universitat Pompeu Fabra**
+    **Extract** From **Master’s Social Communications – Universitat Pompeu Fabra**
 
 
 ### Title of Study

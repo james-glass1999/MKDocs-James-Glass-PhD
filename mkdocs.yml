@@ -5,7 +5,7 @@ theme:
   name: material
   font:
     text: Merriweather Sans
-  logo: assets/james1.png
+  logo: assets/james2.png
   favicon: assets/james1.png
   features:
     - navigation.tabs
