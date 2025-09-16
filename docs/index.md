@@ -15,6 +15,7 @@ Senior Technical Writer & Developer Relations Manager with 10+ years of experien
 - Tools: Git, Jira, Confluence, Trello, Miro  
 - Basic AI prompt writing & support  
 
+---
 
 !!! note "Learn more"
 

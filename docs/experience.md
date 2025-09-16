@@ -1,10 +1,8 @@
 
----
-
 ## 💼 Professional Experience
 
 ### **King – Barcelona**  
-**DevRel Manager / Senior Technical Writer** (2022 – Present)  
+**DevRel Manager / Senior Technical Writer** (2022 - 2025 Sept)  
 - Led documentation and developer relations efforts supporting internal engineering teams.  
 - Planned, authored, and maintained onboarding content, feature guides, user documentation, and release notes.  
 - Collaborated with Product, UX, QA, and Engineering to deliver documentation aligned with product lifecycles.  
