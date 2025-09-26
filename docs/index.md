@@ -1,19 +1,21 @@
 # Welcome to James Glass PhD
 
 ## Profile
-Senior Technical Writer & Developer Relations Manager with 10+ years of experience leading developer documentation, content strategy and design plus developer advocacy. 
+Data-driven professional and Senior Technical Writer & Developer Relations Manager with over a decade of experience in developer documentation, content strategy, and developer advocacy. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions.
 
 ---
 
 ## Key Skills
-- Documentation planning, authoring & editing  
-- Docs-as-Code (Markdown, GitHub, automation workflows)  
-- Developer enablement & DevRel collaboration  
-- Workshop facilitation & training delivery  
-- Cross-functional coordination (Engineering, UX, QA, PM)  
-- Knowledge management & internal content strategy  
-- Tools: Git, Jira, Confluence, Trello, Miro  
-- Basic AI prompt writing & support  
+- Documentation planning, authoring & editing
+- Docs-as-Code (Markdown, GitHub, automation workflows)
+- Developer enablement & DevRel collaboration
+- Workshop facilitation & training delivery
+- Cross-functional coordination (Eng, UX, QA, PM)
+- Knowledge management & internal content strategy
+- Tools: Git, Jira, Confluence, Trello, Miro
+- Basic AI prompt writing & support 
+- SQL
+
 
 ---
 
