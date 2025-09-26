@@ -7,7 +7,7 @@
 - Planned, authored, and maintained onboarding content, feature guides, user documentation, and release notes.  
 - Collaborated with Product, UX, QA, and Engineering to deliver documentation aligned with product lifecycles.  
 - Coached and mentored DevRel team members; guided OKR planning and strategy.  
-- Drove knowledge management initiatives and improved documentation practices.  
+- Drove knowledge management initiatives and improved documentation practices and KPIs.  
 
 ---
 
