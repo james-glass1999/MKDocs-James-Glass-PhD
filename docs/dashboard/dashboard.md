@@ -19,6 +19,6 @@ Use the built-in filters and charts below to dive deeper into your dataset.
 
 ---
 
-💡 *Tip:* You can hover over charts to see data details or apply filters directly on the dashboard.
+*Tip:* You can hover over charts to see data details or apply filters directly on the dashboard.
 
-_Last updated: {{ build_date }}_
+
