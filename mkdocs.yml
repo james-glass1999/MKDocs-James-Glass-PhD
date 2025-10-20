@@ -83,6 +83,9 @@ nav:
 
 
 extra:
+  analytics:
+    provider: google
+    property: G-DFB5D1HK5Q
   social:
     - icon: material/linkedin
       link: https://www.linkedin.com/in/james-glass-phd-206b7b3/
