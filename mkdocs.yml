@@ -79,7 +79,9 @@ nav:
       - Start with elecworks™: examples/start-with-elecworks™.md
   - References: references/quotes.md
   - Diagrams: diagrams.md
-  - Dashboard: dashboard/dashboard.md
+  - Dashboard: 
+      - Dashboard Example One: dashboard/dashboard-example-one.md
+      - Dashboard Example Two: dashboard/dashboard-example-two.md
 
   
 
