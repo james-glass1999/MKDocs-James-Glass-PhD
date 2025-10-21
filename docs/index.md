@@ -1,7 +1,7 @@
 # Welcome to James Glass PhD
 
 ## Summary
-Data-driven professional and Senior Technical Writer/Developer Relations and Documentation Manager with over a decade of experience in developer documentation, content strategy, and developer advocacy. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions.
+Data-driven professional and Senior Technical Writer and Developer Relations/ Documentation Manager with over a decade of experience in developer documentation, content strategy, and developer advocacy. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions.
 
 ---
 
