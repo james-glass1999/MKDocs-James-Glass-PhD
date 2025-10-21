@@ -4,6 +4,6 @@ This section showcases practical projects, research outputs, and demonstrations 
 
 - [CAD Trends](cad-trends.md)
 - [CAD Software](cad-software.md)
-- [Start with elecworks™](start-with-elecworks™.md)
+- [Start with elecworks™](start-with-elecworks.md)
 
 Each example includes visual diagrams, project context, and insights into methodology.
