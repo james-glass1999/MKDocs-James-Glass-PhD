@@ -4,7 +4,7 @@ Analyze your company’s sales performance and trends in real time with this int
 This report provides insights into key sales metrics, including revenue by region, top-performing products, and monthly growth trends.  
 Use the filters and charts to explore data across time periods or product categories.
 
-👉 **[Open the full Sales Dashboard in Looker Studio](https://lookerstudio.google.com/s/hk2lb1nSj9o)**
+**[Open the full Sales Dashboard in Looker Studio](https://lookerstudio.google.com/s/hk2lb1nSj9o)**
 
 Or view it directly below:
 
