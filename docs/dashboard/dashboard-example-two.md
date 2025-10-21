@@ -1,4 +1,4 @@
-# HR Analytics Dashboard
+# HR Analytics Dashboard Example
 
 Understanding workforce data is key to making informed business decisions.  
 
