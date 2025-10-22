@@ -15,7 +15,7 @@ Data-driven professional and Senior Technical Writer and Developer Relations/ Do
 - Tools: Git, Jira, Confluence, Trello, Miro
 - Basic AI prompt writing & support 
 - Looker Studio BI
-- SQL
+- Working knowledge of SQL
 
 
 
