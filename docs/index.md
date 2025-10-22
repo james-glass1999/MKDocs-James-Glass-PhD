@@ -6,16 +6,14 @@ Data-driven professional and Senior Technical Writer and Developer Relations/ Do
 ---
 
 ## Key Skills
-- Documentation planning, authoring & editing
-- Docs-as-Code (Markdown, GitHub, automation workflows)
-- Developer enablement & DevRel collaboration
-- Workshop facilitation & training delivery
-- Cross-functional coordination (Eng, UX, QA, PM)
-- Knowledge management & internal content strategy
+- Documentation & Information Architecture: Content planning, structuring authoring, and editing
+- Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
+- Developer Enablement: DevRel collaboration, tutorials, SDK docs, API guides
+- Training & Facilitation: Workshop design, technical training delivery
+- Collaboration: Cross-functional coordination with Engineering, UX, QA, and PM teams
+- Knowledge Management: Internal content strategy, content lifecycle governance
+- AI & Data: Basic prompt engineering, Looker Studio BI dashboards, SQL (working knowledge)
 - Tools: Git, Jira, Confluence, Trello, Miro
-- Basic AI prompt writing & support 
-- Looker Studio BI
-- Working knowledge of SQL
 
 
 
