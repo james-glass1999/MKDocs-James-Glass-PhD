@@ -2,7 +2,7 @@
 
 ![A talk!](../assets/james2.png){ .float-left width="300" }
 
-Senior Technical Writer | Documentation & Data Strategy
+Senior Technical Writer | Developer Enablement & AI-Driven Docs
 
 I’m **James Glass, PhD**, a Senior Technical Writer and Developer Relations/Documentation Manager with over a decade of experience helping teams and organizations communicate complex ideas with clarity.  
 
