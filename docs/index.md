@@ -6,9 +6,9 @@ Data-driven professional and Senior Technical Writer and Developer Relations/ Do
 ---
 
 ## Key Skills
-- Documentation & Information Architecture: Content planning, structuring authoring, and editing
+- Documentation & Information Architecture: Content planning, structuring, authoring, and editing
 - Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
-- Developer Enablement: DevRel collaboration, tutorials, SDK docs, API guides
+- Developer Enablement: Familiarity with SDK and API documentation
 - Training & Facilitation: Workshop design, technical training delivery
 - Collaboration: Cross-functional coordination with Engineering, UX, QA, and PM teams
 - Knowledge Management: Internal content strategy, content lifecycle governance
