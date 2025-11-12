@@ -13,7 +13,7 @@ Data-driven professional and Senior Technical Writer and Developer Relations/ Do
 - Collaboration: Cross-functional coordination with Engineering, UX, QA, and PM teams
 - Knowledge Management: Internal content strategy, content lifecycle governance
 - AI & Data: Basic prompt engineering, Looker Studio BI dashboards, SQL (working knowledge)
-- Tools: Git, Jira, Confluence, Trello, Miro
+- Tools: Git, Jira, Confluence, Trello, Miro, Jupyter Notebook
 
 
 
