@@ -35,3 +35,8 @@ Outside of work, I find balance and inspiration through creative and active purs
 - 🎬 **Movies** – from thought-provoking documentaries to imaginative cinema.  
 
 I’m also fascinated by the intersection of **technology, media, and human behavior**, and how innovations like AI are reshaping the way we create, consume, and share information.  
+
+
+| Parameter | Type | Required | Description |
+| :--- | :--- | :--- | :--- | <-- 
+| `public_key` | `string` | Yes | Your unique, static public key for API access. |
