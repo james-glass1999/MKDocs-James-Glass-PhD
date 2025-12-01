@@ -1,4 +1,4 @@
-# 🛒 Online Order API
+# Online Order API
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen?logo=node.js)
@@ -16,7 +16,7 @@ This project demonstrates designing an API specification *first* with Swagger, t
 
 ![API Screenshot](../assets/api1.png)
 
-## 📘 Project Overview
+## Project Overview
 
 This API allows you to:
 
@@ -29,15 +29,15 @@ Data is stored in a simple JSON file (`orders.json`), making it easy to understa
 
 ---
 
-## 📑 OpenAPI Specification
+## OpenAPI Specification
 
 A full OpenAPI 3.0 specification is available here:
 
-➡️ **[openapi.yaml](openapi.yaml)**
+**[openapi.yaml](openapi.yaml)**
 
 ---
 
-## 🚀 Features
+## Features
 
 - Node.js + Express backend  
 - Full OpenAPI/Swagger specification  
@@ -48,7 +48,7 @@ A full OpenAPI 3.0 specification is available here:
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Node.js**
 - **Express.js**
@@ -57,7 +57,7 @@ A full OpenAPI 3.0 specification is available here:
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint        | Description             |
 |--------|-----------------|-------------------------|
@@ -68,7 +68,7 @@ A full OpenAPI 3.0 specification is available here:
 
 ---
 
-## 🧪 cURL Examples
+## cURL Examples
 
 ### GET all orders
 ```bash
