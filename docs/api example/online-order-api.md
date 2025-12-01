@@ -14,13 +14,7 @@ This project demonstrates designing an API specification *first* with Swagger, t
 
 ---
 
-
-# 🛒 Online Order API
-
-A simple REST API built with **Node.js** and **Express**, documented using **OpenAPI (Swagger)**.  
-This project manages online orders and demonstrates a full CRUD API from design to implementation.
-
----
+![API Screenshot](../assets/api1.png)
 
 ## 📘 Project Overview
 
@@ -35,12 +29,20 @@ Data is stored in a simple JSON file (`orders.json`), making it easy to understa
 
 ---
 
+## 📑 OpenAPI Specification
+
+A full OpenAPI 3.0 specification is available here:
+
+➡️ **[openapi.yaml](openapi.yaml)**
+
+---
+
 ## 🚀 Features
 
 - Node.js + Express backend  
 - Full OpenAPI/Swagger specification (`openapi.yaml`)  
-- Example request bodies and responses  
 - CRUD operations on order data  
+- Example request bodies and responses  
 - Tested with `curl` commands  
 - Hosted on GitHub as an example project  
 
@@ -66,9 +68,24 @@ Data is stored in a simple JSON file (`orders.json`), making it easy to understa
 
 ---
 
-## 🧪 Example Code (server.js)
+## 🧪 cURL Examples
 
-```js
+### GET all orders
+```bash
+curl http://localhost:3000/orders
+
+### Create a New Order (POST /neworder)
+curl --header "Content-Type: application/json" \
+     -d "@new_order.json" \
+     http://localhost:3000/neworder
+
+### Update an Order (PUT /update/{id})
+curl -X PUT -d complete http://localhost:3000/update/001
+
+### Delete an Order (DELETE /delete/{id})
+curl -X DELETE http://localhost:3000/delete/002
+
+## 🧪 Example Code (server.js)
 // GET all orders
 server.get('/orders', (req, res) => {
   res.json(orderData);
@@ -80,3 +97,38 @@ server.post('/neworder', express.json(), (req, res) => {
   fs.writeFileSync('orders.json', JSON.stringify(orderData));
   res.send('Success');
 });
+
+// PUT update
+server.put('/update/:id', express.text({ type: '*/*' }), (req, res) => {
+  orderData.orders.forEach(order => {
+    if (order.id === req.params.id) {
+      order.state = req.body;
+    }
+  });
+  fs.writeFileSync('orders.json', JSON.stringify(orderData));
+  res.send('Success');
+});
+
+// DELETE order
+server.delete('/delete/:id', (req, res) => {
+  const updated = orderData.orders.filter(order => order.id !== req.params.id);
+  fs.writeFileSync('orders.json', JSON.stringify({ orders: updated }));
+  res.send('Success');
+});
+
+# Project Structure
+├── server.js             # Express server and routes
+├── orders.json           # Data store
+├── openapi.yaml          # OpenAPI (Swagger) specification
+├── new_order.json        # Sample POST body
+├── README.md
+└── LICENSE
+
+
+# Summary
+This project demonstrates a complete design-first approach to API development using:
+ - Swagger Editor
+- OpenAPI 3.0
+- Express.js
+- JSON data storage
+It showcases how modern APIs can be designed, documented, and implemented from a formal API contract
