@@ -40,11 +40,11 @@ A full OpenAPI 3.0 specification is available here:
 ## 🚀 Features
 
 - Node.js + Express backend  
-- Full OpenAPI/Swagger specification (`openapi.yaml`)  
+- Full OpenAPI/Swagger specification  
 - CRUD operations on order data  
 - Example request bodies and responses  
-- Tested with `curl` commands  
-- Hosted on GitHub as an example project  
+- Tested with cURL  
+- Hosted on GitHub  
 
 ---
 
@@ -73,19 +73,29 @@ A full OpenAPI 3.0 specification is available here:
 ### GET all orders
 ```bash
 curl http://localhost:3000/orders
+```
 
 ### Create a New Order (POST /neworder)
+```
 curl --header "Content-Type: application/json" \
      -d "@new_order.json" \
      http://localhost:3000/neworder
+```
 
 ### Update an Order (PUT /update/{id})
+```
 curl -X PUT -d complete http://localhost:3000/update/001
+```
 
 ### Delete an Order (DELETE /delete/{id})
+```
 curl -X DELETE http://localhost:3000/delete/002
+```
 
-## 🧪 Example Code (server.js)
+
+## Example Code (server.js)
+
+```js
 // GET all orders
 server.get('/orders', (req, res) => {
   res.json(orderData);
@@ -115,6 +125,8 @@ server.delete('/delete/:id', (req, res) => {
   fs.writeFileSync('orders.json', JSON.stringify({ orders: updated }));
   res.send('Success');
 });
+```
+
 
 # Project Structure
 ├── server.js             # Express server and routes
@@ -123,7 +135,6 @@ server.delete('/delete/:id', (req, res) => {
 ├── new_order.json        # Sample POST body
 ├── README.md
 └── LICENSE
-
 
 # Summary
 This project demonstrates a complete design-first approach to API development using:
