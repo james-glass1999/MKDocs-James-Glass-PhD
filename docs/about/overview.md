@@ -43,3 +43,9 @@ I’m also fascinated by the intersection of **technology, media, and human beha
 | :--- | :--- | :--- | :--- |
 | `public_key` | `string` | Yes | Your unique, static public key for API access. |
 
+{
+  "public_key": "string"
+}
+
+
+
