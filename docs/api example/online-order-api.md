@@ -1,7 +1,3 @@
----
-layout: default
-title: Online Order API
-
 # 🛒 Online Order API
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
