@@ -127,7 +127,7 @@ server.delete('/delete/:id', (req, res) => {
 });
 ```
 
-
+---
 # Project Structure
 ├── server.js             # Express server and routes
 ├── orders.json           # Data store
@@ -135,6 +135,7 @@ server.delete('/delete/:id', (req, res) => {
 ├── new_order.json        # Sample POST body
 ├── README.md
 └── LICENSE
+---
 
 # Summary
 This project demonstrates a complete design-first approach to API development using:
