@@ -8,13 +8,13 @@
 ![Last Commit](https://img.shields.io/github/last-commit/james-glass1999/online-order-api)
 ![Repo Size](https://img.shields.io/github/repo-size/james-glass1999/online-order-api)
 ![Stars](https://img.shields.io/github/stars/james-glass1999/online-order-api?style=social)
-
+---
+![API Screenshot](../assets/api1.png)
+---
 A simple CRUD API built using **Node.js**, **Express**, and documented with **Swagger / OpenAPI 3.0**.  
 This project demonstrates designing an API specification *first* with Swagger, then implementing the backend server that follows it.
 
 ---
-
-![API Screenshot](../assets/api1.png)
 
 ## Project Overview
 
