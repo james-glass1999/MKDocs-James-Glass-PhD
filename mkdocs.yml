@@ -77,7 +77,7 @@ nav:
       - CAD Trends: examples/cad-trends.md
       - CAD Software: examples/cad-software.md
       - Start with elecworks: examples/start-with-elecworks.md
-  - API Example: api-example/online-order-api.md
+  - API Example: api example/online-order-api.md
   - References: references/quotes.md
   - Diagrams: diagrams.md
   - Dashboard: 
