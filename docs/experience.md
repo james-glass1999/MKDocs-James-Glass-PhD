@@ -1,6 +1,7 @@
 # Professional Experience
 
-## King – Barcelona
+## King
+### Barcelona
 
 ### DevRel / Documentation Manager · Senior Technical Writer  
 **2022 – Sept 2025**
