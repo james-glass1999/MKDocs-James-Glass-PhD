@@ -2,7 +2,7 @@
 
 ## About Me
 
-![A talk!](../assets/james2.png){ .float-left width="300" }
+![A talk!](assets/james2.png){ .float-left width="300" }
 
 Senior Technical Writer | Developer Enablement & AI-Driven Docs
 
@@ -45,7 +45,7 @@ I also have a growing interest in **artificial intelligence and AI agents** — 
 
 ## Beyond Work
 
-![beach1](../assets/beach1.png){ width="350" }  
+![beach1](assets/beach1.png){ width="350" }
 
 Outside of work, I find balance and inspiration through creative and active pursuits:  
 
