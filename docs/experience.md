@@ -3,33 +3,38 @@
 
 ### **King – Barcelona**  
 **DevRel/Documentation Manager / Senior Technical Writer** (2022 - 2025 Sept)  
-- Led documentation and developer relations efforts supporting internal engineering teams.  
-- Planned, authored, and maintained onboarding content, feature guides, user documentation, and release notes.  
-- Collaborated with Product, UX, QA, and Engineering to deliver documentation aligned with product lifecycles.  
-- Coached and mentored DevRel team members; guided OKR planning and strategy.  
-- Drove knowledge management initiatives and improved documentation practices and KPIs.  
+- Led a documentation and developer enablement team supporting internal engineering workflows and tools.
+- Managed documentation strategy and OKR planning; mentored DevRel team.
+- Planned, wrote, and maintained user guides, release notes, FAQs, and internal feature documentation.
+- Collaborated with Engineering, Product, UX, QA, and PM teams to scope requirements and deliver documentation for complex internal systems.
+- Drove adoption of internal tools through structured documentation, KPIs, targeted training, and workflow improvements.
+- Improved cross-team communication and feedback loops, enhancing product support and tool usability.
 
 ---
 
 **Senior Technical Writer** (2019 – 2022)  
-- Owned documentation planning and delivery across internal platforms.  
-- Conducted user research and feedback analysis to continuously improve content.  
-- Championed Docs-as-Code best practices and UX writing.  
-- Partnered with Product and Engineering to align documentation with business goals.  
-- Supported OKR planning and cross-team coordination.  
+- Authored and maintained internal user documentation aligned with engineering requirements and product roadmaps.
+- Conducted user research; implemented improvements informed by analytics and qualitative feedback.
+- Managed release notes and content strategy using Docs-as-Code workflows and UX writing principles.
+- Improved documentation processes, increasing engagement and discoverability across engineering teams.
+- Partnered with cross-functional stakeholders to ensure documentation readiness for release milestones.
+ 
 
 ---
 
 **Technical Writer / Evangelist** (2018 – 2019)  
-- Created and managed content for King’s Tech Blog, increasing employer branding.  
-- Organized monthly knowledge-sharing sessions and content strategy.  
-- Led cross-functional communication initiatives to strengthen engineering culture.  
+- Created and managed technical content for the internal engineering blog.
+- Promoted engineering storytelling, improving visibility of technical initiatives.
+- Published monthly articles in partnership with engineering teams.
+- Contributed to employer branding through consistent, high-quality technical narratives.
 
 ---
 
 **Temp – Technical Writer** (2017 – 2018)  
-- Produced internal documentation and UX content for editor features.  
-- Conducted user research to validate and improve technical resources.  
+- Maintained internal documentation for game tools, editors, and production workflows.
+- Created UX content for new internal features and tools.
+- Conducted user research to inform content strategy and performance KPIs.
+- Designed reusable templates to streamline documentation processes.
 
 ---
 
