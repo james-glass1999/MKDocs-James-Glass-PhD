@@ -46,8 +46,8 @@
 ---
 
 ## Trace Software International – Barcelona
-
-### Temp – Technical Writer  
+### Temp – Technical Writer 
+**Barcelona** 
 **2017**
 
 - Authored and edited technical brochures and product documentation.
@@ -57,8 +57,8 @@
 ---
 
 ## NordPay Financial – Barcelona
-
-### Freelance Marketing Consultant  
+### Freelance Marketing Consultant 
+**Barcelona** 
 **2016 – 2017**
 
 - Developed marketing materials, product content, and website updates.
