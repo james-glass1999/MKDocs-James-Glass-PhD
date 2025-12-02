@@ -6,7 +6,8 @@
 - **Craft Effective Prompts for Prompt Engineering** — Codecademy (2025)
 - **Career Essentials in Generative AI** — Microsoft + LinkedIn (2024)
 
-## API Design & Developer Enablement *(Codecademy, 2025)*
+## API Design & Developer Enablement 
+*(Codecademy, 2025)*
 - Design and Document APIs in Swagger
 - Document APIs Using Swagger and OpenAPI
 - Leverage OpenAI API Capabilities in Python
@@ -17,7 +18,8 @@
 - **Getting Started with Python for Data Science** — Codecademy (2025, ongoing)
 - **Explore Datasets in Python Using Pandas and Jupyter** — Codecademy (2025)
 
-## Data & Analytics / SQL *(Codecademy, 2025)*
+## Data & Analytics / SQL 
+*(Codecademy, 2025)*
 - SQL Fundamentals: Joins, Multi-table Queries & Aggregations
 - Join Multiple Tables Using SQL
 - Utilize Aggregate Functions in SQL
