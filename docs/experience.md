@@ -1,9 +1,8 @@
 # Professional Experience
 
 ## King
-### Barcelona
-
-### DevRel / Documentation Manager · Senior Technical Writer  
+### DevRel / Documentation Manager · Senior Technical Writer 
+**Barcelona
 **2022 – Sept 2025**
 
 - Led a documentation and developer enablement team supporting internal engineering workflows and tools.
