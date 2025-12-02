@@ -64,9 +64,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - About:
-      - Overview: about/overview.md
   - Experience: experience.md
+  - Training & Development:
+      - Courses: courses/training-and-development.md
   - Education:
       - PhD: education/phd.md
       - Masters: education/masters.md
@@ -77,11 +77,11 @@ nav:
       - CAD Software: examples/cad-software.md
       - Start with elecworks: examples/start-with-elecworks.md
   - API Example: api example/online-order-api.md
-  - References: references/quotes.md
   - Diagrams: diagrams.md
   - Dashboard: 
       - Dashboard Example One: dashboard/dashboard-example-one.md
       - Dashboard Example Two: dashboard/dashboard-example-two.md
+  - References: references/quotes.md
 
   
 

@@ -1,31 +1,5 @@
 # Welcome to James Glass PhD
 
-## Summary
-Data-driven professional and Senior Technical Writer and Developer Relations/ Documentation Manager with over a decade of experience in developer documentation, content strategy, and developer advocacy. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions.
-
----
-
-## Key Skills
-- Documentation & Information Architecture: Content planning, structuring, authoring, and editing
-- Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
-- Developer Enablement: Familiarity with SDK and API documentation
-- Training & Facilitation: Workshop design, technical training delivery
-- Collaboration: Cross-functional coordination with Engineering, UX, QA, and PM teams
-- Knowledge Management: Internal content strategy, content lifecycle governance
-- AI & Data: Basic prompt engineering, Looker Studio BI dashboards, SQL (working knowledge)
-- Tools: Git, Jira, Confluence, Trello, Miro, Jupyter Notebook (basics)
-
-
-
----
-
-!!! note "Learn more"
-
-    Visit my [LinkedIn](https://www.linkedin.com/in/james-glass-phd-206b7b3/)
-    
-    Visit my [WordPress](https://thewritingtimesblog.wordpress.com)
----
-
 ## About Me
 
 ![A talk!](../assets/james2.png){ .float-left width="300" }
@@ -41,6 +15,23 @@ My work is centered around three pillars:
 - **Knowledge Management & Strategy** – Designing scalable approaches to documentation and content that empower teams and support long-term growth.  
 
 <div class="clearfix"></div>
+
+---
+
+## Summary
+Data-informed Technical Writer and Documentation Manager with expertise in developer enablement, Docs-as-Code workflows, and AI-driven documentation solutions. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions. Strong background in using data to inform documentation strategy and measure content impact — including KPI tracking, user sentiment analysis, experiment evaluation, and data visualization through Looker Studio.
+
+---
+
+## Key Skills
+- Documentation & Information Architecture: Content planning, structuring, authoring, and editing
+- Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
+- Developer Enablement: Familiarity with SDK and API documentation, Swagger / OpenAPI, API design-first principles, internal tooling adoption
+- Training & Facilitation: Workshop design, technical training delivery
+- Collaboration: Cross-functional coordination with Engineering, UX, QA, and PM teams
+- Knowledge Management: Internal content strategy, content lifecycle governance
+- AI & Data: Familiarity with prompt engineering, Looker Studio BI dashboards, SQL (working knowledge), Jupyter Notebooks
+- Tools: Git, Jira, Confluence, Trello, Miro
 
 ---
 
@@ -65,4 +56,11 @@ Outside of work, I find balance and inspiration through creative and active purs
 I’m also fascinated by the intersection of **technology, media, and human behavior**, and how innovations like AI are reshaping the way we create, consume, and share information.  
 
 
+## Connect With Me
+---
+!!! note "Learn more"
 
+    Visit my [LinkedIn](https://www.linkedin.com/in/james-glass-phd-206b7b3/)
+    
+    Visit my [WordPress](https://thewritingtimesblog.wordpress.com)
+---
