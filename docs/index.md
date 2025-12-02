@@ -26,7 +26,7 @@ Data-driven professional and Senior Technical Writer and Developer Relations/ Do
     Visit my [WordPress](https://thewritingtimesblog.wordpress.com)
 ---
 
-# About Me
+## About Me
 
 ![A talk!](../assets/james2.png){ .float-left width="300" }
 
