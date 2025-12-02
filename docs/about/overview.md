@@ -39,13 +39,6 @@ I’m also fascinated by the intersection of **technology, media, and human beha
 
 
 
-| Parameter | Type | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `public_key` | `string` | Yes | Your unique, static public key for API access. |
-
-{
-  "public_key": "string"
-}
 
 
 
