@@ -142,8 +142,10 @@ server.delete('/delete/:id', (req, res) => {
 # Summary
 
 This project demonstrates a complete design-first approach to API development using:
- - Swagger Editor
- - OpenAPI 3.0
- - Express.js
- - JSON data storage
-It showcases how modern APIs can be designed, documented, and implemented from a formal API contract
+
+- Swagger Editor  
+- OpenAPI 3.0  
+- Express.js  
+- JSON data storage  
+
+It showcases how modern APIs can be designed, documented, and implemented from a formal API contract.
