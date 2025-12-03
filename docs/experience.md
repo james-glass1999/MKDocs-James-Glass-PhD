@@ -35,7 +35,7 @@
 
 ---
 
-### Temp – Technical Writer  
+### Technical Writer  
 **Barcelona · 2017 – 2018**
 
 - Maintained internal documentation for game tools, editors, and production workflows.
@@ -45,7 +45,7 @@
 
 ---
 
-## Trace Software International – Barcelona
+## Trace Software International
 
 ### Temp – Technical Writer  
 **Barcelona · 2017**
