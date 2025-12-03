@@ -48,7 +48,7 @@
 ## Trace Software International – Barcelona
 
 ### Temp – Technical Writer  
-**2017**
+**Barcelona · 2017**
 
 - Authored and edited technical brochures and product documentation.
 - Collaborated with Engineering, UX, and PM teams to deliver clear, consistent outputs.
