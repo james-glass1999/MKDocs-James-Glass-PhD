@@ -140,6 +140,7 @@ server.delete('/delete/:id', (req, res) => {
 ```
 
 # Summary
+
 This project demonstrates a complete design-first approach to API development using:
  - Swagger Editor
  - OpenAPI 3.0
