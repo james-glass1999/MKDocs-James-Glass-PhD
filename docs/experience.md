@@ -4,7 +4,6 @@
 ### Documentation Manager · Senior Technical Writer 
 **Barcelona**
 **2022 – Sept 2025**
-
 - Led a documentation and developer enablement team supporting internal engineering workflows and tools.
 - Managed documentation strategy and OKR planning; mentored DevRel team members.
 - Planned, wrote, and maintained user guides, release notes, FAQs, and internal feature documentation.
@@ -16,7 +15,6 @@
 
 ### Senior Technical Writer  
 **2019 – 2022**
-
 - Authored and maintained internal user documentation aligned with engineering requirements and product roadmaps.
 - Conducted user research and implemented improvements informed by analytics and qualitative feedback.
 - Managed release notes and content strategy using Docs-as-Code workflows and UX writing principles.
@@ -27,7 +25,6 @@
 
 ### Technical Writer / Evangelist  
 **2018 – 2019**
-
 - Created and managed technical content for the internal engineering blog.
 - Promoted engineering storytelling, improving visibility of technical initiatives.
 - Published monthly articles in partnership with engineering teams.
@@ -37,7 +34,6 @@
 
 ### Temp – Technical Writer  
 **2017 – 2018**
-
 - Maintained internal documentation for game tools, editors, and production workflows.
 - Created UX content for new internal features and tools.
 - Conducted user research to inform content strategy and performance KPIs.
@@ -49,7 +45,6 @@
 ### Temp – Technical Writer 
 **Barcelona** 
 **2017**
-
 - Authored and edited technical brochures and product documentation.
 - Collaborated with Engineering, UX, and PM teams to deliver clear, consistent outputs.
 - Introduced UX writing and content design improvements.
