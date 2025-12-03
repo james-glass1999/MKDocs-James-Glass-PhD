@@ -1,4 +1,4 @@
-# James Glass, PhD — Technical Portfolio & Documentation Site  
+# Technical Portfolio & Documentation Site  
 A professional MkDocs-powered portfolio showcasing technical writing, developer enablement, API documentation, and engineering work.
 
 Welcome to the source repository for **my public portfolio website**, built using **MkDocs**.  
