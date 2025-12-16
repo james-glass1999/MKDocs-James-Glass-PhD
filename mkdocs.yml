@@ -73,10 +73,10 @@ nav:
       - BSc Mechatronics: education/bsc-mechatronics.md
       - BSc Screen Practice: education/bsc-screen-practice.md
   - Blog Examples:
-      - CAD Trends: blog-examples/cad-trends.md
-      - CAD Software: blog-examples/cad-software.md
-      - Start with elecworks: blog-examples/start-with-elecworks.md
-  - API Example: 
+      - CAD Trends: examples/cad-trends.md
+      - CAD Software: examples/cad-software.md
+      - Start with elecworks: examples/start-with-elecworks.md
+  - API Example:
       - Online Order API: api-example/online-order-api.md
   - SQL Examples:
       - New York Restaurants: sql-examples/new-york-restaurants.md
