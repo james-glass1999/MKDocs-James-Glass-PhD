@@ -77,6 +77,10 @@ nav:
       - CAD Software: blog-examples/cad-software.md
       - Start with elecworks: blog-examples/start-with-elecworks.md
   - API Example: api example/online-order-api.md
+  - SQL Examples:
+      - New York Restaurants: sql-examples/new-york-restaurants.md
+      - SQLite: sql-examples/sqlite.md
+      - Trends in Startups: sql-examples/trends-in-startups.md
   - Diagrams: diagrams.md
   - Dashboard: 
       - Dashboard Example One: dashboard/dashboard-example-one.md
