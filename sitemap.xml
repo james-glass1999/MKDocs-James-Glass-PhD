@@ -29,7 +29,7 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://thewritingtimes.blog/api%20example/online-order-api/</loc>
+         <loc>https://thewritingtimes.blog/api-example/online-order-api/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -90,6 +90,18 @@
     </url>
     <url>
          <loc>https://thewritingtimes.blog/references/quotes/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://thewritingtimes.blog/sql-examples/new-york-restaurants/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://thewritingtimes.blog/sql-examples/sqlite/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://thewritingtimes.blog/sql-examples/trends-in-startups/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
 </urlset>
