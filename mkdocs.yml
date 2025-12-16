@@ -76,7 +76,8 @@ nav:
       - CAD Trends: blog-examples/cad-trends.md
       - CAD Software: blog-examples/cad-software.md
       - Start with elecworks: blog-examples/start-with-elecworks.md
-  - API Example: api example/online-order-api.md
+  - API Example: 
+      - Online Order API: api-example/online-order-api.md
   - SQL Examples:
       - New York Restaurants: sql-examples/new-york-restaurants.md
       - SQLite: sql-examples/sqlite.md
