@@ -238,7 +238,7 @@ Parse error: no such column
 
 Correct column name:
 
-```sql
+```text
 per_capita_income
 ```
 ---
