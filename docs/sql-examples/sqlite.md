@@ -130,6 +130,7 @@ sqlite> ls
 ```
 
 **Result:**
+
 - SQLite entered continuation mode (...>)
 
 Exit safely with:
@@ -139,6 +140,7 @@ Ctrl + C
 ```
 
 **Key learning:**
+
 Shell commands do not work inside SQLite. SQLite expects valid SQL.
 
 ---
@@ -158,9 +160,11 @@ Inside SQLite:
 ```
 
 **Result:**
+
 - No output
 
 **What happened:**
+
 SQLite silently created a new empty database because the file did not exist in the current directory.
 
 ---
@@ -198,6 +202,7 @@ sqlite3 /Users/username/Desktop/acs-1-year-2015.sqlite
 ```
 
 **Output:**
+
 ```text
 main: /Users/username/Desktop/acs-1-year-2015.sqlite r/w
 ```
@@ -207,6 +212,7 @@ main: /Users/username/Desktop/acs-1-year-2015.sqlite r/w
 ```
 
 **Output:**
+
 ```text
 congressional_districts
 places
@@ -218,6 +224,7 @@ states
 ```
 
 **Result:**
+
 - Full schemas for all tables
 - Indexes on key columns for performance
 
@@ -236,11 +243,14 @@ Error:
 Parse error: no such column
 ```
 
+---
+
 Correct column name:
 
 ```text
 per_capita_income
 ```
+
 ---
 
 ## Error 2: Multiple SELECT Statements
@@ -252,9 +262,9 @@ Parse error: near "SELECT": syntax error
 ```
 
 **Fix:**
+
 - Press Ctrl + C
 - Re-enter a single valid SQL statement
-
 ---
 
 ## Successful Queries
@@ -267,6 +277,7 @@ ORDER BY per_capita_income ASC;
 ```
 
 **Insight:**
+
 - Significant income disparities across states
 - Southern states clustered at the lower end
 - Coastal and urban regions ranked highest
@@ -281,13 +292,15 @@ ORDER BY median_age ASC;
 ```
 
 **Insight:**
-- Utah has the youngest population
-- Northeastern states skew older
-- Florida’s age profile reflects retirement migration
+
+ - Utah has the youngest population
+ - Northeastern states skew older
+ - Florida’s age profile reflects retirement migration
 
 ---
 
 # Key Takeaways
+
 - Installed and verified SQLite on macOS
 - Understood the difference between Terminal and SQLite shell
 - Learned how SQLite handles missing database files
