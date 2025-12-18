@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../assets/james1.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -86,6 +86,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#sqlite-installation-usage-and-data-analysis" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -1134,6 +1139,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SQLite
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1151,6 +1176,280 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is SQLite?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drawbacks-of-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Drawbacks of SQLite
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-table-celebs-id-integer-name-text-age-integer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CREATE TABLE celebs ( id INTEGER, name TEXT, age INTEGER );
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-use-cases-for-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Use Cases for SQLite
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-sqlite-macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing SQLite (macOS)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing SQLite (macOS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-locate-sqlite-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Locate SQLite Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-move-sqlite3-into-the-system-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Move sqlite3 into the System PATH
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-verify-sqlite-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Verify SQLite Installation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terminal-vs-sqlite-shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminal vs SQLite Shell
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opening-the-database-first-mistake" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opening the Database (First Mistake)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locating-the-correct-database-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Locating the Correct Database File
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Locating the Correct Database File">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opening-the-correct-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opening the Correct Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inspecting-database-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inspecting Database Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-sql-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging SQL Errors
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Debugging SQL Errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-1-column-name-typo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error 1: Column Name Typo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#per_capita_income" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        per_capita_income
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-2-multiple-select-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error 2: Multiple SELECT Statements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#successful-queries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Successful Queries
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Successful Queries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-capita-income-by-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Per Capita Income by State
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#median-age-by-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Median Age by State
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1432,9 +1731,190 @@
 
 
 
-  <h1>SQLite</h1>
-
-
+<h1 id="sqlite-installation-usage-and-data-analysis">SQLite — Installation, Usage, and Data Analysis</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This project documents my exploration of <strong>SQLite</strong>, a lightweight, file-based relational database engine. The aim was to understand how SQLite works, how it differs from server-based databases, and how to install, configure, and query it locally using real-world data.</p>
+<p>The project combines:
+- Conceptual understanding of SQLite
+- Hands-on installation and configuration
+- Debugging common beginner errors
+- SQL analysis using a public dataset</p>
+<hr />
+<h2 id="what-is-sqlite">What is SQLite?</h2>
+<p>SQLite is a <strong>database engine</strong> that allows users to interact with a relational database stored in a <strong>single file</strong>. Unlike systems such as PostgreSQL or MySQL, SQLite does not require a separate server process.</p>
+<p>This design makes SQLite:
+- Extremely portable
+- Easy to copy and share
+- Ideal for local development, testing, and embedded systems</p>
+<p>A database can be moved or backed up simply by copying the file that stores it.</p>
+<hr />
+<h2 id="drawbacks-of-sqlite">Drawbacks of SQLite</h2>
+<p>While SQLite is highly accessible, it has limitations:</p>
+<ul>
+<li>Only one user can write to the database at a time</li>
+<li>Security must be managed carefully due to file-based access</li>
+<li>Advanced database features are limited compared to full server systems</li>
+<li>SQLite does <strong>not strictly enforce data types</strong></li>
+</ul>
+<p>For example, SQLite allows values of any type to be inserted into any column, even when a schema defines expected types:</p>
+<h2 id="create-table-celebs-id-integer-name-text-age-integer"><div class="language-sql highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">celebs</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="n">id</span><span class="w"> </span><span class="nb">INTEGER</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="n">name</span><span class="w"> </span><span class="nb">TEXT</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="n">age</span><span class="w"> </span><span class="nb">INTEGER</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">);</span>
+</span></code></pre></div></h2>
+<h2 id="common-use-cases-for-sqlite">Common Use Cases for SQLite</h2>
+<p>Despite its drawbacks, SQLite is widely used for:
+- Local application development
+- Testing and prototyping
+- Embedded systems
+- Applications where the database lives alongside the code
+SQLite is considered one of the most widely deployed software components in the world.</p>
+<hr />
+<h2 id="installing-sqlite-macos">Installing SQLite (macOS)</h2>
+<h3 id="step-1-locate-sqlite-tools"><strong>Step 1: Locate SQLite Tools</strong></h3>
+<p>After downloading the SQLite tools, I navigated through the filesystem:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ls
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>Desktop
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>ls
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nb">cd</span><span class="w"> </span>sqlite-tools-osx-x64-3510100
+</span></code></pre></div>
+<p>This confirmed the location of the SQLite binaries.</p>
+<hr />
+<h3 id="step-2-move-sqlite3-into-the-system-path"><strong>Step 2: Move sqlite3 into the System PATH</strong></h3>
+<p><strong>Initial attempt:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>mv<span class="w"> </span>sqlite3<span class="w"> </span>/usr/local/bin/
+</span></code></pre></div>
+<p><strong>Result:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Permission denied
+</span></code></pre></div>
+<p>Corrected attempt using administrator privileges:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo<span class="w"> </span>mv<span class="w"> </span>sqlite3<span class="w"> </span>/usr/local/bin/sqlite3
+</span></code></pre></div>
+<p>This succeeded because <code>/usr/local/bin</code> is a protected directory.</p>
+<hr />
+<h3 id="step-3-verify-sqlite-installation">Step 3: Verify SQLite Installation</h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sqlite3<span class="w"> </span>--version
+</span></code></pre></div>
+<p><strong>Output:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>SQLite 3.43.2 2023-10-10 (64-bit)
+</span></code></pre></div>
+<p>This confirmed:
+- SQLite was installed correctly
+- The binary was accessible globally
+- The interactive SQLite shell could launch</p>
+<hr />
+<h3 id="terminal-vs-sqlite-shell">Terminal vs SQLite Shell</h3>
+<p>I learned the important distinction between:</p>
+<ul>
+<li>Terminal shell (zsh)</li>
+<li>SQLite shell (sqlite&gt;)</li>
+</ul>
+<p>Attempting shell commands inside SQLite:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">sqlite</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pwd</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">sqlite</span><span class="o">&gt;</span><span class="w"> </span><span class="n">ls</span>
+</span></code></pre></div>
+<p><strong>Result:</strong>
+- SQLite entered continuation mode (...&gt;)</p>
+<p>Exit safely with:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">Ctrl</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">C</span>
+</span></code></pre></div>
+<p><strong>Key learning:</strong>
+Shell commands do not work inside SQLite. SQLite expects valid SQL.</p>
+<hr />
+<h3 id="opening-the-database-first-mistake">Opening the Database (First Mistake)</h3>
+<p><strong>Attempt:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sqlite3<span class="w"> </span>acs-1-year-2015.sqlite
+</span></code></pre></div>
+<p>Inside SQLite:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="p">.</span><span class="k">schema</span>
+</span></code></pre></div>
+<p><strong>Result:</strong>
+- No output</p>
+<p><strong>What happened:</strong>
+SQLite silently created a new empty database because the file did not exist in the current directory.</p>
+<hr />
+<h2 id="locating-the-correct-database-file">Locating the Correct Database File</h2>
+<p>To find the actual database:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>find<span class="w"> </span>~<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;acs-1-year-2015.sqlite&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
+</span></code></pre></div>
+<p><strong>Result:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>/Users/username/Desktop/acs-1-year-2015.sqlite
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>/Users/username/acs-1-year-2015.sqlite
+</span></code></pre></div>
+<p><strong>Key insight:</strong>
+SQLite creates a new database file if the specified file does not exist.</p>
+<hr />
+<h3 id="opening-the-correct-database">Opening the Correct Database</h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>sqlite3<span class="w"> </span>/Users/username/Desktop/acs-1-year-2015.sqlite
+</span></code></pre></div>
+<h2 id="inspecting-database-contents">Inspecting Database Contents</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="p">.</span><span class="n">databases</span>
+</span></code></pre></div>
+<p><strong>Output:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>main: /Users/username/Desktop/acs-1-year-2015.sqlite r/w
+</span></code></pre></div></p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="p">.</span><span class="n">tables</span>
+</span></code></pre></div>
+<p><strong>Output:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>congressional_districts
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>places
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>states
+</span></code></pre></div></p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="p">.</span><span class="k">schema</span>
+</span></code></pre></div>
+<p><strong>Result:</strong>
+- Full schemas for all tables
+- Indexes on key columns for performance</p>
+<hr />
+<h2 id="debugging-sql-errors">Debugging SQL Errors</h2>
+<h3 id="error-1-column-name-typo">Error 1: Column Name Typo</h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">per_captia_income</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">states</span><span class="p">;</span>
+</span></code></pre></div>
+<p>Error:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>Parse error: no such column
+</span></code></pre></div>
+<p>Correct column name:</p>
+<h2 id="per_capita_income"><div class="language-sql highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="n">per_capita_income</span>
+</span></code></pre></div></h2>
+<h2 id="error-2-multiple-select-statements">Error 2: Multiple SELECT Statements</h2>
+<p>Typing multiple SELECT clauses caused:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>Parse error: near &quot;SELECT&quot;: syntax error
+</span></code></pre></div>
+<p><strong>Fix:</strong>
+- Press Ctrl + C
+- Re-enter a single valid SQL statement</p>
+<hr />
+<h2 id="successful-queries">Successful Queries</h2>
+<h3 id="per-capita-income-by-state">Per Capita Income by State</h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">per_capita_income</span>
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">states</span>
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">per_capita_income</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
+</span></code></pre></div>
+<p><strong>Insight:</strong>
+- Significant income disparities across states
+- Southern states clustered at the lower end
+- Coastal and urban regions ranked highest</p>
+<h3 id="median-age-by-state">Median Age by State</h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">median_age</span>
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">states</span>
+</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">median_age</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
+</span></code></pre></div>
+<p><strong>Insight:</strong>
+- Utah has the youngest population
+- Northeastern states skew older
+- Florida’s age profile reflects retirement migration</p>
+<hr />
+<h1 id="key-takeaways">Key Takeaways</h1>
+<ul>
+<li>Installed and verified SQLite on macOS</li>
+<li>Understood the difference between Terminal and SQLite shell</li>
+<li>Learned how SQLite handles missing database files</li>
+<li>Explored databases using .databases, .tables, and .schema</li>
+<li>Debugged real SQL errors</li>
+<li>Analysed demographic and economic data using SQL</li>
+<li>Interpreted results in a real-world context</li>
+</ul>
 
 
 
@@ -1554,10 +2034,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.footer", "navigation.top", "navigation.tabs.sticky", "navigation.indexes", "toc.follow", "navigation.expand", "navigation.path", "search.share", "search.highlight", "search.suggest", "content.code.annotate", "content.code.copy", "content.tabs.link", "header.autohide", "toc.integrate"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.footer", "navigation.top", "navigation.tabs.sticky", "navigation.indexes", "toc.follow", "navigation.expand", "navigation.path", "search.share", "search.highlight", "search.suggest", "content.code.annotate", "content.code.copy", "content.tabs.link", "header.autohide", "toc.integrate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
