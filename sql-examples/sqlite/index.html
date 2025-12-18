@@ -1387,17 +1387,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#per_capita_income" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        per_capita_income
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#error-2-multiple-select-statements" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1814,13 +1803,15 @@ SQLite is considered one of the most widely deployed software components in the 
 <div class="language-sql highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">sqlite</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pwd</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">sqlite</span><span class="o">&gt;</span><span class="w"> </span><span class="n">ls</span>
 </span></code></pre></div>
-<p><strong>Result:</strong>
-- SQLite entered continuation mode (...&gt;)</p>
+<p><strong>Result:</strong></p>
+<ul>
+<li>SQLite entered continuation mode (...&gt;)</li>
+</ul>
 <p>Exit safely with:</p>
 <div class="language-sql highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">Ctrl</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">C</span>
 </span></code></pre></div>
-<p><strong>Key learning:</strong>
-Shell commands do not work inside SQLite. SQLite expects valid SQL.</p>
+<p><strong>Key learning:</strong></p>
+<p>Shell commands do not work inside SQLite. SQLite expects valid SQL.</p>
 <hr />
 <h3 id="opening-the-database-first-mistake">Opening the Database (First Mistake)</h3>
 <p><strong>Attempt:</strong></p>
@@ -1829,10 +1820,12 @@ Shell commands do not work inside SQLite. SQLite expects valid SQL.</p>
 <p>Inside SQLite:</p>
 <div class="language-sql highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="p">.</span><span class="k">schema</span>
 </span></code></pre></div>
-<p><strong>Result:</strong>
-- No output</p>
-<p><strong>What happened:</strong>
-SQLite silently created a new empty database because the file did not exist in the current directory.</p>
+<p><strong>Result:</strong></p>
+<ul>
+<li>No output</li>
+</ul>
+<p><strong>What happened:</strong></p>
+<p>SQLite silently created a new empty database because the file did not exist in the current directory.</p>
 <hr />
 <h2 id="locating-the-correct-database-file">Locating the Correct Database File</h2>
 <p>To find the actual database:</p>
@@ -1851,21 +1844,23 @@ SQLite creates a new database file if the specified file does not exist.</p>
 <h2 id="inspecting-database-contents">Inspecting Database Contents</h2>
 <div class="language-sql highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="p">.</span><span class="n">databases</span>
 </span></code></pre></div>
-<p><strong>Output:</strong>
+<p><strong>Output:</strong></p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>main: /Users/username/Desktop/acs-1-year-2015.sqlite r/w
-</span></code></pre></div></p>
+</span></code></pre></div>
 <div class="language-sql highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="p">.</span><span class="n">tables</span>
 </span></code></pre></div>
-<p><strong>Output:</strong>
+<p><strong>Output:</strong></p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>congressional_districts
 </span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>places
 </span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>states
-</span></code></pre></div></p>
+</span></code></pre></div>
 <div class="language-sql highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="p">.</span><span class="k">schema</span>
 </span></code></pre></div>
-<p><strong>Result:</strong>
-- Full schemas for all tables
-- Indexes on key columns for performance</p>
+<p><strong>Result:</strong></p>
+<ul>
+<li>Full schemas for all tables</li>
+<li>Indexes on key columns for performance</li>
+</ul>
 <hr />
 <h2 id="debugging-sql-errors">Debugging SQL Errors</h2>
 <h3 id="error-1-column-name-typo">Error 1: Column Name Typo</h3>
@@ -1874,16 +1869,20 @@ SQLite creates a new database file if the specified file does not exist.</p>
 <p>Error:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>Parse error: no such column
 </span></code></pre></div>
+<hr />
 <p>Correct column name:</p>
-<h2 id="per_capita_income"><div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>per_capita_income
-</span></code></pre></div></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>per_capita_income
+</span></code></pre></div>
+<hr />
 <h2 id="error-2-multiple-select-statements">Error 2: Multiple SELECT Statements</h2>
 <p>Typing multiple SELECT clauses caused:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>Parse error: near &quot;SELECT&quot;: syntax error
 </span></code></pre></div>
-<p><strong>Fix:</strong>
-- Press Ctrl + C
-- Re-enter a single valid SQL statement</p>
+<p><strong>Fix:</strong></p>
+<ul>
+<li>Press Ctrl + C</li>
+<li>Re-enter a single valid SQL statement</li>
+</ul>
 <hr />
 <h2 id="successful-queries">Successful Queries</h2>
 <h3 id="per-capita-income-by-state">Per Capita Income by State</h3>
@@ -1891,19 +1890,23 @@ SQLite creates a new database file if the specified file does not exist.</p>
 </span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">states</span>
 </span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">per_capita_income</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
 </span></code></pre></div>
-<p><strong>Insight:</strong>
-- Significant income disparities across states
-- Southern states clustered at the lower end
-- Coastal and urban regions ranked highest</p>
+<p><strong>Insight:</strong></p>
+<ul>
+<li>Significant income disparities across states</li>
+<li>Southern states clustered at the lower end</li>
+<li>Coastal and urban regions ranked highest</li>
+</ul>
 <h3 id="median-age-by-state">Median Age by State</h3>
 <div class="language-sql highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">median_age</span>
 </span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">states</span>
 </span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">median_age</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
 </span></code></pre></div>
-<p><strong>Insight:</strong>
-- Utah has the youngest population
-- Northeastern states skew older
-- Florida’s age profile reflects retirement migration</p>
+<p><strong>Insight:</strong></p>
+<ul>
+<li>Utah has the youngest population</li>
+<li>Northeastern states skew older</li>
+<li>Florida’s age profile reflects retirement migration</li>
+</ul>
 <hr />
 <h1 id="key-takeaways">Key Takeaways</h1>
 <ul>
