@@ -36,7 +36,7 @@ While SQLite is highly accessible, it has limitations:
 
 For example, SQLite allows values of any type to be inserted into any column, even when a schema defines expected types:
 
-```sql
+```bash
 CREATE TABLE celebs (
   id INTEGER,
   name TEXT,
