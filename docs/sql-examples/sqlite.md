@@ -281,7 +281,7 @@ Parse error: near "SELECT": syntax error
 ---
 
 ## Step 10: Successful Queries
-#### Per Capita Income by State
+### Per Capita Income by State
 
 ```sql
 SELECT name, per_capita_income
@@ -310,7 +310,7 @@ Maryland|75847
 - Coastal and urban regions ranked highest
 
 
-#### Median Age by State
+### Median Age by State
 
 ```sql
 SELECT name, median_age
@@ -318,7 +318,7 @@ FROM states
 ORDER BY median_age ASC;
 ```
 
-#### Result (excerpt):
+### Result (excerpt):
 
 Utah|30.6
 Alaska|33.3
