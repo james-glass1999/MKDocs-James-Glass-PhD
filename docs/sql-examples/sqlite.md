@@ -71,7 +71,7 @@ This confirmed the location of the SQLite binaries.
 
 ---
 
-### **Step 2: Move sqlite3 into the System PATH**
+### Step 2: Move sqlite3 into the System PATH
 
 **Initial attempt:**
 
