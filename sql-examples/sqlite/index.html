@@ -1226,17 +1226,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-table-celebs-id-integer-name-text-age-integer" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CREATE TABLE celebs ( id INTEGER, name TEXT, age INTEGER );
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#common-use-cases-for-sqlite" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1751,12 +1740,12 @@
 <li>SQLite does <strong>not strictly enforce data types</strong></li>
 </ul>
 <p>For example, SQLite allows values of any type to be inserted into any column, even when a schema defines expected types:</p>
-<h2 id="create-table-celebs-id-integer-name-text-age-integer"><div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CREATE<span class="w"> </span>TABLE<span class="w"> </span>celebs<span class="w"> </span><span class="o">(</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span>id<span class="w"> </span>INTEGER,
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span>name<span class="w"> </span>TEXT,
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span>age<span class="w"> </span>INTEGER
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="o">)</span><span class="p">;</span>
-</span></code></pre></div></h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">celebs</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="n">id</span><span class="w"> </span><span class="nb">INTEGER</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="n">name</span><span class="w"> </span><span class="nb">TEXT</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="n">age</span><span class="w"> </span><span class="nb">INTEGER</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">);</span>
+</span></code></pre></div>
 <h2 id="common-use-cases-for-sqlite">Common Use Cases for SQLite</h2>
 <p>Despite its drawbacks, SQLite is widely used for:
 - Local application development
