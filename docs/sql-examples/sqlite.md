@@ -86,7 +86,7 @@ mv sqlite3 /usr/local/bin/
 Permission denied
 ```
 
-Corrected attempt using administrator privileges:
+**Corrected attempt using administrator privileges:**
 
 ```bash
 sudo mv sqlite3 /usr/local/bin/sqlite3
@@ -109,13 +109,14 @@ SQLite 3.43.2 2023-10-10 (64-bit)
 ```
 
 This confirmed:
+
 - SQLite was installed correctly
 - The binary was accessible globally
 - The interactive SQLite shell could launch
 
 ---
 
-### Terminal vs SQLite Shell
+### Step 4: Learn the difference between Terminal vs SQLite Shell
 
 I learned the important distinction between:
 
@@ -141,11 +142,13 @@ Ctrl + C
 
 **Key learning:**
 
-Shell commands do not work inside SQLite. SQLite expects valid SQL.
+- Shell commands do not work inside SQLite. 
+- SQLite expects valid SQL.
+- Ctrl + C safely cancels unfinished SQL
 
 ---
 
-### Opening the Database (First Mistake)
+### Step 5: Opening the Database (First Mistake)
 
 **Attempt:**
 
@@ -169,7 +172,7 @@ SQLite silently created a new empty database because the file did not exist in t
 
 ---
 
-## Locating the Correct Database File
+### Step 6: Locating the Correct Database File
 
 To find the actual database:
 
@@ -185,17 +188,18 @@ find ~ -name "acs-1-year-2015.sqlite" 2>/dev/null
 ```
 
 **Key insight:**
+
 SQLite creates a new database file if the specified file does not exist.
 
 ---
 
-### Opening the Correct Database
+### Step 7: Opening the Correct Database
 
 ```bash
 sqlite3 /Users/username/Desktop/acs-1-year-2015.sqlite
 ```
 
-## Inspecting Database Contents
+### Step 8: Inspecting Database Contents
 
 ```sql
 .databases
@@ -219,6 +223,8 @@ places
 states
 ```
 
+Then:
+
 ```sql
 .schema
 ```
@@ -230,8 +236,15 @@ states
 
 ---
 
-## Debugging SQL Errors
+## Step 9: First SQL Errors (Debugging Phase)
 ### Error 1: Column Name Typo
+
+- per_captia_income   ❌
+- per_capita_income   ✅
+
+SQLite returned:
+Parse error: no such column
+
 
 ```sql
 SELECT per_captia_income FROM states;
@@ -253,7 +266,7 @@ per_capita_income
 
 ---
 
-## Error 2: Multiple SELECT Statements
+### Error 2: Multiple SELECT Statements
 
 Typing multiple SELECT clauses caused:
 
@@ -265,9 +278,10 @@ Parse error: near "SELECT": syntax error
 
 - Press Ctrl + C
 - Re-enter a single valid SQL statement
+
 ---
 
-## Successful Queries
+## Step 10: Successful Queries
 ### Per Capita Income by State
 
 ```sql
@@ -275,6 +289,20 @@ SELECT name, per_capita_income
 FROM states
 ORDER BY per_capita_income ASC;
 ```
+
+**Result (excerpt):**
+
+Puerto Rico|18626
+Mississippi|40593
+Arkansas|41995
+West Virginia|42019
+...
+California|64500
+Massachusetts|70628
+New Jersey|72222
+Hawaii|73486
+District of Columbia|75628
+Maryland|75847
 
 **Insight:**
 
@@ -290,6 +318,19 @@ SELECT name, median_age
 FROM states
 ORDER BY median_age ASC;
 ```
+
+### Result (excerpt):
+
+Utah|30.6
+Alaska|33.3
+District of Columbia|33.8
+Texas|34.4
+...
+Florida|41.8
+West Virginia|42.2
+New Hampshire|42.8
+Vermont|43.1
+Maine|44.6
 
 **Insight:**
 
