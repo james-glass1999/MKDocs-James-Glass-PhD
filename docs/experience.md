@@ -38,10 +38,8 @@
 ### Technical Writer  
 **Barcelona · 2017 – 2018**
 
-- Maintained internal documentation for game tools, editors, and production workflows.
-- Created UX content for new internal features and tools.
-- Conducted user research to inform content strategy and performance KPIs.
-- Designed reusable templates to streamline documentation processes.
+- Authored documentation for internal game tools, editors, and production systems.
+- Conducted user research; developed templates and Information Architecture (IA) structures to improve documentation consistency.
 
 ---
 

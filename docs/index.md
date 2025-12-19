@@ -19,12 +19,13 @@ My work is centered around three pillars:
 ---
 
 ## Summary
-Data-informed Technical Writer and Documentation Manager with expertise in developer enablement, Docs-as-Code workflows, and AI-driven documentation solutions. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions. Strong background in using data to inform documentation strategy and measure content impact — including KPI tracking, user sentiment analysis, experiment evaluation, and data visualization through Looker Studio.
+Data-informed Technical Writer and Documentation Manager with expertise in developer enablement, Docs-as-Code workflows, and AI-driven documentation solutions. Proven partner to Product, Engineering, and Design teams, owning product-aligned messaging. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions. Strong background in using data to inform documentation strategy and measure content impact — including KPI tracking, user sentiment analysis, experiment evaluation, and data visualization through Looker Studio.
 
 ---
 
 ## Key Skills
 - Documentation & Information Architecture: Content planning, structuring, authoring, and editing
+- Project & Product Management: Requirements gathering, scoping, roadmap alignment, sprint planning, stakeholder management, prioritization
 - Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
 - Developer Enablement: Familiarity with SDK and API documentation, Swagger / OpenAPI, API design-first principles, internal tooling adoption
 - Training & Facilitation: Workshop design, technical training delivery
