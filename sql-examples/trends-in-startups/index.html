@@ -1170,6 +1170,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trends in Startups
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1186,6 +1204,212 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-analyze-startup-trends-using-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Analyze Startup Trends Using SQL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-youll-be-working-with" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You’ll Be Working With
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-explore-the-data-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Explore the Data Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-count-the-number-of-startups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Count the Number of Startups
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-calculate-the-total-market-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Calculate the Total Market Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-find-the-largest-funding-round" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Find the Largest Funding Round
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-filter-by-startup-stage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Filter by Startup Stage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-identify-the-oldest-startup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Identify the Oldest Startup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-calculate-the-average-valuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Calculate the Average Valuation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-compare-valuation-by-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: Compare Valuation by Category
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-9-round-results-for-readability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9: Round Results for Readability
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-10-rank-categories-by-valuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10: Rank Categories by Valuation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-11-identify-competitive-markets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 11: Identify Competitive Markets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-12-filter-competitive-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 12: Filter Competitive Categories
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-13-analyze-startup-size-by-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 13: Analyze Startup Size by Location
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-14-focus-on-large-startup-hubs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 14: Focus on Large Startup Hubs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1440,6 +1664,121 @@
 
 
 <h1 id="trends-in-startups">Trends in Startups</h1>
+<h2 id="how-to-analyze-startup-trends-using-sql">How to Analyze Startup Trends Using SQL</h2>
+<p>This guide walks you step by step through analyzing startup data using SQL. 
+By the end, you’ll understand how to explore a dataset, use aggregate functions, group data, and extract meaningful business insights.</p>
+<hr />
+<h2 id="what-youll-be-working-with">What You’ll Be Working With</h2>
+<p>You are given a SQLite database containing a table called <code>startups</code>. 
+This table represents a portfolio of well-known startups and includes information such as valuation, funding stage, location, and number of employees.</p>
+<p>Your goal is to ask useful questions of the data and answer them using SQL.</p>
+<hr />
+<h2 id="step-1-explore-the-data-structure">Step 1: Explore the Data Structure</h2>
+<p>Before doing any analysis, you need to understand what the table looks like.</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This query displays all rows and columns, helping you understand what data is available.</p>
+<hr />
+<h2 id="step-2-count-the-number-of-startups">Step 2: Count the Number of Startups</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This query counts the total number of startups in the table.</p>
+<hr />
+<h2 id="step-3-calculate-the-total-market-value">Step 3: Calculate the Total Market Value</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">SUM</span><span class="p">(</span><span class="n">valuation</span><span class="p">)</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This calculates the combined valuation of all startups in the dataset.</p>
+<hr />
+<h2 id="step-4-find-the-largest-funding-round">Step 4: Find the Largest Funding Round</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">MAX</span><span class="p">(</span><span class="n">raised</span><span class="p">)</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This returns the highest funding amount raised by any startup.</p>
+<hr />
+<h2 id="step-5-filter-by-startup-stage">Step 5: Filter by Startup Stage</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">MAX</span><span class="p">(</span><span class="n">raised</span><span class="p">)</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">stage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Seed&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This limits the analysis to Seed-stage startups only.</p>
+<hr />
+<h2 id="step-6-identify-the-oldest-startup">Step 6: Identify the Oldest Startup</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">MIN</span><span class="p">(</span><span class="n">founded</span><span class="p">)</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This returns the earliest founding year in the dataset.</p>
+<hr />
+<h2 id="step-7-calculate-the-average-valuation">Step 7: Calculate the Average Valuation</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">AVG</span><span class="p">(</span><span class="n">valuation</span><span class="p">)</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This provides a baseline average valuation across all startups.</p>
+<hr />
+<h2 id="step-8-compare-valuation-by-category">Step 8: Compare Valuation by Category</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">category</span><span class="p">,</span><span class="w"> </span><span class="k">AVG</span><span class="p">(</span><span class="n">valuation</span><span class="p">)</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">category</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This groups startups by category and calculates the average valuation for each.</p>
+<hr />
+<h2 id="step-9-round-results-for-readability">Step 9: Round Results for Readability</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">category</span><span class="p">,</span><span class="w"> </span><span class="n">ROUND</span><span class="p">(</span><span class="k">AVG</span><span class="p">(</span><span class="n">valuation</span><span class="p">),</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">category</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This rounds average valuations to two decimal places.</p>
+<hr />
+<h2 id="step-10-rank-categories-by-valuation">Step 10: Rank Categories by Valuation</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">category</span><span class="p">,</span><span class="w"> </span><span class="n">ROUND</span><span class="p">(</span><span class="k">AVG</span><span class="p">(</span><span class="n">valuation</span><span class="p">),</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="mi">1</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This sorts categories from highest to lowest average valuation.</p>
+<hr />
+<h2 id="step-11-identify-competitive-markets">Step 11: Identify Competitive Markets</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">category</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">category</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This shows how many startups exist in each category.</p>
+<hr />
+<h2 id="step-12-filter-competitive-categories">Step 12: Filter Competitive Categories</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">category</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">category</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="k">HAVING</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">3</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This keeps only categories with more than three startups.</p>
+<hr />
+<h2 id="step-13-analyze-startup-size-by-location">Step 13: Analyze Startup Size by Location</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">location</span><span class="p">,</span><span class="w"> </span><span class="k">AVG</span><span class="p">(</span><span class="n">employees</span><span class="p">)</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">location</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This calculates average startup size by location.</p>
+<hr />
+<h2 id="step-14-focus-on-large-startup-hubs">Step 14: Focus on Large Startup Hubs</h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">location</span><span class="p">,</span><span class="w"> </span><span class="k">AVG</span><span class="p">(</span><span class="n">employees</span><span class="p">)</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">startups</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">location</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="k">HAVING</span><span class="w"> </span><span class="k">AVG</span><span class="p">(</span><span class="n">employees</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">500</span><span class="p">;</span>
+</span></code></pre></div>
+<p>This highlights locations with large average team sizes.</p>
+<hr />
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>Always explore the data first</li>
+<li>Use aggregate functions to summarize information</li>
+<li>Use GROUP BY to compare categories or locations</li>
+<li>Use HAVING to filter aggregated results</li>
+<li>Order results to highlight trends</li>
+</ul>
+<p>This workflow applies to almost any SQL-based data analysis task.</p>
 
 
 
