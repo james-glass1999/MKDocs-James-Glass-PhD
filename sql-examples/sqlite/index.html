@@ -8,11 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://thewritingtimes.blog/references/quotes/">
+        <link rel="canonical" href="https://thewritingtimes.blog/sql-examples/sqlite/">
       
       
-        <link rel="prev" href="../../dashboard/dashboard-example-two/">
+        <link rel="prev" href="../new-york-restaurants/">
       
+      
+        <link rel="next" href="../trends-in-startups/">
       
       
         
@@ -23,7 +25,7 @@
     
     
       
-        <title>References - James Glass, PhD</title>
+        <title>SQLite - James Glass, PhD</title>
       
     
     
@@ -86,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#barbara-polignano" class="md-skip">
+        <a href="#sqlite-installation-usage-and-data-analysis" class="md-skip">
           Skip to content
         </a>
       
@@ -121,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              References
+              SQLite
             
           </span>
         </div>
@@ -345,11 +347,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../sql-examples/new-york-restaurants/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../new-york-restaurants/" class="md-tabs__link">
           
   
   
@@ -408,11 +412,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../references/quotes/" class="md-tabs__link">
         
   
   
@@ -1037,8 +1039,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1052,19 +1056,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
-        
-          
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
             
   
   
@@ -1082,7 +1087,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1100,7 +1105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sql-examples/new-york-restaurants/" class="md-nav__link">
+      <a href="../new-york-restaurants/" class="md-nav__link">
         
   
   
@@ -1125,10 +1130,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../sql-examples/sqlite/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SQLite
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1144,6 +1176,264 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is SQLite?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drawbacks-of-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Drawbacks of SQLite
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-use-cases-for-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Use Cases for SQLite
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-sqlite-macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing SQLite (macOS)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing SQLite (macOS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-locate-sqlite-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Locate SQLite Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-move-sqlite3-into-the-system-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Move sqlite3 into the System PATH
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-verify-sqlite-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Verify SQLite Installation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-learn-the-difference-between-terminal-vs-sqlite-shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Learn the difference between Terminal vs SQLite Shell
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-opening-the-database-first-mistake" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Opening the Database (First Mistake)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-locating-the-correct-database-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Locating the Correct Database File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-opening-the-correct-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Opening the Correct Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-8-inspecting-database-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: Inspecting Database Contents
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-9-first-sql-errors-debugging-phase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9: First SQL Errors (Debugging Phase)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 9: First SQL Errors (Debugging Phase)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-1-column-name-typo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error 1: Column Name Typo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-2-multiple-select-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error 2: Multiple SELECT Statements
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-10-successful-queries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10: Successful Queries
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 10: Successful Queries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-capita-income-by-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Per Capita Income by State
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#median-age-by-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Median Age by State
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result-excerpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Result (excerpt):
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1156,7 +1446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sql-examples/trends-in-startups/" class="md-nav__link">
+      <a href="../trends-in-startups/" class="md-nav__link">
         
   
   
@@ -1336,35 +1626,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    References
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../references/quotes/" class="md-nav__link">
         
   
   
@@ -1380,68 +1645,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#barbara-polignano" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Barbara Polignano
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#merve-metinkol" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Merve Metinkol
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#umut-isler" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Umut Isler
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#john-millar" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        John Millar
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1464,6 +1667,46 @@
   
 
 
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../new-york-restaurants/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    SQL Examples
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -1471,35 +1714,240 @@
 
 
 
-  <h1>References</h1>
-
-<h2 id="barbara-polignano">Barbara Polignano</h2>
-<p><strong>Product Leader (Microsoft XBOX) at King</strong> <a href="https://www.linkedin.com/in/barbarapolignano/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I had the pleasure of working with James at King, and I couldn’t recommend him more highly. James is a thoughtful and experienced communicator, with a real talent for simplifying complex topics and enabling developers through clear and structured documentation. He’s also collaborative, humble, and always a step ahead when it comes to anticipating team needs. If you’re looking for a stellar technical writer or documentation lead, don’t miss the chance to talk to him!</p>
-</div>
+<h1 id="sqlite-installation-usage-and-data-analysis">SQLite — Installation, Usage, and Data Analysis</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This project documents my exploration of <strong>SQLite</strong>, a lightweight, file-based relational database engine. The aim was to understand how SQLite works, how it differs from server-based databases, and how to install, configure, and query it locally using real-world data.</p>
+<p>The project combines:
+- Conceptual understanding of SQLite
+- Hands-on installation and configuration
+- Debugging common beginner errors
+- SQL analysis using a public dataset</p>
 <hr />
-<h2 id="merve-metinkol">Merve Metinkol</h2>
-<p><strong>Product Manager | Game Engine &amp; Core Technologies at King</strong> <a href="https://www.linkedin.com/in/mervemetinkol/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I worked closely with James almost for four years while he was a senior technical writer and later DevRel manager. He’s a thoughtful collaborator and a calm, grounded leader who genuinely cares about the people he works with. As a writer, he had a great instinct for what users needed to know and how to explain it clearly. As a manager, he created a supportive environment where people felt trusted and heard. James is someone you can count on to lead with empathy and clarity.</p>
-</div>
+<h2 id="what-is-sqlite">What is SQLite?</h2>
+<p>SQLite is a <strong>database engine</strong> that allows users to interact with a relational database stored in a <strong>single file</strong>. Unlike systems such as PostgreSQL or MySQL, SQLite does not require a separate server process.</p>
+<p>This design makes SQLite:
+- Extremely portable
+- Easy to copy and share
+- Ideal for local development, testing, and embedded systems</p>
+<p>A database can be moved or backed up simply by copying the file that stores it.</p>
 <hr />
-<h2 id="umut-isler">Umut Isler</h2>
-<p><strong>Product Specialist | Game Production at King</strong> <a href="https://www.linkedin.com/in/umutbarisisler/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I’ve been lucky to have James as my manager. He leads by example, hard working, clear headed under pressure, and always willing to roll up his sleeves when the team needs him. He balances strategic direction with hands on support. No matter how packed his calendar is, he always makes time for his team: to unblock you, coach through a career or life decision, or simply check in on how you’re doing. His care builds deep trust within the team. He also creates an environment where ideas are heard, ownership is encouraged, and performance is driven through clarity and empowerment, not control. He’s open minded and receptive to feedback. He proactively collaborates with other teams to find the most impactful initiatives for the team. He’s also a great communicator with strong technical writing skills.</p>
-</div>
+<h2 id="drawbacks-of-sqlite">Drawbacks of SQLite</h2>
+<p>While SQLite is highly accessible, it has limitations:</p>
+<ul>
+<li>Only one user can write to the database at a time</li>
+<li>Security must be managed carefully due to file-based access</li>
+<li>Advanced database features are limited compared to full server systems</li>
+<li>SQLite does <strong>not strictly enforce data types</strong></li>
+</ul>
+<p>For example, SQLite allows values of any type to be inserted into any column, even when a schema defines expected types:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">celebs</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="n">id</span><span class="w"> </span><span class="nb">INTEGER</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="n">name</span><span class="w"> </span><span class="nb">TEXT</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="n">age</span><span class="w"> </span><span class="nb">INTEGER</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">);</span>
+</span></code></pre></div>
+<h2 id="common-use-cases-for-sqlite">Common Use Cases for SQLite</h2>
+<p>Despite its drawbacks, SQLite is widely used for:
+- Local application development
+- Testing and prototyping
+- Embedded systems
+- Applications where the database lives alongside the code
+SQLite is considered one of the most widely deployed software components in the world.</p>
 <hr />
-<h2 id="john-millar">John Millar</h2>
-<p><strong>Director of Engineering | Game Production at King</strong> <a href="https://www.linkedin.com/in/umutbarisisler/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I had the privilege of first managing James and later collaborating with him within the same organization, and in both capacities, I was continually impressed by his professionalism, dedication, and impact. James is an exceptional technical writer with a genuine passion for learning and continuously improving his craft. His ability to translate complex technical concepts into clear, accessible documentation is a tremendous asset to any team. Beyond his writing expertise, he is always willing to lend his support, whether through mentoring, sharing knowledge, or stepping in to help colleagues succeed. He is also a natural facilitator and communicator, able to bridge gaps across teams and ensure alignment even in challenging situations. Over the past two years, James has grown further in his career by stepping into management, where he has demonstrated great leadership skills, empathy, and the ability to build trust and motivate his team.</p>
-</div>
+<h2 id="installing-sqlite-macos">Installing SQLite (macOS)</h2>
+<h3 id="step-1-locate-sqlite-tools"><strong>Step 1: Locate SQLite Tools</strong></h3>
+<p>After downloading the SQLite tools, I navigated through the filesystem:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ls
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>Desktop
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>ls
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nb">cd</span><span class="w"> </span>sqlite-tools-osx-x64-3510100
+</span></code></pre></div>
+<p>This confirmed the location of the SQLite binaries.</p>
+<hr />
+<h3 id="step-2-move-sqlite3-into-the-system-path">Step 2: Move sqlite3 into the System PATH</h3>
+<p><strong>Initial attempt:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>mv<span class="w"> </span>sqlite3<span class="w"> </span>/usr/local/bin/
+</span></code></pre></div>
+<p><strong>Result:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Permission denied
+</span></code></pre></div>
+<p><strong>Corrected attempt using administrator privileges:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo<span class="w"> </span>mv<span class="w"> </span>sqlite3<span class="w"> </span>/usr/local/bin/sqlite3
+</span></code></pre></div>
+<p>This succeeded because <code>/usr/local/bin</code> is a protected directory.</p>
+<hr />
+<h3 id="step-3-verify-sqlite-installation">Step 3: Verify SQLite Installation</h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sqlite3<span class="w"> </span>--version
+</span></code></pre></div>
+<p><strong>Output:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>SQLite 3.43.2 2023-10-10 (64-bit)
+</span></code></pre></div>
+<p>This confirmed:</p>
+<ul>
+<li>SQLite was installed correctly</li>
+<li>The binary was accessible globally</li>
+<li>The interactive SQLite shell could launch</li>
+</ul>
+<hr />
+<h3 id="step-4-learn-the-difference-between-terminal-vs-sqlite-shell">Step 4: Learn the difference between Terminal vs SQLite Shell</h3>
+<p>I learned the important distinction between:</p>
+<ul>
+<li>Terminal shell (zsh)</li>
+<li>SQLite shell (sqlite&gt;)</li>
+</ul>
+<p>Attempting shell commands inside SQLite:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">sqlite</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pwd</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">sqlite</span><span class="o">&gt;</span><span class="w"> </span><span class="n">ls</span>
+</span></code></pre></div>
+<p><strong>Result:</strong></p>
+<ul>
+<li>SQLite entered continuation mode (...&gt;)</li>
+</ul>
+<p>Exit safely with:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">Ctrl</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">C</span>
+</span></code></pre></div>
+<p><strong>Key learning:</strong></p>
+<ul>
+<li>Shell commands do not work inside SQLite. </li>
+<li>SQLite expects valid SQL.</li>
+<li>Ctrl + C safely cancels unfinished SQL</li>
+</ul>
+<hr />
+<h3 id="step-5-opening-the-database-first-mistake">Step 5: Opening the Database (First Mistake)</h3>
+<p><strong>Attempt:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sqlite3<span class="w"> </span>acs-1-year-2015.sqlite
+</span></code></pre></div>
+<p>Inside SQLite:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="p">.</span><span class="k">schema</span>
+</span></code></pre></div>
+<p><strong>Result:</strong></p>
+<ul>
+<li>No output</li>
+</ul>
+<p><strong>What happened:</strong></p>
+<p>SQLite silently created a new empty database because the file did not exist in the current directory.</p>
+<hr />
+<h3 id="step-6-locating-the-correct-database-file">Step 6: Locating the Correct Database File</h3>
+<p>To find the actual database:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>find<span class="w"> </span>~<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;acs-1-year-2015.sqlite&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
+</span></code></pre></div>
+<p><strong>Result:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>/Users/username/Desktop/acs-1-year-2015.sqlite
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>/Users/username/acs-1-year-2015.sqlite
+</span></code></pre></div>
+<p><strong>Key insight:</strong></p>
+<p>SQLite creates a new database file if the specified file does not exist.</p>
+<hr />
+<h3 id="step-7-opening-the-correct-database">Step 7: Opening the Correct Database</h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>sqlite3<span class="w"> </span>/Users/username/Desktop/acs-1-year-2015.sqlite
+</span></code></pre></div>
+<h3 id="step-8-inspecting-database-contents">Step 8: Inspecting Database Contents</h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="p">.</span><span class="n">databases</span>
+</span></code></pre></div>
+<p><strong>Output:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>main: /Users/username/Desktop/acs-1-year-2015.sqlite r/w
+</span></code></pre></div>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="p">.</span><span class="n">tables</span>
+</span></code></pre></div>
+<p><strong>Output:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>congressional_districts
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>places
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>states
+</span></code></pre></div>
+<p>Then:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="p">.</span><span class="k">schema</span>
+</span></code></pre></div>
+<p><strong>Result:</strong></p>
+<ul>
+<li>Full schemas for all tables</li>
+<li>Indexes on key columns for performance</li>
+</ul>
+<hr />
+<h2 id="step-9-first-sql-errors-debugging-phase">Step 9: First SQL Errors (Debugging Phase)</h2>
+<h3 id="error-1-column-name-typo">Error 1: Column Name Typo</h3>
+<ul>
+<li>per_captia_income   ❌</li>
+<li>per_capita_income   ✅</li>
+</ul>
+<p>SQLite returned:
+Parse error: no such column</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">per_captia_income</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">states</span><span class="p">;</span>
+</span></code></pre></div>
+<p>Error:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>Parse error: no such column
+</span></code></pre></div>
+<hr />
+<p>Correct column name:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>per_capita_income
+</span></code></pre></div>
+<hr />
+<h3 id="error-2-multiple-select-statements">Error 2: Multiple SELECT Statements</h3>
+<p>Typing multiple SELECT clauses caused:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>Parse error: near &quot;SELECT&quot;: syntax error
+</span></code></pre></div>
+<p><strong>Fix:</strong></p>
+<ul>
+<li>Press Ctrl + C</li>
+<li>Re-enter a single valid SQL statement</li>
+</ul>
+<hr />
+<h2 id="step-10-successful-queries">Step 10: Successful Queries</h2>
+<h3 id="per-capita-income-by-state">Per Capita Income by State</h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">per_capita_income</span>
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">states</span>
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">per_capita_income</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
+</span></code></pre></div>
+<p><strong>Result (excerpt):</strong></p>
+<p>Puerto Rico|18626
+Mississippi|40593
+Arkansas|41995
+West Virginia|42019
+...
+California|64500
+Massachusetts|70628
+New Jersey|72222
+Hawaii|73486
+District of Columbia|75628
+Maryland|75847</p>
+<p><strong>Insight:</strong></p>
+<ul>
+<li>Significant income disparities across states</li>
+<li>Southern states clustered at the lower end</li>
+<li>Coastal and urban regions ranked highest</li>
+</ul>
+<h3 id="median-age-by-state">Median Age by State</h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">median_age</span>
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">states</span>
+</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">median_age</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
+</span></code></pre></div>
+<h3 id="result-excerpt">Result (excerpt):</h3>
+<p>Utah|30.6
+Alaska|33.3
+District of Columbia|33.8
+Texas|34.4
+...
+Florida|41.8
+West Virginia|42.2
+New Hampshire|42.8
+Vermont|43.1
+Maine|44.6</p>
+<p><strong>Insight:</strong></p>
+<ul>
+<li>Utah has the youngest population</li>
+<li>Northeastern states skew older</li>
+<li>Florida’s age profile reflects retirement migration</li>
+</ul>
+<hr />
+<h1 id="key-takeaways">Key Takeaways</h1>
+<ul>
+<li>Installed and verified SQLite on macOS</li>
+<li>Understood the difference between Terminal and SQLite shell</li>
+<li>Learned how SQLite handles missing database files</li>
+<li>Explored databases using .databases, .tables, and .schema</li>
+<li>Debugged real SQL errors</li>
+<li>Analysed demographic and economic data using SQL</li>
+<li>Interpreted results in a real-world context</li>
+</ul>
 
 
 
@@ -1539,7 +1987,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../dashboard/dashboard-example-two/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Dashboard Example Two">
+          <a href="../new-york-restaurants/" class="md-footer__link md-footer__link--prev" aria-label="Previous: New York Restaurants">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1549,11 +1997,27 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Dashboard Example Two
+                New York Restaurants
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../trends-in-startups/" class="md-footer__link md-footer__link--next" aria-label="Next: Trends in Startups">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Trends in Startups
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     

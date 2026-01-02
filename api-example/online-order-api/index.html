@@ -8,11 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://thewritingtimes.blog/references/quotes/">
+        <link rel="canonical" href="https://thewritingtimes.blog/api-example/online-order-api/">
       
       
-        <link rel="prev" href="../../dashboard/dashboard-example-two/">
+        <link rel="prev" href="../../examples/start-with-elecworks/">
       
+      
+        <link rel="next" href="../../sql-examples/new-york-restaurants/">
       
       
         
@@ -23,7 +25,7 @@
     
     
       
-        <title>References - James Glass, PhD</title>
+        <title>Online Order API - James Glass, PhD</title>
       
     
     
@@ -86,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#barbara-polignano" class="md-skip">
+        <a href="#online-order-api" class="md-skip">
           Skip to content
         </a>
       
@@ -121,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              References
+              Online Order API
             
           </span>
         </div>
@@ -323,11 +325,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../api-example/online-order-api/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -408,11 +412,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../references/quotes/" class="md-tabs__link">
         
   
   
@@ -946,8 +948,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -957,19 +961,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -987,7 +992,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1002,10 +1007,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../api-example/online-order-api/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Online Order API
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1021,6 +1053,153 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openapi-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenAPI Specification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tech-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tech Stack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API Endpoints
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curl-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        cURL Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="cURL Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-all-orders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GET all orders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-new-order-post-neworder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a New Order (POST /neworder)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-an-order-put-updateid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Update an Order (PUT /update/{id})
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-an-order-delete-deleteid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delete an Order (DELETE /delete/{id})
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-code-serverjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Code (server.js)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1336,35 +1515,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    References
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../references/quotes/" class="md-nav__link">
         
   
   
@@ -1380,68 +1534,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#barbara-polignano" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Barbara Polignano
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#merve-metinkol" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Merve Metinkol
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#umut-isler" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Umut Isler
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#john-millar" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        John Millar
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1464,6 +1556,46 @@
   
 
 
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    API Example
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -1471,35 +1603,148 @@
 
 
 
-  <h1>References</h1>
-
-<h2 id="barbara-polignano">Barbara Polignano</h2>
-<p><strong>Product Leader (Microsoft XBOX) at King</strong> <a href="https://www.linkedin.com/in/barbarapolignano/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I had the pleasure of working with James at King, and I couldn’t recommend him more highly. James is a thoughtful and experienced communicator, with a real talent for simplifying complex topics and enabling developers through clear and structured documentation. He’s also collaborative, humble, and always a step ahead when it comes to anticipating team needs. If you’re looking for a stellar technical writer or documentation lead, don’t miss the chance to talk to him!</p>
-</div>
+<h1 id="online-order-api">Online Order API</h1>
+<p><a href="../LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-green.svg" /></a>
+<img alt="Node.js" src="https://img.shields.io/badge/Node.js-18.x-brightgreen?logo=node.js" />
+<img alt="Express" src="https://img.shields.io/badge/Express.js-Backend-blue?logo=express" />
+<img alt="Swagger" src="https://img.shields.io/badge/Swagger-OpenAPI%203.0-85EA2D?logo=swagger" />
+<img alt="Status" src="https://img.shields.io/badge/Status-Active-success" />
+<img alt="Last Commit" src="https://img.shields.io/github/last-commit/james-glass1999/online-order-api" />
+<img alt="Repo Size" src="https://img.shields.io/github/repo-size/james-glass1999/online-order-api" />
+<img alt="Stars" src="https://img.shields.io/github/stars/james-glass1999/online-order-api?style=social" /></p>
 <hr />
-<h2 id="merve-metinkol">Merve Metinkol</h2>
-<p><strong>Product Manager | Game Engine &amp; Core Technologies at King</strong> <a href="https://www.linkedin.com/in/mervemetinkol/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I worked closely with James almost for four years while he was a senior technical writer and later DevRel manager. He’s a thoughtful collaborator and a calm, grounded leader who genuinely cares about the people he works with. As a writer, he had a great instinct for what users needed to know and how to explain it clearly. As a manager, he created a supportive environment where people felt trusted and heard. James is someone you can count on to lead with empathy and clarity.</p>
-</div>
+<p>A simple CRUD API built using <strong>Node.js</strong>, <strong>Express</strong>, and documented with <strong>Swagger / OpenAPI 3.0</strong>.<br />
+This project demonstrates designing an API specification <em>first</em> with Swagger, then implementing the backend server that follows it.</p>
+<p><img alt="API Screenshot" src="../../assets/api1.png" /></p>
 <hr />
-<h2 id="umut-isler">Umut Isler</h2>
-<p><strong>Product Specialist | Game Production at King</strong> <a href="https://www.linkedin.com/in/umutbarisisler/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I’ve been lucky to have James as my manager. He leads by example, hard working, clear headed under pressure, and always willing to roll up his sleeves when the team needs him. He balances strategic direction with hands on support. No matter how packed his calendar is, he always makes time for his team: to unblock you, coach through a career or life decision, or simply check in on how you’re doing. His care builds deep trust within the team. He also creates an environment where ideas are heard, ownership is encouraged, and performance is driven through clarity and empowerment, not control. He’s open minded and receptive to feedback. He proactively collaborates with other teams to find the most impactful initiatives for the team. He’s also a great communicator with strong technical writing skills.</p>
-</div>
+<h2 id="project-overview">Project Overview</h2>
+<p>This API allows you to:</p>
+<ul>
+<li>Retrieve all orders (<code>GET /orders</code>)</li>
+<li>Add a new order (<code>POST /neworder</code>)</li>
+<li>Update an order’s status (<code>PUT /update/{id}</code>)</li>
+<li>Delete an order (<code>DELETE /delete/{id}</code>)</li>
+</ul>
+<p>Data is stored in a simple JSON file (<code>orders.json</code>), making it easy to understand without needing a database.</p>
 <hr />
-<h2 id="john-millar">John Millar</h2>
-<p><strong>Director of Engineering | Game Production at King</strong> <a href="https://www.linkedin.com/in/umutbarisisler/">LinkedIn.com</a>
-<br></p>
-<div class="admonition quote">
-<p class="admonition-title">I had the privilege of first managing James and later collaborating with him within the same organization, and in both capacities, I was continually impressed by his professionalism, dedication, and impact. James is an exceptional technical writer with a genuine passion for learning and continuously improving his craft. His ability to translate complex technical concepts into clear, accessible documentation is a tremendous asset to any team. Beyond his writing expertise, he is always willing to lend his support, whether through mentoring, sharing knowledge, or stepping in to help colleagues succeed. He is also a natural facilitator and communicator, able to bridge gaps across teams and ensure alignment even in challenging situations. Over the past two years, James has grown further in his career by stepping into management, where he has demonstrated great leadership skills, empathy, and the ability to build trust and motivate his team.</p>
-</div>
+<h2 id="openapi-specification">OpenAPI Specification</h2>
+<p>A full OpenAPI 3.0 specification is available here:</p>
+<p><strong><a href="../openapi.yaml">openapi.yaml</a></strong></p>
+<hr />
+<h2 id="features">Features</h2>
+<ul>
+<li>Node.js + Express backend  </li>
+<li>Full OpenAPI/Swagger specification  </li>
+<li>CRUD operations on order data  </li>
+<li>Example request bodies and responses  </li>
+<li>Tested with cURL  </li>
+<li>Hosted on GitHub  </li>
+</ul>
+<hr />
+<h2 id="tech-stack">Tech Stack</h2>
+<ul>
+<li><strong>Node.js</strong></li>
+<li><strong>Express.js</strong></li>
+<li><strong>Swagger / OpenAPI 3.0</strong></li>
+<li><strong>JSON file-based storage</strong></li>
+</ul>
+<hr />
+<h2 id="api-endpoints">API Endpoints</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/orders</code></td>
+<td>Get all orders</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/neworder</code></td>
+<td>Create a new order</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/update/{id}</code></td>
+<td>Update an order’s state</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/delete/{id}</code></td>
+<td>Delete an order by ID</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="curl-examples">cURL Examples</h2>
+<h3 id="get-all-orders">GET all orders</h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>curl<span class="w"> </span>http://localhost:3000/orders
+</span></code></pre></div>
+<h3 id="create-a-new-order-post-neworder">Create a New Order (POST /neworder)</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>curl --header &quot;Content-Type: application/json&quot; \
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>     -d &quot;@new_order.json&quot; \
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>     http://localhost:3000/neworder
+</span></code></pre></div>
+<h3 id="update-an-order-put-updateid">Update an Order (PUT /update/{id})</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>curl -X PUT -d complete http://localhost:3000/update/001
+</span></code></pre></div>
+<h3 id="delete-an-order-delete-deleteid">Delete an Order (DELETE /delete/{id})</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>curl -X DELETE http://localhost:3000/delete/002
+</span></code></pre></div>
+<h2 id="example-code-serverjs">Example Code (server.js)</h2>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1">// GET all orders</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nx">server</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;/orders&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nx">req</span><span class="p">,</span><span class="w"> </span><span class="nx">res</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">(</span><span class="nx">orderData</span><span class="p">);</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">});</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="c1">// POST new order</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="nx">server</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">&#39;/neworder&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">express</span><span class="p">.</span><span class="nx">json</span><span class="p">(),</span><span class="w"> </span><span class="p">(</span><span class="nx">req</span><span class="p">,</span><span class="w"> </span><span class="nx">res</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">  </span><span class="nx">orderData</span><span class="p">.</span><span class="nx">orders</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">  </span><span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="s1">&#39;orders.json&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">orderData</span><span class="p">));</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">  </span><span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;Success&#39;</span><span class="p">);</span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="p">});</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="c1">// PUT update</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="nx">server</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s1">&#39;/update/:id&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">express</span><span class="p">.</span><span class="nx">text</span><span class="p">({</span><span class="w"> </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;*/*&#39;</span><span class="w"> </span><span class="p">}),</span><span class="w"> </span><span class="p">(</span><span class="nx">req</span><span class="p">,</span><span class="w"> </span><span class="nx">res</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">  </span><span class="nx">orderData</span><span class="p">.</span><span class="nx">orders</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">order</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">order</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="w">      </span><span class="nx">order</span><span class="p">.</span><span class="nx">state</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">;</span>
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">  </span><span class="p">});</span>
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="w">  </span><span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="s1">&#39;orders.json&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">orderData</span><span class="p">));</span>
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="w">  </span><span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;Success&#39;</span><span class="p">);</span>
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="p">});</span>
+</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>
+</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a><span class="c1">// DELETE order</span>
+</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a><span class="nx">server</span><span class="p">.</span><span class="ow">delete</span><span class="p">(</span><span class="s1">&#39;/delete/:id&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nx">req</span><span class="p">,</span><span class="w"> </span><span class="nx">res</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">updated</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">orderData</span><span class="p">.</span><span class="nx">orders</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">order</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">order</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">!==</span><span class="w"> </span><span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a><span class="w">  </span><span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="s1">&#39;orders.json&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span><span class="w"> </span><span class="nx">orders</span><span class="o">:</span><span class="w"> </span><span class="nx">updated</span><span class="w"> </span><span class="p">}));</span>
+</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a><span class="w">  </span><span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;Success&#39;</span><span class="p">);</span>
+</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a><span class="p">});</span>
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a># Project Structure
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>├── server.js             # Express server and routes
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>├── orders.json           # Data store
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>├── openapi.yaml          # OpenAPI (Swagger) specification
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>├── new_order.json        # Sample POST body
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>├── README.md
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>└── LICENSE
+</span></code></pre></div>
+<h1 id="summary">Summary</h1>
+<p>This project demonstrates a complete design-first approach to API development using:</p>
+<ul>
+<li>Swagger Editor  </li>
+<li>OpenAPI 3.0  </li>
+<li>Express.js  </li>
+<li>JSON data storage  </li>
+</ul>
+<p>It showcases how modern APIs can be designed, documented, and implemented from a formal API contract.</p>
 
 
 
@@ -1539,7 +1784,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../dashboard/dashboard-example-two/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Dashboard Example Two">
+          <a href="../../examples/start-with-elecworks/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Start with elecworks">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1549,11 +1794,27 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Dashboard Example Two
+                Start with elecworks
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../../sql-examples/new-york-restaurants/" class="md-footer__link md-footer__link--next" aria-label="Next: New York Restaurants">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                New York Restaurants
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
