@@ -29,3 +29,13 @@ Or view it directly below:
 *Tip:* Hover over any chart to see detailed data or interact with filters to narrow your analysis.
 
 
+<div style="text-align:center;">
+  <iframe
+    width="100%"
+    height="800"
+    src="https://lookerstudio.google.com/embed/reporting/9637137c-005a-4d0a-a5b3-f0a49af24b0c/page/6ENcF"
+    frameborder="0"
+    style="border:0; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.15);"
+    allowfullscreen>
+  </iframe>
+</div>
