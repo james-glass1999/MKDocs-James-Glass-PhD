@@ -76,9 +76,9 @@ nav:
       - CAD Trends: examples/cad-trends.md
       - CAD Software: examples/cad-software.md
       - Start with elecworks: examples/start-with-elecworks.md
-  - API Examples:
-      - Online Order API: api-example/online-order-api.md
-      - Pulse API Reference: -reference
+  - API Examples: 
+      - Online Order API: api-examples/online-order-api.md
+      - Pulse API Reference: api-examples/pulse-api-reference.md
   - SQL Examples:
       - New York Restaurants: sql-examples/new-york-restaurants.md
       - SQLite: sql-examples/sqlite.md
