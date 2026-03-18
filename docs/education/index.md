@@ -6,6 +6,7 @@ A summary of my academic background and formal training.
 - Masters:
     - [Thematic Analysis of Input Database](masters/thematic-analysis-of-input-database.md)
     - [Google Glass](masters/google-glass.md)
+    - [Paris Terror Attacks](masters/paris-terror-attacks.md)
 - [BSc Mechatronics](bsc-mechatronics.md): Combined mechanical and electrical systems engineering.
 - [BSc Screen Practice](bsc-screen-practice.md): Explored production, design, and visual communication.
 
