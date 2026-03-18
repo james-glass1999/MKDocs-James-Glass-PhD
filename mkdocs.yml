@@ -13,8 +13,7 @@ theme:
     - navigation.top
     - navigation.tabs.sticky
     - navigation.indexes 
-    - toc.follow
-    - toc.integrate     
+    - toc.follow  
     - navigation.expand
     - navigation.path
     - search.share
