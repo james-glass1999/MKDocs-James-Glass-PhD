@@ -1,8 +1,10 @@
-# The Paris Terror Attacks, January 7th 2015: Spawned by Hatred or Just Cultural Indifference?
+### Title of Study
 
-**Professor:** Frederic Guerrero Sole  
+**The Paris Terror Attacks, January 7th 2015: Spawned by Hatred or Just Cultural Indifference?**
+
 **Author:** James Glass  
 **University:** Universitat Pompeu Fabra, Barcelona
+**Professor:** Frederic Guerrero Sole  
 
 ---
 
