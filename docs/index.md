@@ -1,6 +1,6 @@
 # Welcome to James Glass PhD
 
-## About Me
+### About Me
 
 ![A talk!](assets/james2.png){ .float-left width="300" }
 
@@ -18,12 +18,12 @@ My work is centered around three pillars:
 
 ---
 
-## Summary
+### Summary
 Data-informed Technical Writer and Documentation Manager with expertise in developer enablement, Docs-as-Code workflows, and AI-driven documentation solutions. Proven partner to Product, Engineering, and Design teams, owning product-aligned messaging. Expertise in Docs as Code workflows, technical enablement, and AI-driven documentation solutions. Strong background in using data to inform documentation strategy and measure content impact — including KPI tracking, user sentiment analysis, experiment evaluation, and data visualization through Looker Studio.
 
 ---
 
-## Key Skills
+### Key Skills
 - Documentation & Information Architecture: Content planning, structuring, authoring, and editing
 - Project & Product Management: Requirements gathering, scoping, roadmap alignment, sprint planning, stakeholder management, prioritization
 - Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
@@ -36,7 +36,7 @@ Data-informed Technical Writer and Documentation Manager with expertise in devel
 
 ---
 
-## What Drives Me
+### What Drives Me
 
 I’m passionate about **simplifying complexity**. Whether it’s translating intricate technical details into accessible documentation or enabling developers to succeed through knowledge sharing, my focus is always on clarity and impact.  
 
@@ -44,7 +44,7 @@ I also have a growing interest in **artificial intelligence and AI agents** — 
 
 ---
 
-## Beyond Work
+### Beyond Work
 
 ![beach1](assets/beach1.png){ width="350" }
 
