@@ -23,7 +23,7 @@ theme:
     - content.code.copy
     - content.tabs.link
     - header.autohide
-    - toc.integrate
+    
    
    
   palette:
