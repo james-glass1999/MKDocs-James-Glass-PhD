@@ -3,7 +3,9 @@
 A summary of my academic background and formal training.
 
 - [PhD](phd.md): Focused on advanced research methodologies and practical applications.
-- [Masters](masters.md): Specialized coursework and research in engineering and design.
+- Masters:
+    - [Thematic Analysis of Input Database](masters/thematic-analysis-of-input-database.md)
+    - [Google Glass](masters/google-glass.md)
 - [BSc Mechatronics](bsc-mechatronics.md): Combined mechanical and electrical systems engineering.
 - [BSc Screen Practice](bsc-screen-practice.md): Explored production, design, and visual communication.
 
