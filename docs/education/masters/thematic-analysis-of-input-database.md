@@ -43,7 +43,7 @@ The INPUT database is aimed primarily at community television professionals and 
 
 Figure 1: Source Author – Basic INPUT process flow to the UPF database.
 
-![Input Diagram](../assets/input1.png){ width="700" }
+![Input Diagram](../../assets/input1.png){ width="700" }
 
 *© James Glass 2025*
 
