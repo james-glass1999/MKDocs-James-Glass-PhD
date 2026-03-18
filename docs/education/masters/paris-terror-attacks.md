@@ -7,15 +7,14 @@
 ---
 
 ## Abstract
-
 This study examines the Paris terror attacks surrounding the Charlie Hebdo weekly newspaper that publishes satirical news articles and cartoons, used to mock religion, politics and culture. Two masked gunmen went into the headquarters and fired up to 50 shots, killing eleven people and injuring eleven others, and shouted "God is great" during their attack (BBC News Online, 14th January 2015). Through an essay analysis, this study will discuss intercultural aspects of friction of Islam through examining previous examples. The study will highlight the historical viewpoint of intercultural acceptance with the adaptations necessary to acculturate. The idea that one country is different from another country or one human being in is different from another human being only through intercultural communication differences are the key aspect with respect to understanding the recent attacks.
 
-**Keywords:** Paris, Charlie Hebdo, attacks, religion, Islam, gunmen, intercultural, friction.
+## **Keywords** 
+Paris, Charlie Hebdo, attacks, religion, Islam, gunmen, intercultural, friction.
 
 ---
 
 ## Introduction
-
 On the 7th of January 2015 reports began to flash the social media sites and online newspapers of an attack at the Charlie Hebdo headquarters in Paris, France. "The murders in Paris are not an isolated incident but part of a global trend of young Muslims disenchanted with the modern world", (Husain 2015, Para. 9). A terrible act of violence captured on mobile phones and instantly fed to social sites such as twitter via the various online newspaper institutions. "We have avenged the Prophet Muhammad" and "Allahu Akbar", (BBC News online, 14th January, 2015). The speed and terrible acts of violence shocked Paris and the world. In many ways we live in a world whereby the medium of media itself is being used to propagated, transmit the radical thinking of certain religions and extremist ideas.
 
 The Charlie Hebdo newspaper had mocked the Prophet Muhammad in 2007. In recent history, a similar event had occurred, in terms of the repercussions from Islam fanatics, Lindekilde, Mouritsen and Barrero, (2009) stated that in Denmark, some 10 years previously, in 2005, when the culture editor of the Danish newspaper Jyllands-Posten, Flemming Rose, commissioned the cartoons of the Prophet Muhammad, which were printed on 30 September 2005, and did not imagine "the publication would eventually lead to the worst foreign policy crisis in Denmark since the Second World War" (p. 291). Also according to Lindekilde, Mouritsen and Barrero, (2009) who stated that:
@@ -29,7 +28,6 @@ The first section of the paper briefly outlines the overall of the issues. The n
 ---
 
 ## Issues
-
 Is Islam as a religion itself the issue? Or are the people who kill in the name of God the problem? Or is it simply an acculturation issue? The brothers who carried out the attacks on the 7th of January 2015, were not born radicals, they grew up within their own cultural confounds as Islam worshipers. A study by Bohannan (as cited in Hofstede and McCrae, 2004) describes the current situation that is happening in our societies across the world with regards to the indifference to religion. "Children, when they born, are without culture and hence are without personality, and almost without social relationships. The very fact of birth may be described as the termination of a biophysical relationship and, in the usual course of events, its replacement with a social relationship. Social relationships, then, expand with maturation; new culture is demanded in which to respond to other people so that the relationships are possible" (p. 20). In addition Berry (1997) stated that "As a result of immigration, many societies have become culturally plural. That is, people of many cultural backgrounds come to live together in a diverse society" (p. 8). Hence the bringing together of different religions, cultural backgrounds in the first, second or third generation can be considered variations to the level of integration, in an already established cultural system. The people of France have gained an added fear due to the Charlie Hebdo attack and subsequent days the occurred after it. For the people in France there has been mixed feelings that the country has been under "Muslim siege" and has been propelled by a wave of xenophobia and fears washing over the European continent, (Boukhars, 2009 p. 299).
 
 What issues can this cause, in terms of integration and assimilation? Hervik (2012) noted that for most of Muslims around the world, the underlying causes of anger and resentment originate more from their feelings of Western arrogance and lack of understanding and respect. If cultural differences this small can cause offensives to the original population, imagine what the mocking of a religious figure could do, as seen in recent weeks. Reported online via the BBC, "Earlier on Friday, a man claiming to be Coulibaly told French TV station BFMTV that he was a member of the Islamic State militant group, and that he had "co-ordinated" his attack with the Kouachi brothers", (BBC News Online, 10 January, 2015). We live in a world of many countries with many different customs, religions and cultures. Encapsulated in each country is a society and within society that is made up of many different types of people and beliefs. As observed by Castells (2006) "culturally constructed identities are fundamental to the way people think about things (p. 57). If we consider the following concept by Redfield, Linton, and Herskovits, (1936) that elaborates on the changes in social patterns:
@@ -41,7 +39,6 @@ The previous statement captures academically how people, religion and indeed soc
 ---
 
 ## Historical
-
 If we look at the United States as an example, it is made up of many states with different laws and ways of life. According to Bennett (1998) in the United States there are many ethnicities such as African American, Asian American, American Indian and so forth. These people may share a national culture identity yet differing due to their ethnic backgrounds. The identity of the USA was built on independence from Great Britain in 1776. Castells (2006) points out: "While there is an element of truth in this, identity is built upon personal experience, which in turn draws on a history, a culture, and has linguistic and geographic components. Even so, one can ask how an identity is constructed, who constructs it, and how it can be pinned down. Another concept that we can consider is the process of constructing identity is where the problems begin and thus where one needs to hone one's analysis" (p. 62).
 
 Furthermore according to Bennett (1998) the acts of slavery or the American Indian genocide has taken a long time for the strong culture of American society to accept that is was fundamentally wrong and has been seen as improper and racist period in its history as a country (p. 7). There was no way for American Indians to neither assimilate nor integrate as it was forced upon them by the influx of the westerners and their need for capitalization and greed of the lands. The human interaction factor is associated with the patterns of behavior and can be seen as a variable in the growth and development of people in society.
@@ -65,7 +62,6 @@ Identity and culture are intertwined and shaped by our surroundings. When we dec
 ---
 
 ## Conclusion
-
 In France, the fear of Islam and its extremism factors are not a new phenomenon. The bombings that took place in 1995, in the Paris Metro system, awakened the French to the threat of radical Islamism (Boukhars, 2009 p. 298). September 11, 2001 changed the face of society and radicalized the way cultures think and fear "radical Islamism". The native French projected their fears onto the main culprits who were of course the Muslim youth of the areas affected who were, suspected of aligning with the extremists, (Boukhars, 2009 p. 299). In addition Rytter and Pedersen (2014) points out the importance of policies on both sides:
 
 > On the one hand, European nation states have introduced far-reaching pre-emptive policies and legislation in order to protect and secure the nation state and their institutions and citizens against religiously motivated terrorism. On the other hand, individuals and groups have taken measures to protect the religious practices, traditions, beliefs and icons that they feel are being threatened by external forces (p. 2035).
@@ -83,7 +79,6 @@ Within plural societies, cultural groups along with their individualized members
 ---
 
 ## References
-
 Andersson, M., Jacobsen, C. M., Rogstad, J., & Vestel, V. (2012). *Kritiske Hændelser – Nye stemmer: Politisk engasjement og transnational orientering i det nye Norge*. Universitetsforlaget.
 
 Barbero, M. J. (2002). Identities: Traditions and new communities. *Media, Culture & Society*, 24, 621–641.

@@ -11,10 +11,10 @@
 **University:** Universitat Pompeu Fabra  
 **Supervisor:** Dr. Manel Jiménez Morales  
 
-**Abstract**  
+## **Abstract**  
 This study will highlight and examine the INPUT database at Universitat Pompeu Fabra (UPF). Through a discourse of the construction, history, and uses of the INPUT database by qualitative & thematic analysis methods, this study reveals the construction and value of the database at UPF with a structured interview with key library personnel as a complementary method. INPUT is an annual conference that selects material based on innovation and quality within the public service television sphere. It has become a vital source of information for academia at the university and an important part of modern record keeping from a historical and cultural viewpoint.  
 
-**Keywords:**  
+## **Keywords**  
 - INPUT database  
 - Value  
 - Qualitative  
