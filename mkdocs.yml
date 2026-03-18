@@ -69,7 +69,9 @@ nav:
       - Courses: courses/training-and-development.md
   - Education:
       - PhD: education/phd.md
-      - Masters: education/masters.md
+      - Masters:
+          - Thematic Analysis of Input Database: education/masters/thematic-analysis-of-input-database.md
+          - Google Glass: education/masters/google-glass.md
       - BSc Mechatronics: education/bsc-mechatronics.md
       - BSc Screen Practice: education/bsc-screen-practice.md
   - Blog Examples:
