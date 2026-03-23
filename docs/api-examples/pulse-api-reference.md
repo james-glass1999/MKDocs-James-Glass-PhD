@@ -1,3 +1,6 @@
+!!! note ""
+    Good API documentation accelerates developer onboarding and reduces the burden on support teams. The examples in this section demonstrate a design-first approach to API documentation — beginning with a formal OpenAPI specification before implementation, ensuring that the contract between the API and its consumers is clearly defined from the outset. Each example showcases structured endpoint documentation, request and response schemas, and practical cURL references intended to serve developers at the point of need.
+
 # Pulse API Reference
 
 **Base URL:** `https://api.pulse.io/v2`  
