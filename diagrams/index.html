@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/james1.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -1433,6 +1433,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#flowcharts_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flowcharts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagrams_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sequence Diagrams
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-class-diagrams_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Class Diagrams
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1646,6 +1679,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#flowcharts_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flowcharts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagrams_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sequence Diagrams
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-class-diagrams_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Class Diagrams
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1676,6 +1742,7 @@
 <div class="admonition note">
 <p><strong>Examples only</strong> </p>
 </div>
+<p>When prose alone cannot efficiently convey system relationships, process flows, or architectural dependencies, diagrams become an essential documentation tool. The examples in this section illustrate how visual communication can be used to surface complexity, support onboarding, and improve comprehension across technical and non-technical audiences alike. Each diagram was designed with a specific communicative goal in mind — clarity of structure over visual embellishment.</p>
 <h2 id="flowcharts">Flowcharts</h2>
 <pre class="mermaid"><code>graph LR
   A[Start] --&gt; B{Failure?};
@@ -1695,6 +1762,55 @@
   Terminal-&gt;&gt;Database: Request customer data
   Database--&gt;&gt;Terminal: Customer data</code></pre>
 <h2 id="using-class-diagrams">Using Class Diagrams</h2>
+<pre class="mermaid"><code>classDiagram
+  Person &lt;|-- Student
+  Person &lt;|-- Professor
+  Person : +String name
+  Person : +String phoneNumber
+  Person : +String emailAddress
+  Person: +purchaseParkingPass()
+  Address "1" &lt;-- "0..1" Person:lives at
+  class Student{
+    +int studentNumber
+    +int averageMark
+    +isEligibleToEnrol()
+    +getSeminarsTaken()
+  }
+  class Professor{
+    +int salary
+  }
+  class Address{
+    +String street
+    +String city
+    +String state
+    +int postalCode
+    +String country
+    -validate()
+    +outputAsLabel()
+  }</code></pre>
+<div class="admonition note">
+<p><strong>Examples only</strong> </p>
+</div>
+<p>When prose alone cannot efficiently convey system relationships, process flows, or architectural dependencies, diagrams become an essential documentation tool. The examples in this section illustrate how visual communication can be used to surface complexity, support onboarding, and improve comprehension across technical and non-technical audiences alike. Each diagram was designed with a specific communicative goal in mind — clarity of structure over visual embellishment.</p>
+<h2 id="flowcharts_1">Flowcharts</h2>
+<pre class="mermaid"><code>graph LR
+  A[Start] --&gt; B{Failure?};
+  B --&gt;|Yes| C[Investigate...];
+  C --&gt; D[Debug];
+  D --&gt; B;
+  B ----&gt;|No| E[Success!];</code></pre>
+<h2 id="sequence-diagrams_1">Sequence Diagrams</h2>
+<pre class="mermaid"><code>sequenceDiagram
+  autonumber
+  Server-&gt;&gt;Terminal: Send request
+  loop Health
+      Terminal-&gt;&gt;Terminal: Check for health
+  end
+  Note right of Terminal: System online
+  Terminal--&gt;&gt;Server: Everything is OK
+  Terminal-&gt;&gt;Database: Request customer data
+  Database--&gt;&gt;Terminal: Customer data</code></pre>
+<h2 id="using-class-diagrams_1">Using Class Diagrams</h2>
 <pre class="mermaid"><code>classDiagram
   Person &lt;|-- Student
   Person &lt;|-- Professor
