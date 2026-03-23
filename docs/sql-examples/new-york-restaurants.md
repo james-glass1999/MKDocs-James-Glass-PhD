@@ -1,3 +1,6 @@
+!!! note ""
+    Technical writers who understand data are better positioned to document the systems that produce it. The examples in this section demonstrate a working knowledge of SQL — from querying relational datasets to surfacing trends through structured analysis. These pieces are intended to show how data literacy can inform documentation strategy, support evidence-based decision making, and enable more meaningful collaboration with engineering and analytics teams.
+
 # New York Restaurants — SQL Analysis Project
 
 ## Introduction
