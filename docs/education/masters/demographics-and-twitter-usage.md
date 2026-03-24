@@ -1,14 +1,12 @@
-# The Relationship Between Demographics and Twitter Usage in the Dissemination of Online Media Content
+**Quantitative Research 2014–2015**
 
-*Quantitative Research 2014–2015*
+### Title of Study
 
----
-
-**Professor:** [Frederic Guerrero Sole](http://aulaglobal2014-2015.upf.edu/user/view.php?id=5294&course=2442)
+# **The Relationship Between Demographics and Twitter Usage in the Dissemination of Online Media Content**
 
 **Author:** James Glass
-
 **Institution:** Universitat Pompeu Fabra, Barcelona
+**Professor:** [Frederic Guerrero Sole](http://aulaglobal2014-2015.upf.edu/user/view.php?id=5294&course=2442)
 
 ---
 
