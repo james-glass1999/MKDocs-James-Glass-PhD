@@ -1,20 +1,24 @@
+<div class="clearfix"></div>
+
 # Welcome to James Glass PhD
 
 ## About Me
 
-![A talk!](assets/james2.png){ .float-left width="300" }
+<div style="text-align: center;">
+  <img src="assets/james2.png" width="250" style="border-radius: 8px;" />
+</div>
 
-Senior Technical Writer | Developer Enablement & AI-Driven Docs
+<br>
 
-I’m **James Glass, PhD**, a Senior Technical Writer and Developer Relations/Documentation Manager with over a decade of experience helping teams and organizations communicate complex ideas with clarity.  
+**Senior Technical Writer | Developer Enablement & AI-Driven Docs**
 
-My work is centered around three pillars:  
+I'm **James Glass, PhD**, a Senior Technical Writer and Developer Relations/Documentation Manager with over a decade of experience helping teams and organizations communicate complex ideas with clarity.
 
-- **Technical Writing & Docs-as-Code** – Creating clear, developer-friendly documentation using modern, automated workflows.  
-- **Developer Relations & Enablement** – Building bridges between engineering teams and developer communities through content, advocacy, and collaboration.  
-- **Knowledge Management & Strategy** – Designing scalable approaches to documentation and content that empower teams and support long-term growth.  
+My work is centered around three pillars:
 
-<div class="clearfix"></div>
+- **Technical Writing & Docs-as-Code** – Creating clear, developer-friendly documentation using modern, automated workflows.
+- **Developer Relations & Enablement** – Building bridges between engineering teams and developer communities through content, advocacy, and collaboration.
+- **Knowledge Management & Strategy** – Designing scalable approaches to documentation and content that empower teams and support long-term growth.
 
 ---
 
@@ -36,12 +40,12 @@ documentation practices.
 - Documentation & Information Architecture: Content planning, structuring, authoring, and editing
 - Project & Product Management: Requirements gathering, scoping, roadmap alignment, sprint planning, stakeholder management, prioritization
 - Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
-- Developer Enablement: Familiarity with SDK and API documentation, Swagger / OpenAPI, API design-first principles, internal tooling adoption
+- Developer Enablement: SDK and API documentation, Swagger / OpenAPI, API design-first principles, internal tooling adoption
 - Training & Facilitation: Workshop design, technical training delivery
 - Collaboration: Cross-functional coordination with Engineering, UX, QA, and PM teams
 - Knowledge Management: Internal content strategy, content lifecycle governance
-- AI & Data: Familiarity with prompt engineering, Looker Studio BI dashboards, SQL (working knowledge), Jupyter Notebooks
-- Tools: Git, Jira, Confluence, Trello, Miro
+- AI & Data: Prompt engineering, Looker Studio BI dashboards, SQL (working knowledge), Jupyter Notebooks
+- Tools: Jira, Confluence, Trello, Miro, BigQuery, Google Sheets
 
 ---
 
