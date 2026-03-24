@@ -5,7 +5,7 @@
 ## About Me
 
 <div style="text-align: center;">
-  <img src="assets/james2.png" width="250" style="border-radius: 8px;" />
+  <img src="assets/james2.png" width="300" style="border-radius: 2px;" />
 </div>
 
 <br>
