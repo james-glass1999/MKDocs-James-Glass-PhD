@@ -97,7 +97,6 @@ matter, please do not hesitate to contact our team.
 
 **RDB Abogados**
 Carrer Aragó 284 bis 2º 2ª, Barcelona, 08009
-Tel: +34 691 43 41 29
 [info@rdbabogados.com](mailto:info@rdbabogados.com)
 
 *This article does not constitute legal advice.*
