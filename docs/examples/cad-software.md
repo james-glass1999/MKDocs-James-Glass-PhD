@@ -1,6 +1,9 @@
+!!! note ""
+    Effective technical blog content does more than inform — it reduces decision friction for the reader and builds trust in the product or platform being discussed. The examples in this section were written for technical audiences evaluating tooling and workflows. Each piece balances accuracy with accessibility, translating complex subject matter into content that supports informed decision making without sacrificing technical rigour.
+
 # Guide for Electrical CAD  
 
-**By James Glass**
+*By James Glass – The Tech Insider @tracesoftware*  
 
 ---
 

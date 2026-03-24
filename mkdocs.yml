@@ -79,6 +79,9 @@ nav:
       - CAD Trends: examples/cad-trends.md
       - CAD Software: examples/cad-software.md
       - Start with elecworks: examples/start-with-elecworks.md
+      - Divorce in Spain: examples/rdb-abogados:-divorce.md
+      - Franchising in Spain: examples/rdb-abogados:-excel-in-franchising.md
+      - NIE Numbers in Spain: examples/rdb-abogados:-nie-number.md
   - API Examples: 
       - Online Order API: api-examples/online-order-api.md
       - Pulse API Reference: api-examples/pulse-api-reference.md
