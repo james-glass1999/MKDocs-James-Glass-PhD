@@ -29,7 +29,7 @@ Together, these create systems that are more than the sum of their parts.
 
 ## Skills I Gained
 - **Project management** — requirements capture, scoping, milestones, scheduling (Gantt/Critical Path), stakeholder communication.
-- **Production delivery** — prototype-to-production handover, DFM/DFA considerations, build documentation, test & inspection reports.
+- **Production delivery** — prototype-to-production handover, Design for Manufacturability/Design for Assembly (DFM/DFA) considerations, build documentation, test & inspection reports.
 - **Systems integration & testing** — integrating mechanical, electrical, and software; test plans, verification/validation, fault-finding.
 - **Controls & automation** — PID tuning basics, motor control (DC/stepper/servo), simple PLC/embedded control workflows.
 - **Electronics & embedded** — sensor interfacing, signal conditioning, microcontrollers, basic PCB/soldering, C/C++/Python/MATLAB for analysis.
@@ -42,10 +42,12 @@ Together, these create systems that are more than the sum of their parts.
 
 ## Looking Back  
 Studying Mechatronics gave me a foundation to explore how **technology, media, and society** interact.  
+
 It trained me to look at problems holistically, not just through one lens — a mindset I’ve carried into my later research and professional life.  
 
 ---
 
 ## Looking Ahead  
 Today, Mechatronics is at the heart of **AI, robotics, and Industry 4.0**.  
+
 What started as a merging of mechanics and electronics is now driving **automation, smart devices, and even human–machine collaboration**.  
