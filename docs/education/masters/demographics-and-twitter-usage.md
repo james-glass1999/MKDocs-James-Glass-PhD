@@ -1,13 +1,12 @@
-**Quantitative Research 2014–2015**
-
 ### Title of Study
 
 **The Relationship Between Demographics and Twitter Usage in the Dissemination of Online Media Content**
 
-**Author:** James Glass
-**Institution:** Universitat Pompeu Fabra 
-**Professor:** [Frederic Guerrero Sole](http://aulaglobal2014-2015.upf.edu/user/view.php?id=5294&course=2442)
+- **Author:** James Glass  
+- **Institution:** Universitat Pompeu Fabra  
+- **Supervisor:** [Prof. Frederic Guerrero Sole](http://aulaglobal2014-2015.upf.edu/user/view.php?id=5294&course=2442)  
 
+**Quantitative Research (2014–2015)**
 ---
 
 ## Abstract
