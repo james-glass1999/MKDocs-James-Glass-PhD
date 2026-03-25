@@ -65,15 +65,13 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Experience: experience.md
-  - Training & Development:
-      - Courses: courses/training-and-development.md
   - Education:
       - PhD: education/phd.md
       - Masters:
+        - Demographics and Twitter Usage: education/masters/demographics-and-twitter-usage.md
         - Thematic Analysis of Input Database: education/masters/thematic-analysis-of-input-database.md
         - Google Glass: education/masters/google-glass.md
         - Paris Terror Attacks: education/masters/paris-terror-attacks.md
-        - Demographics and Twitter Usage: education/masters/demographics-and-twitter-usage.md
       - BSc Mechatronics: education/bsc-mechatronics.md
       - BSc Screen Practice: education/bsc-screen-practice.md
   - Blog Examples:
@@ -94,10 +92,11 @@ nav:
   - Dashboard: 
       - Dashboard Example One: dashboard/dashboard-example-one.md
       - Dashboard Example Two: dashboard/dashboard-example-two.md
+  - Training & Development:
+      - Courses: courses/training-and-development.md
   - References: references/quotes.md
 
   
-
 extra:
   analytics:
     provider: google
