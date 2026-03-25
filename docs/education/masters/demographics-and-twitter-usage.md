@@ -2,7 +2,7 @@
 
 ### Title of Study
 
-# **The Relationship Between Demographics and Twitter Usage in the Dissemination of Online Media Content**
+**The Relationship Between Demographics and Twitter Usage in the Dissemination of Online Media Content**
 
 **Author:** James Glass
 **Institution:** Universitat Pompeu Fabra, Barcelona
@@ -11,7 +11,6 @@
 ---
 
 ## Abstract
-
 This study examines the relationship between demographics and Twitter usage to determine whether demographic factors influence the dissemination of media content. Using quantitative methodology and a self-administered online survey, the research investigates how age, gender, ethnicity, and academic standing relate to Twitter use and information sharing behaviour. The findings shed light on how mobile technology has enabled citizens to record, publish, and influence social movements — from everyday events to politically significant actions — reaching a global audience in real time.
 
 **Keywords:** race, gender, age, citizen, demographics, social network site, Twitter, dissemination.
@@ -19,7 +18,6 @@ This study examines the relationship between demographics and Twitter usage to d
 ---
 
 ## Introduction
-
 When we think about our society today with all the modern technology available — from multi-satellite providers to the latest personal home entertainment — that technology has its roots in a complex yet steady cultural form. The relationship between cultural form and society has been developed through technology. We can observe that almost everyone has a modern mobile device capable of recording, editing, and posting online to a social network site, thus having the potential to influence society with its contents. A social network site can be defined as "web-based services that allow individuals to (1) construct a public or semi-public profile within a bounded system, (2) articulate a list of other users with whom they share a connection, and (3) view and traverse their list of connections and those made by others within the system" (Boyd and Ellison, 2008, p. 211). These cycles of invention have helped transform societies, build new communities, new trends, and new ways in which our species interacts within communities and communicates. As another author describes the impact of communication: "mechanical and electric transport, or in telegraphy, photography, motion pictures, radio and television, were at once incentives and responses within a phase of general social transformation" (Williams, 1990, p. 11).
 
 In today's societies we rely on various online social network sites for entertainment, news, or self-gratification. The method of uploading to social network sites such as YouTube or Facebook can be viral in essence — hence the term "go viral" — and as this term suggests, once a video recording is posted and becomes popular, it can spread to every corner of the internet, reaching different places with images or recordings that can be of a profound nature.
@@ -45,7 +43,6 @@ This study builds on previous studies, developing concepts from an analytical vi
 ---
 
 ## Theoretical Framework
-
 This study is framed primarily through the lens of **Uses and Gratifications Theory**, which positions media users as active participants who select media to fulfil specific needs and goals. Drawing from Ballard (2011), Blumler & Katz (1974), and concepts from McLeod and Becker (1981) and Haridakis and Whitmore (2006), the theory possesses five basic assumptions: users of social media should (1) be active within the online world and (2) have goals when using media; (3) the media should fulfil the user's needs; (4) media selection is pivotal to the user's motives for communication; and (5) the theory signifies media content, exposure to it, and the "context in which the exposure takes place" (Ancu & Cozmo, 2009, p. 569).
 
 This framework is relevant here because it helps explain why people use Twitter — whether to seek information, share opinions, or participate in social movements — and whether those motivations vary by demographic group. The literature reviewed suggests that dissemination of online material depends on the user and social context, as demonstrated by the Arab Spring example discussed above. The extent to which demographics interact with frequency of Twitter use and dissemination behaviour is the central question this study seeks to address.
@@ -74,7 +71,6 @@ From these, the following formal research questions were defined:
 ---
 
 ## Participants
-
 All participants were acquired randomly to give a varied and wide enough sample. Participants were asked to classify themselves as male or female. The age of the subjects ranged from 18 or less to 30+. Ethnicity and academic standing were also part of the demographic section of the survey.
 
 The majority of the sample was likely to represent the demographic breakdown of Twitter users as a whole. The sample was put online via a social platform due to the easy accessibility of the URL link and the likelihood that this demographic utilises social media.
@@ -82,13 +78,11 @@ The majority of the sample was likely to represent the demographic breakdown of 
 ---
 
 ## Research Design — Data Collection
-
 A survey was the appropriate method for this study because it allows for the largest number of participants to take part, given time requirements and low cost. Participants were asked to complete an online, self-administered survey hosted on Typeform. Participation was voluntary and all responses were completely anonymous. There was no cost to participate and no personal information other than demographics was asked.
 
 ---
 
 ## Measures
-
 The first four questions were set demographically to ascertain general characteristics of the survey:
 
 - **Q1. What is your gender?** Male (1), Female (2)
@@ -119,12 +113,12 @@ For questions **Q5–Q8**, *How frequently do you access the following social si
 
 ## Results
 
-### RQ1: Is There a Link Between Gender and Age Along with Being a Registered Twitter User?
+## **RQ1**
+**Is There a Link Between Gender and Age Along with Being a Registered Twitter User?**
 
 Using a crosstab table and Chi-Square test, we can determine if there is a relationship between two variables that is **not due to chance**. The independent nominal variables are Gender & Age; the nominal dependent variable is Registered User of Twitter.
 
 #### Case Processing Summary
-
 | | Cases | | | | | |
 |---|---|---|---|---|---|---|
 | | Valid | | Missing | | Total | |
@@ -133,7 +127,6 @@ Using a crosstab table and Chi-Square test, we can determine if there is a relat
 | Age * Registered user of Twitter | 58 | 100.0% | 0 | .0% | 58 | 100.0% |
 
 #### Gender — Registered User of Twitter (Crosstab)
-
 | | | | Registered user of Twitter | | Total |
 |---|---|---|---|---|---|
 | | | | Yes | No | |
@@ -153,7 +146,6 @@ Using a crosstab table and Chi-Square test, we can determine if there is a relat
 - Of n=32 females, 25 were registered and 7 were not, representing 55.2% of surveyed participants.
 
 #### Chi-Square Test — Gender
-
 | | Value | df | Asymp. Sig. (2-sided) | Exact Sig. (2-sided) | Exact Sig. (1-sided) |
 |---|---|---|---|---|---|
 | Pearson Chi-Square | 2.201ᵃ | 1 | .138 | | |
@@ -169,7 +161,6 @@ Using a crosstab table and Chi-Square test, we can determine if there is a relat
 **χ(1) = 2.201, p = 0.138** — there is no significant association between gender and being a registered user of Twitter. The number is above 0.051, so the significance is due to chance.
 
 #### Symmetric Measures — Gender
-
 | | | Value | Approx. Sig. |
 |---|---|---|---|
 | Nominal by Nominal | Phi | .195 | .138 |
@@ -183,7 +174,6 @@ Chi-Square value is 0.195, AND p = 0.138 is greater than the alpha significance 
 ---
 
 #### Age — Registered User of Twitter (Crosstab)
-
 | | | | Registered user of Twitter | | Total |
 |---|---|---|---|---|---|
 | | | | Yes | No | |
@@ -218,7 +208,6 @@ Chi-Square value is 0.195, AND p = 0.138 is greater than the alpha significance 
 - Of those aged 30+: 29.3% registered, 10.3% not registered (39.7% of overall)
 
 #### Chi-Square Test — Age
-
 | | Value | df | Asymp. Sig. (2-sided) |
 |---|---|---|---|
 | Pearson Chi-Square | 3.521ᵃ | 4 | .475 |
@@ -231,7 +220,6 @@ Chi-Square value is 0.195, AND p = 0.138 is greater than the alpha significance 
 **χ(1) = 3.521, p = 0.475** — there is no significant association between Age and being a registered user of Twitter.
 
 #### Symmetric Measures — Age
-
 | | | Value | Approx. Sig. |
 |---|---|---|---|
 | Nominal by Nominal | Phi | .246 | .475 |
@@ -242,12 +230,12 @@ Chi-Square value is 0.246, AND p = 0.475 which is greater than the alpha signifi
 
 ---
 
-### RQ2: Does the Sharing of Information Online Within Twitter Depend on Ethnicity and Academic Standing?
+## **RQ2**
+**Does the Sharing of Information Online Within Twitter Depend on Ethnicity and Academic Standing?**
 
 A MANOVA test was conducted to determine whether there were any differences between independent groups on more than one continuous dependent variable.
 
 #### Multivariate Tests
-
 | Effect | | Value | F | Hypothesis df | Error df | Sig. |
 |---|---|---|---|---|---|---|
 | Intercept | Pillai's Trace | .700 | 35.005ᵃ | 2.000 | 30.000 | .000 |
@@ -272,7 +260,6 @@ A MANOVA test was conducted to determine whether there were any differences betw
 There is no statistically significant difference in Academic Standing (Education) AND Ethnicity (Race): ***F (10,60) = 0.793, p > .0005; Wilk's Λ = 0.822.*** The correlation indicates no relationship between the two variables.
 
 #### Univariate Test — Tests of Between-Subjects Effects
-
 | Source | Dependent Variable | Type III Sum of Squares | df | Mean Square | F | Sig. |
 |---|---|---|---|---|---|---|
 | Corrected Model | Frequency of access to Twitter | 18.838ᵃ | 14 | 1.346 | .786 | .676 |
@@ -309,12 +296,11 @@ Graphical mean representations of "Frequency of access to Twitter" and "Likely t
 
 ---
 
-### RQ3: Does the Age and Gender of a Registered User Have Any Influence Over the Posting of Information Online?
+**RQ3**: Does the Age and Gender of a Registered User Have Any Influence Over the Posting of Information Online?
 
 A MANOVA test was conducted to compare the effect of Age and being a registered user of Twitter on posting information online.
 
 #### Multivariate Tests
-
 | Effect | | Value | F | Hypothesis df | Error df | Sig. |
 |---|---|---|---|---|---|---|
 | Intercept | Pillai's Trace | .963 | 568.557ᵃ | 1.000 | 22.000 | .000 |
@@ -334,12 +320,12 @@ Sig. value = .145, above p < .0005. Age and being a registered user of Twitter w
 
 ---
 
-### RQ4: What is the Overall Relationship Between the Demographics Surveyed and the Type of Technology Being Utilised?
+## **RQ4**
+**What is the Overall Relationship Between the Demographics Surveyed and the Type of Technology Being Utilised?**
 
 A correlation test was carried out to understand the relationships between demographics and the main type of technology being used to access Twitter.
 
 #### Correlations
-
 | | | Gender | Age | Academic Standing | Ethnicity | Access Twitter from |
 |---|---|---|---|---|---|---|
 | Gender | Pearson Correlation | 1 | .004 | -.208 | -.046 | -.138 |
@@ -366,9 +352,7 @@ A correlation test was carried out to understand the relationships between demog
 There is no relationship between demographics and the type of Twitter access.
 
 #### Chi-Square Test — Gender vs Twitter Access
-
 **Crosstab**
-
 | | | Laptop | PC | Tablet | Mobile Phone | Combination | Total |
 |---|---|---|---|---|---|---|---|
 | Gender | Male | 1 | 4 | 3 | 8 | 6 | 22 |
@@ -393,7 +377,6 @@ There is no relationship between demographics and the type of Twitter access.
 Chi-Square value is 8.054, AND p = 0.90 is greater than the alpha significance of p > 0.05. There is no relationship.
 
 #### Chi-Square Test — Age vs Twitter Access
-
 **Crosstab**
 
 | Age | Laptop | PC | Tablet | Mobile Phone | Combination | Total |
@@ -423,7 +406,6 @@ Chi-Square value is 8.054, AND p = 0.90 is greater than the alpha significance o
 | N of Valid Cases | | 46 | |
 
 #### Ethnicity — Chi-Square Test
-
 | | Value | df | Asymp. Sig. (2-sided) |
 |---|---|---|---|
 | Pearson Chi-Square | 18.718ᵃ | 20 | .540 |
@@ -438,7 +420,6 @@ Chi-Square value is 8.054, AND p = 0.90 is greater than the alpha significance o
 | N of Valid Cases | | 46 | |
 
 #### Academic Standing — Chi-Square Test
-
 | | Value | df | Asymp. Sig. (2-sided) |
 |---|---|---|---|
 | Pearson Chi-Square | 16.267ᵃ | 16 | .434 |
@@ -457,7 +438,6 @@ Chi-Square value is 8.054, AND p = 0.90 is greater than the alpha significance o
 ---
 
 ## Discussion
-
 This study represents one of the early attempts to examine the possible links between demographic factors and the dissemination of information via Twitter. The results consistently show that Gender, Age, Ethnicity, and Academic Standing had no statistically significant impact on Twitter usage or information sharing behaviour. Across all four research questions, p values exceeded the 0.05 threshold, indicating that none of the demographic variables tested can reliably predict whether a person uses Twitter, how frequently they use it, or what they choose to share.
 
 The use of Twitter as a social networking site is a global phenomenon, and the findings here are consistent with previous research. Kwak et al. (2010) highlighted that platforms such as Twitter have become a form of live news outlet, driving faster discussions and broader sharing of information. Social media has not only changed how information is shared but has also set a new standard for traditional media organisations, most of which now integrate content from citizen journalists alongside conventional reporting.
@@ -469,7 +449,6 @@ The absence of a demographic relationship in this data is itself a meaningful fi
 ---
 
 ## References
-
 Ancu, M. & Cozmo, R. (2009). MySpace politics: Uses and gratifications of befriending candidates. *Journal of Broadcasting and Electronic Media*, 53(4), 567–583.
 
 Antony, M.G, Thomas, R.J. (2010). 'This is citizen journalism at its finest': YouTube and the public sphere in the 2010 Oscar Grant shooting incident. *New Media & Society*, 12, 1280. DOI: 10.1177/1461444810362492
@@ -522,10 +501,10 @@ YouTube Statistics. (2014). Retrieved October 18th, 2014. https://www.youtube.co
 
 ---
 
-## Appendix — Survey Questions
+## Appendix 
+**Survey Questions**
 
 ### Variable Definitions
-
 **Q1. What is your gender?**
 *Gender — Nominal — Qualitative — Independent Variable*
 - Male (1)
