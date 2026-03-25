@@ -4,7 +4,7 @@
 
 - **Author:** James Glass  
 - **Institution:** Universitat Pompeu Fabra  
-- **Supervisor:** [Prof. Frederic Guerrero Sole](http://aulaglobal2014-2015.upf.edu/user/view.php?id=5294&course=2442)  
+- **Supervisor:** Prof. Frederic Guerrero Sole
 
 **Quantitative Research (2014–2015)**
 ---
