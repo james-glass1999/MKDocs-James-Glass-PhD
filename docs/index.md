@@ -1,14 +1,8 @@
-<div class="clearfix"></div>
-
 # Welcome to James Glass PhD
 
 ## About Me
-
-<div style="text-align: center;">
-  <img src="assets/james2.png" width="300" style="border-radius: 2px;" />
-</div>
-
-<br>
+<img src="assets/james2.png" width="260" 
+     style="float: left; margin-right: 24px; margin-bottom: 12px; border-radius: 6px;" />
 
 **Senior Technical Writer | Developer Enablement & AI-Driven Docs**
 
@@ -20,6 +14,7 @@ My work is centered around three pillars:
 - **Developer Relations & Enablement** – Building bridges between engineering teams and developer communities through content, advocacy, and collaboration.
 - **Knowledge Management & Strategy** – Designing scalable approaches to documentation and content that empower teams and support long-term growth.
 
+<div style="clear: both;"></div>
 ---
 
 ## Summary
