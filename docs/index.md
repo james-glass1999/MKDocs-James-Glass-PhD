@@ -4,51 +4,54 @@
 <img src="assets/james2.png" width="260" 
      style="float: left; margin-right: 24px; margin-bottom: 12px; border-radius: 6px;" />
 
-**Senior Technical Writer | Developer Enablement & AI-Driven Docs**
+**Senior Technical Writer | Developer Enablement & Systems Documentation**
 
-I'm **James Glass, PhD**, a Senior Technical Writer and Developer Relations/Documentation Manager with over a decade of experience helping teams and organizations communicate complex ideas with clarity.
+I'm **James Glass, PhD**, a Senior Technical Writer specialising in complex systems, developer enablement, and data-driven documentation.
+
+I work closely with engineering, product, and operational teams to make platforms, workflows, and tools clear, usable, and scalable—helping organisations deliver better digital products and experiences.
 
 My work is centered around three pillars:
 
-- **Technical Writing & Docs-as-Code** – Creating clear, developer-friendly documentation using modern, automated workflows.
-- **Developer Relations & Enablement** – Building bridges between engineering teams and developer communities through content, advocacy, and collaboration.
-- **Knowledge Management & Strategy** – Designing scalable approaches to documentation and content that empower teams and support long-term growth.
+- **Technical Writing & Docs-as-Code** – Creating clear, scalable documentation using modern, automated workflows  
+- **Developer Enablement** – Supporting developers and internal teams through effective documentation and tooling  
+- **Knowledge Management & Strategy** – Designing documentation systems that scale with teams and products  
 
 <div style="clear: both;"></div>
+
 ---
 
 ## Summary
-Data-informed Senior Technical Writer and Documentation Manager specialising in developer
-enablement, internal platforms, and analytics-driven documentation strategy.
 
-Proven partner to Product, Engineering, and Design teams, owning product-aligned messaging and
-documentation roadmaps for complex internal systems. Strong experience using data to measure
-documentation impact, including KPI tracking, user sentiment analysis, experiment evaluation, and
-Looker Studio dashboards.
+Data-informed Senior Technical Writer and Documentation Manager with extensive experience documenting complex systems, workflows, and internal platforms.
 
-Expertise in Docs-as-Code workflows, technical enablement, and emerging AI-assisted
-documentation practices.
+Proven partner to Product, Engineering, and Design teams, delivering clear, structured documentation aligned with product development and operational needs. Experienced in documenting system behaviour, user workflows, and data-driven processes in high-scale environments.
+
+Strong focus on using data to measure documentation effectiveness, including KPI tracking, user feedback analysis, and continuous content improvement.
+
+Expertise in Docs-as-Code workflows, developer enablement, and emerging AI-assisted documentation practices.
 
 ---
 
 ### Key Skills
-- Documentation & Information Architecture: Content planning, structuring, authoring, and editing
-- Project & Product Management: Requirements gathering, scoping, roadmap alignment, sprint planning, stakeholder management, prioritization
-- Docs-as-Code: Markdown, Git/GitHub workflows, automation pipelines
-- Developer Enablement: SDK and API documentation, Swagger / OpenAPI, API design-first principles, internal tooling adoption
-- Training & Facilitation: Workshop design, technical training delivery
-- Collaboration: Cross-functional coordination with Engineering, UX, QA, and PM teams
-- Knowledge Management: Internal content strategy, content lifecycle governance
-- AI & Data: Prompt engineering, Looker Studio BI dashboards, SQL (working knowledge), Jupyter Notebooks
-- Tools: Jira, Confluence, Trello, Miro, BigQuery, Google Sheets
+
+- **Technical Documentation & Information Architecture** – Structuring, authoring, and maintaining clear, user-focused documentation  
+- **Systems & Workflow Documentation** – Documenting processes, integrations, and platform behaviour  
+- **Docs-as-Code** – Markdown, Git/GitHub workflows, CI/CD pipelines  
+- **Developer Enablement** – API and SDK documentation (working knowledge), OpenAPI/Swagger, internal tooling support  
+- **Product & Project Collaboration** – Requirements gathering, sprint planning, roadmap alignment, stakeholder management  
+- **Knowledge Management** – Content strategy, governance, and lifecycle management  
+- **Data & Analytics** – Looker Studio, SQL (working knowledge), BigQuery, experimentation and KPI tracking  
+- **Tools** – Jira, Confluence, Trello, Miro, Google Sheets, Jupyter  
 
 ---
 
 ## What Drives Me
 
-I’m passionate about **simplifying complexity**. Whether it’s translating intricate technical details into accessible documentation or enabling developers to succeed through knowledge sharing, my focus is always on clarity and impact.  
+I’m passionate about **simplifying complexity**—translating technical systems, workflows, and data into clear, usable documentation that supports both technical and non-technical users.
 
-I also have a growing interest in **artificial intelligence and AI agents** — particularly how they can enhance documentation, developer workflows, and knowledge management. I enjoy exploring ways that intelligent systems can support writers, improve content discoverability, and make technical information more interactive and accessible.  
+I’m particularly interested in how documentation supports **scalable digital platforms**, where clarity in systems, processes, and data flows directly impacts product quality and user experience.
+
+I also have a growing focus on **AI and intelligent systems**, exploring how they can enhance documentation, improve discoverability, and support developer workflows.
 
 ---
 
@@ -56,14 +59,15 @@ I also have a growing interest in **artificial intelligence and AI agents** — 
 
 ![beach1](assets/beach1.png){ width="350" }
 
-Outside of work, I find balance and inspiration through creative and active pursuits:  
+Outside of work, I find balance and inspiration through creative and active pursuits:
 
-- 📸 **Photography** – capturing moments and exploring visual storytelling.  
-- 🥾 **Hiking** – enjoying nature and disconnecting from screens.  
-- 🎬 **Movies** – from thought-provoking documentaries to imaginative cinema.  
+- 📸 **Photography** – capturing moments and visual storytelling  
+- 🥾 **Hiking** – exploring nature and disconnecting from screens  
+- 🎬 **Film** – from documentaries to creative cinema  
 
-I’m also fascinated by the intersection of **technology, media, and human behavior**, and how innovations like AI are reshaping the way we create, consume, and share information.  
+I’m also interested in the intersection of **technology, media, and human behaviour**, and how innovations like AI are shaping how we create and share knowledge.
 
+---
 
 ## Connect With Me
 ---
