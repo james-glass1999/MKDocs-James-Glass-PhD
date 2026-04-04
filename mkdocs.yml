@@ -74,6 +74,15 @@ nav:
         - Paris Terror Attacks: education/masters/paris-terror-attacks.md
       - BSc Mechatronics: education/bsc-mechatronics.md
       - BSc Screen Practice: education/bsc-screen-practice.md
+  - Game Engine Docs:
+      - Overview: game-docs-example/index.md
+      - Onboarding:
+          - Overview: game-docs-example/onboarding/onboarding-overview.md
+          - New Starter Guide: game-docs-example/onboarding/new-starter-guide.md
+          - First Week Checklist: game-docs-example/onboarding/first-week-checklist.md
+          - Project Tour: game-docs-example/onboarding/project-tour.md
+      - Core Concepts:
+          - GameObjects and Components: game-docs-example/core/gameobjects-and-components.md
   - Blog Examples:
       - CAD Trends: examples/cad-trends.md
       - CAD Software: examples/cad-software.md
