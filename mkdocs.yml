@@ -83,6 +83,10 @@ nav:
           - Project Tour: game-docs-example/onboarding/project-tour.md
       - Core Concepts:
           - GameObjects and Components: game-docs-example/core/gameobjects-and-components.md
+      - Getting Started:
+          - Installation: game-docs-example/getting-started/installation.md
+          - Project Setup: game-docs-example/getting-started/project-setup.md
+          - First Scene: game-docs-example/getting-started/first-scene.md
   - Blog Examples:
       - CAD Trends: examples/cad-trends.md
       - CAD Software: examples/cad-software.md
