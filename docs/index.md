@@ -1,4 +1,4 @@
-# Welcome to James Glass PhD
+# Welcome to James Glass 
 
 ## About Me
 <img src="assets/james2.png" width="260" 
