@@ -1,5 +1,8 @@
 name: AI Blog Draft
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   schedule:
