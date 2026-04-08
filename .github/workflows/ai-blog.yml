@@ -1,0 +1,63 @@
+name: AI Blog Draft
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * 1"
+
+jobs:
+  create-draft:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Create draft post
+        run: |
+          python <<'PY'
+          from datetime import date
+          from pathlib import Path
+
+          today = date.today().isoformat()
+          topic = "AI-generated weekly draft"
+          filename = Path("docs/blog/posts") / f"{today}-ai-generated-weekly-draft.md"
+          filename.parent.mkdir(parents=True, exist_ok=True)
+
+          content = f"""---
+          date:
+            created: {today}
+          categories:
+            - AI
+          tags:
+            - ai agents
+            - technical writing
+            - developer enablement
+          ---
+
+          # AI-generated weekly draft
+
+          !!! info "AI-assisted content"
+              This article was generated with AI and reviewed by James Glass.
+
+          Add draft content here.
+          """
+
+          filename.write_text(content, encoding="utf-8")
+          print(f"Created {filename}")
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/blog/posts/
+          git diff --cached --quiet || git commit -m "Add AI blog draft"
+
+      - name: Push changes
+        run: git push
