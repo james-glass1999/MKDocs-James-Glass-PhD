@@ -1,5 +1,3 @@
-!!! info "AI-assisted content"
-    This article was generated with AI and reviewed by James Glass.
 ---
 date:
   created: 2026-04-08
@@ -12,6 +10,9 @@ tags:
 ---
 
 # How AI Agents Can Improve Technical Documentation
+
+!!! info "AI-assisted content"
+    This article was generated with AI and reviewed by James Glass.
 
 AI agents are starting to change how documentation teams plan, draft, review, and maintain content.
 
