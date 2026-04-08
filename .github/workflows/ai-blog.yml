@@ -29,7 +29,7 @@ jobs:
 
           today = date.today().isoformat()
           topic = "AI-generated weekly draft"
-          filename = Path("docs/blog/posts") / f"{today}-ai-generated-weekly-draft.md"
+          filename = Path("docs/blog/posts") / f"{today}-ai-generated-weekly-draft-{date.today().strftime('%H%M%S')}.md"
           filename.parent.mkdir(parents=True, exist_ok=True)
 
           content = f"""---
