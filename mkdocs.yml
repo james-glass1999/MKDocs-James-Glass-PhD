@@ -9,7 +9,6 @@ theme:
   favicon: assets/james1.png
   features:
     - navigation.sections
-    - navigation.tabs
     - navigation.footer
     - navigation.indexes
     - toc.follow
