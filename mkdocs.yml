@@ -8,8 +8,10 @@ theme:
   logo: assets/james2.png
   favicon: assets/james1.png
   features:
-    - navigation.sections
+    - navigation.tabs
     - navigation.footer
+    - navigation.top
+    - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
     - navigation.expand
