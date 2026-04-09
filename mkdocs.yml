@@ -10,8 +10,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.footer
-    - navigation.top
-    - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
     - navigation.expand
