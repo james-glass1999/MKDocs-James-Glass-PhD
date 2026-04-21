@@ -65,15 +65,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Experience: experience.md
-  - Education:
-      - PhD: education/phd.md
-      - Masters:
-          - Demographics and Twitter Usage: education/masters/demographics-and-twitter-usage.md
-          - Thematic Analysis of Input Database: education/masters/thematic-analysis-of-input-database.md
-          - Google Glass: education/masters/google-glass.md
-          - Paris Terror Attacks: education/masters/paris-terror-attacks.md
-      - BSc Mechatronics: education/bsc-mechatronics.md
-      - BSc Screen Practice: education/bsc-screen-practice.md
   - Game Engine Docs:
       - Overview: game-docs-example/index.md
       - Onboarding:
@@ -109,6 +100,15 @@ nav:
       - Dashboard Example Two: dashboard/dashboard-example-two.md
   - Training & Development:
       - Courses: courses/training-and-development.md
+  - Education:
+      - PhD: education/phd.md
+      - Masters:
+          - Demographics and Twitter Usage: education/masters/demographics-and-twitter-usage.md
+          - Thematic Analysis of Input Database: education/masters/thematic-analysis-of-input-database.md
+          - Google Glass: education/masters/google-glass.md
+          - Paris Terror Attacks: education/masters/paris-terror-attacks.md
+      - BSc Mechatronics: education/bsc-mechatronics.md
+      - BSc Screen Practice: education/bsc-screen-practice.md
   - References: references/quotes.md
 
 extra:
