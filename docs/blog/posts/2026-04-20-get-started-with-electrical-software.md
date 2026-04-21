@@ -1,4 +1,5 @@
 ---
+title: Getting Started with Electrical Design Software
 date:
   created: 2026-04-20
 categories:

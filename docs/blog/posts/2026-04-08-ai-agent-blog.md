@@ -1,4 +1,5 @@
 ---
+title: # How AI Agents Can Improve Technical Documentation
 date:
   created: 2026-04-08
 categories:

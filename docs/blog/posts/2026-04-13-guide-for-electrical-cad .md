@@ -1,4 +1,5 @@
 ---
+title: A Practical Guide to Electrical CAD
 date:
   created: 2026-04-13
 categories:
