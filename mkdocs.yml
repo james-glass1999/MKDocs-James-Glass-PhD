@@ -64,7 +64,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Experience: experience.md
+  - Experience: 
+      - Overview: experience.md
+      - Training & Development: training-and-development.md
   - Game Engine Docs:
       - Overview: game-docs-example/index.md
       - Onboarding:
