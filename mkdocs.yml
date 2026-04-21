@@ -95,6 +95,7 @@ nav:
       - Overview: blog/index.md
 
   - Blog Examples:
+      - Overview: examples/index.md
       - CAD Trends: examples/cad-trends.md
       - CAD Software: examples/cad-software.md
       - Start with elecworks: examples/start-with-elecworks.md
@@ -114,10 +115,13 @@ nav:
   - Diagrams: diagrams.md
 
   - Dashboard:
+      - Overview: dashboard/index.md
       - Dashboard Example One: dashboard/dashboard-example-one.md
       - Dashboard Example Two: dashboard/dashboard-example-two.md
 
-  - References: quotes.md
+  - References:
+      - Overview: references/index.md
+      - Quotes: quotes.md
 
 extra:
   analytics:
