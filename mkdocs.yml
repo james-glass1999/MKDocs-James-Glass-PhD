@@ -64,9 +64,19 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Experience:
-      - Experience: experience.md
-      - Training: training-and-development.md
+
+  - Background:
+      - Experience: background/experience.md
+      - Training and Development: background/training-and-development.md
+      - PhD: background/phd.md
+      - Masters:
+          - Demographics and Twitter Usage: background/masters/demographics-and-twitter-usage.md
+          - Google Glass: background/masters/google-glass.md
+          - Paris Terror Attacks: background/masters/paris-terror-attacks.md
+          - Thematic Analysis of Input Database: background/masters/thematic-analysis-of-input-database.md
+      - BSc Mechatronics: background/bsc-mechatronics.md
+      - BSc Screen Practice: background/bsc-screen-practice.md
+
   - Game Engine Docs:
       - Overview: game-docs-example/index.md
       - Onboarding:
@@ -80,8 +90,10 @@ nav:
           - Installation: game-docs-example/getting-started/installation.md
           - Project Setup: game-docs-example/getting-started/project-setup.md
           - First Scene: game-docs-example/getting-started/first-scene.md
+
   - AI Blog:
-      - blog/index.md
+      - Overview: blog/index.md
+
   - Blog Examples:
       - CAD Trends: examples/cad-trends.md
       - CAD Software: examples/cad-software.md
@@ -89,29 +101,23 @@ nav:
       - Divorce in Spain: examples/rdb-abogados:-divorce.md
       - Franchising in Spain: examples/rdb-abogados:-excel-in-franchising.md
       - NIE Numbers in Spain: examples/rdb-abogados:-nie-number.md
+
   - API Examples:
       - Online Order API: api-examples/online-order-api.md
       - Pulse API Reference: api-examples/pulse-api-reference.md
+
   - SQL Examples:
       - New York Restaurants: sql-examples/new-york-restaurants.md
       - SQLite: sql-examples/sqlite.md
       - Trends in Startups: sql-examples/trends-in-startups.md
+
   - Diagrams: diagrams.md
+
   - Dashboard:
       - Dashboard Example One: dashboard/dashboard-example-one.md
       - Dashboard Example Two: dashboard/dashboard-example-two.md
-  - Training & Development:
-      - Courses: training-and-development.md
-  - Education:
-      - PhD: education/phd.md
-      - Masters:
-          - Demographics and Twitter Usage: education/masters/demographics-and-twitter-usage.md
-          - Thematic Analysis of Input Database: education/masters/thematic-analysis-of-input-database.md
-          - Google Glass: education/masters/google-glass.md
-          - Paris Terror Attacks: education/masters/paris-terror-attacks.md
-      - BSc Mechatronics: education/bsc-mechatronics.md
-      - BSc Screen Practice: education/bsc-screen-practice.md
-  - References: references/quotes.md
+
+  - References: quotes.md
 
 extra:
   analytics:
