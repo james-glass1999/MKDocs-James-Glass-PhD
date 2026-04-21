@@ -1,10 +1,10 @@
 # Training & Development
 
 ## AI & Emerging Tech
-- **Agentic AI for Developers** — LinkedIn Learning (2025)
-- **Intro to LLMs & Intro to AI Agents** — Codecademy (2025)
-- **Craft Effective Prompts for Prompt Engineering** — Codecademy (2025)
-- **Career Essentials in Generative AI** — Microsoft + LinkedIn (2024)
+- Agentic AI for Developers — LinkedIn Learning (2025)
+- Intro to LLMs & Intro to AI Agents — Codecademy (2025)
+- Craft Effective Prompts for Prompt Engineering — Codecademy (2025)
+- Career Essentials in Generative AI — Microsoft + LinkedIn (2024)
 
 ## API Design & Developer Enablement 
 *(Codecademy, 2025)*
