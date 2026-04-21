@@ -92,7 +92,11 @@ nav:
           - First Scene: game-docs-example/getting-started/first-scene.md
 
   - AI Blog:
-      - Overview: blog/index.md
+    - Overview: blog/index.md
+    - Posts:
+        - AI Agent Blog: blog/posts/2026-04-08-ai-agent-blog.md
+        - Guide for Electrical CAD: blog/posts/2026-04-13-guide-for-electrical-cad .md
+        - Get Started with Electrical Software: blog/posts/2026-04-20-get-started-with-electrical-software.md
 
   - Blog Examples:
       - Overview: examples/index.md
