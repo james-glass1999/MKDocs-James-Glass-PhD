@@ -54,26 +54,24 @@ jobs:
 
           generated_content = message.choices[0].message.content
 
+          front_matter = "---\n"
+          front_matter += "date:\n"
+          front_matter += f"  created: {today}\n"
+          front_matter += "categories:\n"
+          front_matter += "  - AI\n"
+          front_matter += "tags:\n"
+          front_matter += "  - ai agents\n"
+          front_matter += "  - technical writing\n"
+          front_matter += "  - developer enablement\n"
+          front_matter += "---\n"
+
+          admonition = '!!! info "AI-assisted content"\n'
+          admonition += "    This article was generated with AI and reviewed by James Glass.\n"
+
+          content = front_matter + "\n" + admonition + "\n" + generated_content
+
           filename = Path("docs/blog/posts") / f"{today}-ai-weekly-draft.md"
           filename.parent.mkdir(parents=True, exist_ok=True)
-
-          content = f"""---
-date:
-  created: {today}
-categories:
-  - AI
-tags:
-  - ai agents
-  - technical writing
-  - developer enablement
----
-
-!!! info "AI-assisted content"
-    This article was generated with AI and reviewed by James Glass.
-
-{generated_content}
-"""
-
           filename.write_text(content, encoding="utf-8")
           print(f"Created {filename}")
           PY
