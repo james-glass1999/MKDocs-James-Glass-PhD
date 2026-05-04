@@ -1,5 +1,4 @@
 name: AI Blog Draft
-
 permissions:
   contents: write
 
@@ -11,7 +10,6 @@ on:
 jobs:
   create-draft:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -21,36 +19,60 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install openai
+
       - name: Create draft post
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python <<'PY'
+          from openai import OpenAI
           from datetime import date
           from pathlib import Path
 
           today = date.today().isoformat()
-          topic = "AI-generated weekly draft"
-          filename = Path("docs/blog/posts") / f"{today}-ai-generated-weekly-draft-{date.today().strftime('%H%M%S')}.md"
+          client = OpenAI()
+
+          message = client.chat.completions.create(
+              model="gpt-4o",
+              max_tokens=1500,
+              messages=[
+                  {
+                      "role": "user",
+                      "content": (
+                          "Write a technical writing blog post for this week. "
+                          "Topics can include: API documentation, developer enablement, "
+                          "docs-as-code, AI in technical writing, or style guides. "
+                          "Format it in Markdown with a title, intro, 2-3 sections with headers, "
+                          "and a conclusion. Keep it around 400-600 words. "
+                          "Do not include front matter — just the body content starting with the # title."
+                      )
+                  }
+              ]
+          )
+
+          generated_content = message.choices[0].message.content
+
+          filename = Path("docs/blog/posts") / f"{today}-ai-weekly-draft.md"
           filename.parent.mkdir(parents=True, exist_ok=True)
 
           content = f"""---
-          date:
-            created: {today}
-          categories:
-            - AI
-          tags:
-            - ai agents
-            - technical writing
-            - developer enablement
-          ---
+date:
+  created: {today}
+categories:
+  - AI
+tags:
+  - ai agents
+  - technical writing
+  - developer enablement
+---
 
-          # AI-generated weekly draft
+!!! info "AI-assisted content"
+    This article was generated with AI and reviewed by James Glass.
 
-          !!! info "AI-assisted content"
-              This article was generated with AI and reviewed by James Glass.
-
-          Add draft content here.
-          """
-
+{generated_content}
+"""
           filename.write_text(content, encoding="utf-8")
           print(f"Created {filename}")
           PY
