@@ -73,6 +73,7 @@ tags:
 
 {generated_content}
 """
+
           filename.write_text(content, encoding="utf-8")
           print(f"Created {filename}")
           PY
