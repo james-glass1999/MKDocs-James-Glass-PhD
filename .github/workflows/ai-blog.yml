@@ -1,4 +1,5 @@
 name: AI Blog Draft
+
 permissions:
   contents: write
 
@@ -20,22 +21,22 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install openai
+        run: pip install anthropic
 
       - name: Create draft post
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python <<'PY'
-          from openai import OpenAI
+          import anthropic
           from datetime import date
           from pathlib import Path
 
           today = date.today().isoformat()
-          client = OpenAI()
+          client = anthropic.Anthropic()
 
-          message = client.chat.completions.create(
-              model="gpt-4o",
+          message = client.messages.create(
+              model="claude-sonnet-4-6",
               max_tokens=1500,
               messages=[
                   {
@@ -52,7 +53,7 @@ jobs:
               ]
           )
 
-          generated_content = message.choices[0].message.content
+          generated_content = message.content[0].text
 
           front_matter = "---\n"
           front_matter += "date:\n"
