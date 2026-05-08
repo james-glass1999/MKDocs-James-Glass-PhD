@@ -1,40 +1,52 @@
 name: AI Blog Draft
 
+# Grant the workflow permission to write files back to the repository
 permissions:
   contents: write
 
+# Triggers: run manually from GitHub Actions UI, or automatically on a schedule
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Allows you to trigger this workflow manually from GitHub
   schedule:
-    - cron: "0 9 1 * *"
+    - cron: "0 9 1 * *" # Runs at 9:00 AM UTC on the 1st of every month
 
 jobs:
   create-draft:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repo
-        uses: actions/checkout@v4
+    runs-on: ubuntu-latest # Use a fresh Ubuntu virtual machine
 
+    steps:
+      # Step 1: Check out the repository so the workflow can read and write files
+      - name: Check out repo
+        uses: actions/checkout@v5
+
+      # Step 2: Install Python so we can run the blog generation script
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
+      # Step 3: Install the Anthropic Python SDK
       - name: Install dependencies
         run: pip install anthropic
 
+      # Step 4: Call the Anthropic API to generate a blog post and save it as a Markdown file
       - name: Create draft post
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }} # API key stored securely in GitHub Secrets
         run: |
           python <<'PY'
           import anthropic
+          import re
           from datetime import date
           from pathlib import Path
 
+          # Get today's date in YYYY-MM-DD format for the filename and front matter
           today = date.today().isoformat()
+
+          # Initialise the Anthropic client (uses ANTHROPIC_API_KEY from environment)
           client = anthropic.Anthropic()
 
+          # Send a prompt to Claude to generate a technical writing blog post
           message = client.messages.create(
               model="claude-sonnet-4-6",
               max_tokens=1500,
@@ -53,9 +65,19 @@ jobs:
               ]
           )
 
+          # Extract the generated text from the API response
           generated_content = message.content[0].text
 
+          # Extract the H1 title from the generated content for the front matter
+          title = ""
+          for line in generated_content.splitlines():
+              if line.startswith("# "):
+                  title = line.lstrip("# ").strip()
+                  break
+
+          # Build the YAML front matter for MkDocs Material blog plugin
           front_matter = "---\n"
+          front_matter += f"title: \"{title}\"\n"
           front_matter += "date:\n"
           front_matter += f"  created: {today}\n"
           front_matter += "categories:\n"
@@ -66,23 +88,30 @@ jobs:
           front_matter += "  - developer enablement\n"
           front_matter += "---\n"
 
+          # Add an admonition to indicate the post was AI-generated and reviewed
           admonition = '!!! info "AI-assisted content"\n'
           admonition += "    This article was generated with AI and reviewed by James Glass.\n"
 
+          # Combine front matter, admonition, and generated content
           content = front_matter + "\n" + admonition + "\n" + generated_content
 
+          # Save the file to the blog posts directory with today's date in the filename
           filename = Path("docs/blog/posts") / f"{today}-ai-weekly-draft.md"
           filename.parent.mkdir(parents=True, exist_ok=True)
           filename.write_text(content, encoding="utf-8")
           print(f"Created {filename}")
+          print(f"Title: {title}")
           PY
 
+      # Step 5: Configure git with the GitHub Actions bot identity
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/blog/posts/
+          # Only commit if there are actual changes (avoids empty commits)
           git diff --cached --quiet || git commit -m "Add AI blog draft"
 
+      # Step 6: Push the new file back to the main branch
       - name: Push changes
         run: git push
