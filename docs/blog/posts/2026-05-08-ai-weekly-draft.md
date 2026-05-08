@@ -1,4 +1,5 @@
 ---
+title: "Docs-as-Code: Why Your Documentation Deserves the Same Respect as Your Software"
 date:
   created: 2026-05-08
 categories:
@@ -12,40 +13,41 @@ tags:
 !!! info "AI-assisted content"
     This article was generated with AI and reviewed by James Glass.
 
-# Why Your Style Guide Is Failing Your Team (And How to Fix It)
+# Docs-as-Code: Why Your Documentation Deserves the Same Respect as Your Software
 
-Most technical writing teams have a style guide. Far fewer have one that people actually use.
+If your codebase lives in Git, gets reviewed in pull requests, and ships through a CI/CD pipeline — why doesn't your documentation?
 
-If your style guide lives in a forgotten Confluence page, gets cited only during heated Oxford comma debates, or hasn't been updated since a writer who left three years ago created it — you're not alone. Style guides fail silently, and the consequences show up everywhere: inconsistent terminology across docs, onboarding friction for new writers, and endless back-and-forth in review cycles. Here's why this happens and what you can do about it.
+For too long, docs have been treated as an afterthought: a Word file emailed around for approvals, a Confluence page that hasn't been touched since the original author left, or a PDF that's already outdated by the time it's published. The docs-as-code approach changes that by treating documentation with the same rigor, tooling, and workflows that engineering teams already apply to software. And once you've worked this way, it's hard to go back.
 
-## The Real Reason Style Guides Get Ignored
+## What Docs-as-Code Actually Means
 
-The problem usually isn't the content — it's the format and the friction.
+At its core, docs-as-code means writing documentation in plain text formats — usually Markdown or reStructuredText — and managing it with the same tools developers use every day. That means:
 
-A 40-page PDF that writers have to manually search through isn't a reference tool; it's a research project. When someone is mid-draft trying to remember whether your team writes "log in" as one word or two, they're not going to open a document and scroll through six sections on terminology. They'll make their best guess, and they'll make a different guess tomorrow.
+- **Version control in Git** — every change is tracked, attributed, and reversible
+- **Pull request reviews** — docs get the same peer review process as code changes
+- **Automated testing and linting** — catch broken links, style violations, and Vale errors before they go live
+- **CI/CD pipelines** — documentation builds and deploys automatically when changes merge
 
-Style guides also tend to be written for an imaginary writer who has unlimited time and perfect recall. Real writers are context-switching between three projects and a Slack thread. Your guide needs to meet them where they are — which usually means shorter entries, searchable formats, and just enough explanation to make a rule stick without turning every lookup into a philosophy seminar.
+Tools like MkDocs, Docusaurus, and Sphinx make it straightforward to generate polished, searchable documentation sites directly from Markdown files sitting in your repository. The result is documentation that lives *alongside* the code it describes — not somewhere separate where it quietly rots.
 
-## Build It for the Workflow, Not the Binder
+## The Real Benefits Go Beyond Tooling
 
-The most effective style guides are integrated into the tools writers already use. That might mean:
+The tooling is nice, but the cultural shift is what makes docs-as-code genuinely valuable.
 
-- **A linter or editor plugin** that flags passive voice, banned terms, or heading capitalization issues as writers type. Tools like Vale make this surprisingly approachable, even for teams without a dedicated tooling engineer.
-- **A searchable web-based guide** instead of a static document. Something as simple as a MkDocs site or an internal Notion page with a working search bar dramatically lowers the friction of looking something up.
-- **Snippets and templates** in your authoring tool that bake in correct patterns — so writers don't have to remember the approved way to format a warning admonition, because the template already does it.
+When documentation lives in the same repository as the code, developers are more likely to update it. The friction of context-switching to a separate CMS disappears. A pull request that changes an API endpoint can include the corresponding documentation update in the same diff — reviewers see both together and can flag gaps immediately.
 
-The goal isn't to make writers memorize rules. It's to make the right choice the easy choice.
+It also creates accountability. Git history doesn't lie. You can see exactly when a doc was last updated, who changed it, and why. That transparency makes it easier to identify stale content and prioritize what needs attention.
 
-## Keep It Alive or Watch It Die
+For technical writers, this workflow opens up genuine collaboration with engineering teams. Instead of chasing developers for reviews over email or in comment threads on a shared document, writers work in an environment engineers already understand. Reviews happen faster. Feedback is more specific. And writers gain visibility into upcoming changes through the same channels developers use — sprint planning, issue trackers, and PR descriptions.
 
-A style guide that isn't maintained becomes worse than useless — it becomes actively misleading. Writers find a rule, follow it, and later discover that rule was deprecated when your product changed its UI language eighteen months ago.
+## Getting Started Without Overhauling Everything
 
-Treat your style guide like a product. Give it an owner. Log changes with dates and brief explanations so writers understand *why* a rule changed, not just that it did. Build a lightweight process for submitting proposed updates — a shared doc, a Slack channel, a quarterly review meeting — so that the guide reflects how your team actually writes, not how someone imagined you'd write years ago.
+You don't need to migrate every document on day one. A practical approach is to start with your highest-value, highest-traffic content — API reference docs, a getting started guide, or a troubleshooting rundown — and move that content into a Git repository first.
 
-Even a monthly five-minute audit where someone skims recent doc reviews for recurring feedback can surface gaps worth addressing. Small, consistent maintenance beats the big-bang rewrite that never quite happens.
+Set up a lightweight static site generator, add a basic CI check (even just a broken link checker), and establish a simple contribution guide so developers know how to submit updates. From there, you can layer in more sophisticated tooling like Vale for style linting or automated screenshot testing as the workflow matures.
+
+The goal isn't perfection out of the gate. The goal is getting documentation into a system that makes it easier to keep accurate over time.
 
 ## Conclusion
 
-A style guide should reduce cognitive load, not add to it. When it's discoverable, integrated into real workflows, and kept up to date, it stops being a document writers avoid and starts being a tool they trust. That trust pays off in faster reviews, more consistent docs, and a lot fewer arguments about comma placement.
-
-Start small: pick one pain point your team hit this month and fix it in the guide. Then ship it.
+Docs-as-code isn't just a trendy workflow — it's a practical response to a real problem: documentation that falls behind and loses trust. By treating docs with the same discipline as code, teams end up with content that's more accurate, more collaborative, and far easier to maintain. If your docs aren't already in Git, now is a good time to start.
