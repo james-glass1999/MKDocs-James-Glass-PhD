@@ -55,10 +55,13 @@ jobs:
                       "role": "user",
                       "content": (
                           "Write a technical writing blog post for this week. "
-                          "Topics can include: API documentation, developer enablement, "
-                          "docs-as-code, AI in technical writing, or style guides. "
-                          "Format it in Markdown with a title, intro, 2-3 sections with headers, "
-                          "and a conclusion. Keep it around 400-600 words. "
+                          "Do NOT write about docs-as-code. "
+                          "Choose a fresh topic such as: API documentation best practices, "
+                          "style guides, developer onboarding, content strategy, "
+                          "or AI tools for technical writers. "
+                          "The FIRST line of your response must be a markdown H1 title, e.g. # Your Title Here. "
+                          "Then write an intro, 2-3 sections with headers, and a conclusion. "
+                          "Keep it around 400-600 words. "
                           "Do not include front matter — just the body content starting with the # title."
                       )
                   }
@@ -66,14 +69,20 @@ jobs:
           )
 
           # Extract the generated text from the API response
-          generated_content = message.content[0].text
+          raw_content = message.content[0].text
 
-          # Extract the H1 title from the generated content for the front matter
+          # Extract the H1 title from the raw content for the front matter
           title = ""
-          for line in generated_content.splitlines():
+          for line in raw_content.splitlines():
               if line.startswith("# "):
                   title = line.lstrip("# ").strip()
                   break
+
+          # Remove the H1 line from body since front matter title handles it
+          generated_content = "\n".join(
+              line for line in raw_content.splitlines()
+              if not line.startswith("# ")
+          ).strip()
 
           # Build the YAML front matter for MkDocs Material blog plugin
           front_matter = "---\n"
@@ -112,6 +121,4 @@ jobs:
           # Only commit if there are actual changes (avoids empty commits)
           git diff --cached --quiet || git commit -m "Add AI blog draft"
 
-      # Step 6: Push the new file back to the main branch
-      - name: Push changes
-        run: git push
+      # Step 6: Pu
