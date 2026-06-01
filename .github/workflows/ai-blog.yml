@@ -56,11 +56,15 @@ jobs:
                       "content": (
                           "Write a technical writing blog post for this week. "
                           "Do NOT write about docs-as-code. "
+                          "Do NOT write about any of the following: docs-as-code, "
+                          "documentation workflows, Git for documentation, or CI/CD for docs. "
                           "Choose a fresh topic such as: API documentation best practices, "
                           "style guides, developer onboarding, content strategy, "
                           "or AI tools for technical writers. "
                           "The FIRST line of your response must be a markdown H1 title, e.g. # Your Title Here. "
-                          "Then write an intro, 2-3 sections with headers, and a conclusion. "
+                          "Then write a short intro paragraph of 2-3 sentences. "
+                          "After the intro paragraph, include the exact text: <!-- more --> on its own line. "
+                          "Then write 2-3 sections with headers and a conclusion. "
                           "Keep it around 400-600 words. "
                           "Do not include front matter — just the body content starting with the # title."
                       )
@@ -68,7 +72,7 @@ jobs:
               ]
           )
 
-          # Extract the generated text from the API response
+          # Extract the raw generated text from the API response
           raw_content = message.content[0].text
 
           # Extract the H1 title from the raw content for the front matter
@@ -121,4 +125,6 @@ jobs:
           # Only commit if there are actual changes (avoids empty commits)
           git diff --cached --quiet || git commit -m "Add AI blog draft"
 
-      # Step 6: Pu
+      # Step 6: Push the new file back to the main branch
+      - name: Push changes
+        run: git push
