@@ -13,9 +13,11 @@ tags:
 !!! info "AI-assisted content"
     This article was generated with AI and reviewed by James Glass.
 
-# Docs-as-Code: Why Technical Writers Should Think Like Developers
+Technical writing has traditionally lived in a world of proprietary tools — FrameMaker, MadCap Flare, Confluence — where content is often locked behind GUIs and binary file formats. But a growing movement is pulling documentation into the same workflows developers use every day.
 
-Technical writing has traditionally lived in a world of proprietary tools — FrameMaker, MadCap Flare, Confluence — where content is often locked behind GUIs and binary file formats. But a growing movement is pulling documentation into the same workflows developers use every day. Docs-as-code treats documentation with the same rigor, tooling, and processes as software itself. If you haven't explored this approach yet, here's why it's worth your attention.
+<!-- more -->
+
+Docs-as-code treats documentation with the same rigor, tooling, and processes as software itself. If you haven't explored this approach yet, here's why it's worth your attention.
 
 ## What Docs-as-Code Actually Means
 

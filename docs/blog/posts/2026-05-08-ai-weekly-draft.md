@@ -13,9 +13,9 @@ tags:
 !!! info "AI-assisted content"
     This article was generated with AI and reviewed by James Glass.
 
-# Docs-as-Code: Why Your Documentation Deserves the Same Respect as Your Software
-
 If your codebase lives in Git, gets reviewed in pull requests, and ships through a CI/CD pipeline — why doesn't your documentation?
+
+<!-- more -->
 
 For too long, docs have been treated as an afterthought: a Word file emailed around for approvals, a Confluence page that hasn't been touched since the original author left, or a PDF that's already outdated by the time it's published. The docs-as-code approach changes that by treating documentation with the same rigor, tooling, and workflows that engineering teams already apply to software. And once you've worked this way, it's hard to go back.
 
