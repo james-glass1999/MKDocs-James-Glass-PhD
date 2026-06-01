@@ -41,7 +41,9 @@ theme:
 
 plugins:
   - search
-  - blog
+  - blog:
+      archive: false
+      categories: false
 
 markdown_extensions:
   - attr_list
