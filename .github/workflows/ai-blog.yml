@@ -18,6 +18,8 @@ jobs:
       # Step 1: Check out the repository so the workflow can read and write files
       - name: Check out repo
         uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
 
       # Step 2: Install Python so we can run the blog generation script
       - name: Set up Python
