@@ -2731,30 +2731,7 @@
 <h2 id="method">Method</h2>
 <p>A plain flowchart can show the sequence of steps, but it can't show who owns each one, and ownership is exactly where a process breaks down at scale. So the pipeline was modeled as a swimlane (cross-functional) diagram, one lane per actor, following the process modeling techniques covered in BABOK's Requirements Analysis and Design Definition area.</p>
 <h2 id="swimlane-diagram">Swimlane Diagram</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>FOUNDER                AI SYSTEM              HUMAN REVIEWER         PUBLISH &amp; MONITOR
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>────────────────────────────────────────────────────────────────────────────────────
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Select topic
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>(from backlog)
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    │
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    └──────────────────► AI drafts
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>                          (from brief)
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>                              │
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>                              └──────────────────► Review draft
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>                                                    (fact-check)
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>                                                        │
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>                              ◄────── "Fails: back to AI" ┘
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>                                                        │ Pass
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>Sign-off  ◄─────────────────────────────────────────────┘
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>(founder OK)
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    │
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>    └──────────────────────────────────────────────────────────────► Publish
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>                                                                          │
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>                                                                          ▼
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>                                                                     Monitor
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>                                                                (tracks changes)
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>                                                                          │
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>                                                          ↻ Re-queues topic (back to Select topic)
-</span></code></pre></div>
+<p><img alt="Swimlane diagram of the Lirafin content pipeline across four lanes: Founder, AI system, Human reviewer, and Publish and monitor" src="../../assets/swimlane-diagram.png" /></p>
 <p>Two feedback loops keep the pipeline self-correcting rather than linear: a draft that fails validation returns to the AI system for revision, and a published article flagged during monitoring re-enters the backlog as a new topic brief.</p>
 <h2 id="process-detail">Process Detail</h2>
 <p>Each of the six steps was specified with its owner, purpose, inputs, key activities, outputs, tools, and risks. The step that turned out to matter most:</p>
