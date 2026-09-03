@@ -27,21 +27,7 @@ At a two-person, AI-heavily-automated startup, "stakeholders" turned out to be a
 
 Grouping the register into the standard four quadrants determines how much engagement effort each stakeholder actually needs:
 
-```
-                    LOW INTEREST              HIGH INTEREST
-              ┌─────────────────────────┬─────────────────────────┐
-              │      KEEP SATISFIED      │      MANAGE CLOSELY      │
-   HIGH       │  Human reviewers          │  Co-founder A            │
- INFLUENCE    │  AI system (dependency)   │  Co-founder B            │
-              │  Regulators               │  BA Consultant           │
-              │                           │  Expat readers           │
-              ├─────────────────────────┼─────────────────────────┤
-              │        MONITOR            │      KEEP INFORMED       │
-   LOW        │  Product providers         │  Spanish citizen readers │
- INFLUENCE    │  Investors / partners      │  Future hires            │
-              │                           │                          │
-              └─────────────────────────┴─────────────────────────┘
-```
+![Stakeholder influence/interest grid showing Manage Closely, Keep Satisfied, Keep Informed, and Monitor quadrants](../assets/influence-interest-grid.png)
 
 **Manage Closely** stakeholders get weekly check-ins and are treated as the primary requirements source. **Keep Satisfied** stakeholders need processes that meet their needs without constant involvement, this is where the human reviewer's workload and the AI system's prompt quality live. **Keep Informed** stakeholders get regular updates through the site itself or onboarding docs. **Monitor** stakeholders get light-touch tracking, revisited as the business scales.
 

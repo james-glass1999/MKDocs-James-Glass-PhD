@@ -8,31 +8,7 @@ A plain flowchart can show the sequence of steps, but it can't show who owns eac
 
 ## Swimlane Diagram
 
-```
-FOUNDER                AI SYSTEM              HUMAN REVIEWER         PUBLISH & MONITOR
-────────────────────────────────────────────────────────────────────────────────────
-Select topic
-(from backlog)
-    │
-    └──────────────────► AI drafts
-                          (from brief)
-                              │
-                              └──────────────────► Review draft
-                                                    (fact-check)
-                                                        │
-                              ◄────── "Fails: back to AI" ┘
-                                                        │ Pass
-Sign-off  ◄─────────────────────────────────────────────┘
-(founder OK)
-    │
-    └──────────────────────────────────────────────────────────────► Publish
-                                                                          │
-                                                                          ▼
-                                                                     Monitor
-                                                                (tracks changes)
-                                                                          │
-                                                          ↻ Re-queues topic (back to Select topic)
-```
+![Swimlane diagram of the Lirafin content pipeline across four lanes: Founder, AI system, Human reviewer, and Publish and monitor](../assets/swimlane-diagram.png)
 
 Two feedback loops keep the pipeline self-correcting rather than linear: a draft that fails validation returns to the AI system for revision, and a published article flagged during monitoring re-enters the backlog as a new topic brief.
 

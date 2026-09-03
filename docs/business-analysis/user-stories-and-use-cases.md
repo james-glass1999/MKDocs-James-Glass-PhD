@@ -43,26 +43,7 @@ Writing a story in the right format doesn't make it a good story. Running all 21
 
 The swimlane diagram is the right tool for explaining the process to a founder. It's the wrong tool for briefing a developer building actual workflow tooling. So the pipeline was also formalised as a UML use case diagram, with actors, use cases, and explicit include/extend relationships:
 
-```
-    Founder                    ┌─────────────────────────────────┐                 AI System
-       │                       │      Lirafin Content Pipeline     │                    │
-       ├──────────────────────►│         (Select Topic)            │                    │
-       │                       ├───────────────────────────────────┤                    │
-       │                       │         Generate Draft            │◄───────────────────┤
-       │                       │              ▲ «extend»            │                    │
-       │                       │      Flag Unverified Claims       │◄───────────────────┤
-       │                       ├───────────────────────────────────┤                    │
-       │                       │         Validate Draft            │            Human Reviewer
-       │                       │              ▲ «include»           │                    │
-       │                       │         Apply Checklist           │◄───────────────────┤
-       │                       ├───────────────────────────────────┤                    │
-       ├──────────────────────►│        (Approve Publish)          │                    │
-       │                       ├───────────────────────────────────┤                    │
-       │                       │      Detect Regulatory Change     │◄───────────────────┘
-    Reader                     └─────────────────────────────────┘
-       │  "feedback informs"            ↻ triggers a new
-       └────────────────────►      Select Topic instance
-```
+![UML use case diagram showing four actors, Founder, AI System, Human Reviewer, and Reader, connected to seven use cases within the Lirafin Content Pipeline boundary](../assets/use-case-diagram.png)
 
 **Relationships worth noting:** Flag Unverified Claims *extends* Generate Draft, it only runs when the AI system can't verify a claim, an optional extension rather than a mandatory step. Apply Checklist is *included by* Validate Draft, every validation always applies the checklist, a mandatory sub-step, not optional.
 
