@@ -1,10 +1,10 @@
-# Business Analysis
+# Applying BABOK to Real Businesses
 
-Applying BABOK v3 to real, early-stage businesses rather than case-study exercises.
+A second track alongside technical writing: applying BABOK v3 to real, early-stage companies rather than case-study exercises.
 
-This section covers Business Analysis work I've taken on alongside my technical writing practice: stakeholder analysis, process modeling, requirements definition, and risk analysis, applied to actual companies rather than training scenarios. The two disciplines share a common thread. Both are about translating complexity into something clear enough for the right audience to act on, whether that audience is a developer reading documentation or a founder trying to see their own process for the first time.
+This section covers Business Analysis work I've taken on: stakeholder analysis, process modeling, requirements definition, and risk analysis, applied to actual companies rather than training scenarios. The two disciplines share a common thread. Both are about translating complexity into something clear enough for the right audience to act on, whether that audience is a developer reading documentation or a founder trying to see their own process for the first time.
 
-I'm building this out as a genuine second track alongside technical writing, so expect this list to grow.
+This list will grow as more engagements are completed.
 
 ## Case Studies
 

@@ -79,6 +79,13 @@ nav:
       - BSc Mechatronics: background/bsc-mechatronics.md
       - BSc Screen Practice: background/bsc-screen-practice.md
 
+  - Business Analysis:
+      - Overview: business-analysis/index.md
+      - Stakeholder Analysis: business-analysis/stakeholder-analysis.md
+      - Process Modeling: business-analysis/process-modeling.md
+      - Risk & Requirements: business-analysis/risk-and-requirements.md
+      - User Stories & Use Cases: business-analysis/user-stories-and-use-cases.md
+
   - Game Engine Docs:
       - Overview: game-docs-example/index.md
       - Onboarding:
@@ -137,3 +144,6 @@ extra_css:
   - assets/stylesheets/extra.css
 
 copyright: "Copyright © 2025 James Glass"
+
+
+
