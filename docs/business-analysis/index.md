@@ -4,6 +4,8 @@ A second track alongside technical writing: applying BABOK v3 to real, early-sta
 
 This section covers Business Analysis work I've taken on: stakeholder analysis, process modeling, requirements definition, and risk analysis, applied to actual companies rather than training scenarios. The two disciplines share a common thread. Both are about translating complexity into something clear enough for the right audience to act on, whether that audience is a developer reading documentation or a founder trying to see their own process for the first time.
 
+It's also a natural extension of my interest in AI-driven systems. The case study below is for an AI-powered platform, and the same questions I ask when documenting how an AI system works, who relies on it, what breaks if a step is skipped, where the human checkpoints actually need to sit, turned out to be exactly the questions a business analyst asks when defining how that system should be built and governed in the first place.
+
 This list will grow as more engagements are completed.
 
 ## Case Studies
