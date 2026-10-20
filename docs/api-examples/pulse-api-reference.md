@@ -3,6 +3,9 @@
 
 # Pulse API Reference
 
+!!! info "About this sample"
+    Pulse is a fictional API. This page is a reference-design sample showing how I structure endpoint documentation: authentication, rate limits, a consistent error model, pagination, and per-endpoint request and response examples. The requests won't run against a live service.
+
 **Base URL:** `https://api.pulse.io/v2`  
 **Version:** 2.1 · REST
 
@@ -25,6 +28,8 @@ Authorization: Bearer <your_api_key>
 | Free       | 60                  |
 | Pro        | 1,000               |
 | Enterprise | Custom — contact sales |
+
+If you exceed your limit, the API returns `429` with a `Retry-After` header giving the number of seconds to wait.
 
 ---
 
@@ -78,7 +83,7 @@ Returns a paginated list of users in your workspace, sorted by creation date des
 #### Example request
 
 ```bash
-curl https://api.pulse.io/v2/users?limit=10&status=active \
+curl "https://api.pulse.io/v2/users?limit=10&status=active" \
   -H "Authorization: Bearer $API_KEY"
 ```
 
@@ -142,6 +147,7 @@ curl -X POST https://api.pulse.io/v2/users \
   "name": "Bob Kim",
   "role": "editor",
   "status": "pending",
+  "created_at": "2024-11-14T09:00:00Z",
   "invited_at": "2024-11-14T09:00:00Z"
 }
 ```
@@ -153,7 +159,8 @@ curl -X POST https://api.pulse.io/v2/users \
   "error": {
     "code": "validation_failed",
     "message": "email is already in use",
-    "field": "email"
+    "field": "email",
+    "request_id": "req_01HX9JKL"
   }
 }
 ```
@@ -193,11 +200,17 @@ curl -X PATCH https://api.pulse.io/v2/users/usr_01HX9ABC \
 
 #### Response `200 OK`
 
+Returns the full, updated user object.
+
 ```json
 {
   "id": "usr_01HX9ABC",
+  "email": "alice@acme.com",
+  "name": "Alice Chen",
   "role": "admin",
+  "status": "active",
   "metadata": { "team": "design" },
+  "created_at": "2024-03-01T12:00:00Z",
   "updated_at": "2024-11-14T10:30:00Z"
 }
 ```
@@ -237,7 +250,8 @@ No response body is returned on success.
 {
   "error": {
     "code": "forbidden",
-    "message": "cannot delete the last admin"
+    "message": "cannot delete the last admin",
+    "request_id": "req_01HX9MNO"
   }
 }
 ```
@@ -252,7 +266,7 @@ No response body is returned on success.
 POST /v2/messages
 ```
 
-Sends a message to one or more recipients. Messages are delivered asynchronously — use the returned `message_id` to poll for delivery status.
+Sends a message to one or more recipients. Messages are delivered asynchronously — use the returned `message_id` with [Get message status](#get-message-status) to check delivery.
 
 #### Body parameters
 
@@ -289,6 +303,63 @@ curl -X POST https://api.pulse.io/v2/messages \
 
 ---
 
+### Get message status
+
+```
+GET /v2/messages/{id}
+```
+
+Returns the delivery status of a message. Poll this endpoint after sending; most messages reach `delivered` within a few seconds.
+
+#### Path parameters
+
+| Parameter | Type   | Required | Description                                            |
+|-----------|--------|----------|--------------------------------------------------------|
+| `id`      | string | required | The message's unique identifier, prefixed with `msg_`. |
+
+#### Status values
+
+| Status      | Meaning                                                        |
+|-------------|----------------------------------------------------------------|
+| `queued`    | Accepted and waiting to send.                                  |
+| `scheduled` | Waiting for the `send_at` time.                                |
+| `delivered` | Delivered to every recipient.                                  |
+| `failed`    | Delivery failed for at least one recipient. See `failures`.    |
+
+#### Example request
+
+```bash
+curl https://api.pulse.io/v2/messages/msg_01HX9DEF \
+  -H "Authorization: Bearer $API_KEY"
+```
+
+#### Response `200 OK`
+
+```json
+{
+  "message_id": "msg_01HX9DEF",
+  "status": "delivered",
+  "recipient_count": 1,
+  "delivered_count": 1,
+  "failures": [],
+  "sent_at": "2024-11-14T10:00:02Z"
+}
+```
+
+#### Response `404 Not Found`
+
+```json
+{
+  "error": {
+    "code": "not_found",
+    "message": "message not found",
+    "request_id": "req_01HX9PQR"
+  }
+}
+```
+
+---
+
 ### List threads
 
 ```
@@ -308,7 +379,7 @@ Returns all message threads the authenticated user is a participant in, ordered 
 #### Example request
 
 ```bash
-curl https://api.pulse.io/v2/threads?unread=true \
+curl "https://api.pulse.io/v2/threads?unread=true" \
   -H "Authorization: Bearer $API_KEY"
 ```
 
